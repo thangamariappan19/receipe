@@ -1,0 +1,892 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cartel v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2017-12-06 09:26:24+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:15
+#@ cartel
+msgid "404"
+msgstr ""
+
+#: 404.php:23
+#@ cartel
+msgid "Not Found"
+msgstr ""
+
+#: 404.php:25
+#@ cartel
+msgid "The article you were looking for was not found. You may want to check your link or perhaps that page does not exist anymore. Maybe try a search?"
+msgstr ""
+
+#: comments.php:21
+#@ cartel
+msgid "<span>No</span> Comments"
+msgstr ""
+
+#: comments.php:21
+#@ cartel
+msgid "<span>1</span> Comment"
+msgstr ""
+
+#: comments.php:21
+#@ cartel
+msgid "<span>%</span> Comments"
+msgid_plural "<span>%</span> Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:41
+#@ cartel
+msgid "&larr; Previous Comments"
+msgstr ""
+
+#: comments.php:42
+#@ cartel
+msgid "Next Comments &rarr;"
+msgstr ""
+
+#: comments.php:47
+#@ cartel
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:54
+#@ cartel
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:55
+#, php-format
+#@ cartel
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:56
+#@ cartel
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:57
+#@ cartel
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:59
+#@ cartel
+msgid "Name"
+msgstr ""
+
+#: comments.php:61
+#@ cartel
+msgid "Email"
+msgstr ""
+
+#: comments.php:63
+#@ cartel
+msgid "Website"
+msgstr ""
+
+#: contents/content-masonry.php:33
+#: contents/content-page.php:24
+#: contents/content-single.php:28
+#: contents/content-sticky.php:32
+#: contents/content.php:30
+#@ cartel
+msgid "Pages:"
+msgstr ""
+
+#: contents/content-none.php:14
+#@ cartel
+msgid "Nothing Found"
+msgstr ""
+
+#: contents/content-none.php:21
+#, php-format
+#@ cartel
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: contents/content-none.php:25
+#@ cartel
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: contents/content-none.php:31
+#@ cartel
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#. translators: %s: Name of current post
+#: contents/content-page.php:38
+#, php-format
+#@ cartel
+msgid "Edit %s"
+msgstr ""
+
+#: inc/customizer/controls.php:14
+#@ cartel
+msgid "Homepage Banner and Blog Content"
+msgstr ""
+
+#: inc/customizer/controls.php:16
+#@ cartel
+msgid "Select a page to be assigned for each section"
+msgstr ""
+
+#: inc/customizer/controls.php:24
+#@ cartel
+msgid "Banner"
+msgstr ""
+
+#: inc/customizer/controls.php:35
+#@ cartel
+msgid "Blog"
+msgstr ""
+
+#: inc/customizer/controls.php:50
+#@ cartel
+msgid "Accent Color"
+msgstr ""
+
+#: inc/functions/custom-functions.php:207
+#: inc/functions/functions.php:83
+#@ cartel
+msgid "Instagram Feed"
+msgstr ""
+
+#: inc/functions/custom-functions.php:213
+#@ cartel
+msgid "Custom Twitter Feeds"
+msgstr ""
+
+#: inc/functions/custom-functions.php:236
+#: inc/plugin/class-tgm.php:327
+#@ cartel
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/functions/custom-functions.php:237
+#: inc/plugin/class-tgm.php:328
+#@ cartel
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name. 
+#: inc/functions/custom-functions.php:238
+#: inc/plugin/class-tgm.php:330
+#, php-format
+#@ cartel
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/functions/custom-functions.php:239
+#: inc/plugin/class-tgm.php:333
+#@ cartel
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s). 
+#: inc/functions/custom-functions.php:240
+#: inc/plugin/class-tgm.php:336
+#, php-format
+#@ cartel
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s). 
+#: inc/functions/custom-functions.php:241
+#: inc/plugin/class-tgm.php:342
+#, php-format
+#@ cartel
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions/custom-functions.php:242
+#, php-format
+#@ cartel
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s). 
+#: inc/functions/custom-functions.php:243
+#: inc/plugin/class-tgm.php:360
+#, php-format
+#@ cartel
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s). 
+#: inc/functions/custom-functions.php:244
+#: inc/plugin/class-tgm.php:366
+#, php-format
+#@ cartel
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions/custom-functions.php:245
+#, php-format
+#@ cartel
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s). 
+#: inc/functions/custom-functions.php:246
+#: inc/plugin/class-tgm.php:348
+#, php-format
+#@ cartel
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions/custom-functions.php:247
+#, php-format
+#@ cartel
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions/custom-functions.php:248
+#: inc/plugin/class-tgm.php:371
+#@ cartel
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions/custom-functions.php:249
+#: inc/plugin/class-tgm.php:381
+#@ cartel
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions/custom-functions.php:250
+#: inc/plugin/class-tgm.php:385
+#@ cartel
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/functions/custom-functions.php:251
+#: inc/plugin/class-tgm.php:387
+#: inc/plugin/class-tgm.php:3159
+#@ cartel
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/functions/custom-functions.php:252
+#, php-format
+#@ cartel
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: inc/functions/functions.php:63
+#@ cartel
+msgid "Posts Widget Area"
+msgstr ""
+
+#: inc/functions/functions.php:64
+#@ cartel
+msgid "The Posts Widget Area."
+msgstr ""
+
+#: inc/functions/functions.php:73
+#: template-home.php:67
+#@ cartel
+msgid "Twitter Feed"
+msgstr ""
+
+#: inc/functions/functions.php:74
+#@ cartel
+msgid "The Twitter Feed."
+msgstr ""
+
+#: inc/functions/functions.php:84
+#@ cartel
+msgid "The Instagram Feed."
+msgstr ""
+
+#: inc/functions/functions.php:93
+#@ cartel
+msgid "Footer Widget Area 1"
+msgstr ""
+
+#: inc/functions/functions.php:94
+#: inc/functions/functions.php:104
+#: inc/functions/functions.php:114
+#@ cartel
+msgid "The Footer Widget Area."
+msgstr ""
+
+#: inc/functions/functions.php:103
+#@ cartel
+msgid "Footer Widget Area 2"
+msgstr ""
+
+#: inc/functions/functions.php:113
+#@ cartel
+msgid "Footer Widget Area 3"
+msgstr ""
+
+#: inc/functions/functions.php:182
+#@ cartel
+msgid "Main Nav"
+msgstr ""
+
+#: inc/functions/functions.php:183
+#@ cartel
+msgid "Footer Nav"
+msgstr ""
+
+#: inc/functions/functions.php:184
+#@ cartel
+msgid "Social Media Links"
+msgstr ""
+
+#: inc/functions/functions.php:203
+#@ cartel
+msgid "Newer Posts <span class=\"fa fa-chevron-right\"></span>"
+msgstr ""
+
+#: inc/functions/functions.php:207
+#@ cartel
+msgid "<span class=\"fa fa-chevron-left\"></span> Older Posts"
+msgstr ""
+
+#: inc/functions/functions.php:226
+#@ cartel
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/functions/functions.php:230
+#, php-format
+#@ cartel
+msgid "<cite class=\"fn\">%1$s</cite> %2$s"
+msgstr ""
+
+#: inc/functions/functions.php:230
+#@ cartel
+msgid "(Edit)"
+msgstr ""
+
+#: inc/functions/social-nav.php:36
+#@ cartel
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: inc/functions/social-nav.php:41
+#@ cartel
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: inc/functions/template-hooks.php:23
+#@ cartel
+msgid "Toggle navigation"
+msgstr ""
+
+#: inc/functions/template-hooks.php:63
+#@ cartel
+msgid "Social Links Menu"
+msgstr ""
+
+#: inc/functions/template-hooks.php:202
+#@ cartel
+msgid "Built with"
+msgstr ""
+
+#: inc/functions/template-hooks.php:202
+#@ cartel
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: inc/functions/template-hooks.php:202
+#@ cartel
+msgid "and"
+msgstr ""
+
+#: inc/functions/template-hooks.php:202
+#@ cartel
+msgid "http://deucethemes.com/"
+msgstr ""
+
+#: inc/functions/template-hooks.php:234
+#: inc/functions/template-hooks.php:249
+#@ cartel
+msgid ", "
+msgstr ""
+
+#: inc/functions/template-hooks.php:272
+#@ cartel
+msgid "Posted By "
+msgstr ""
+
+#. translators: %s: plugin name. 
+#: inc/plugin/class-tgm.php:332
+#, php-format
+#@ cartel
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#. translators: 1: plugin name(s). 
+#: inc/plugin/class-tgm.php:354
+#, php-format
+#@ cartel
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugin/class-tgm.php:376
+#@ cartel
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugin/class-tgm.php:386
+#: inc/plugin/class-tgm.php:827
+#: inc/plugin/class-tgm.php:2533
+#: inc/plugin/class-tgm.php:3580
+#@ cartel
+msgid "Return to the Dashboard"
+msgstr ""
+
+#. translators: 1: plugin name. 
+#: inc/plugin/class-tgm.php:390
+#, php-format
+#@ cartel
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name. 
+#: inc/plugin/class-tgm.php:392
+#, php-format
+#@ cartel
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link. 
+#: inc/plugin/class-tgm.php:394
+#, php-format
+#@ cartel
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:395
+#@ cartel
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:396
+#@ cartel
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:397
+#@ cartel
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:522
+#@ cartel
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:523
+#@ cartel
+msgid "Update Required"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:934
+#@ cartel
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:934
+#: inc/plugin/class-tgm.php:937
+#@ cartel
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:937
+#@ cartel
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:1121
+#: inc/plugin/class-tgm.php:2948
+#@ cartel
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number 
+#: inc/plugin/class-tgm.php:1982
+#, php-format
+#@ cartel
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2273
+#@ cartel
+msgid "Required"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2276
+#@ cartel
+msgid "Recommended"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2292
+#@ cartel
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2295
+#@ cartel
+msgid "External Source"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2298
+#@ cartel
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2315
+#@ cartel
+msgid "Not Installed"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2319
+#@ cartel
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2321
+#@ cartel
+msgid "Active"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2327
+#@ cartel
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2330
+#@ cartel
+msgid "Requires Update"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2333
+#@ cartel
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status 
+#: inc/plugin/class-tgm.php:2342
+#, php-format
+#@ cartel
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins. 
+#: inc/plugin/class-tgm.php:2388
+#, php-format
+#@ cartel
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins. 
+#: inc/plugin/class-tgm.php:2392
+#, php-format
+#@ cartel
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins. 
+#: inc/plugin/class-tgm.php:2396
+#, php-format
+#@ cartel
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins. 
+#: inc/plugin/class-tgm.php:2400
+#, php-format
+#@ cartel
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugin/class-tgm.php:2482
+#@ cartel
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2490
+#@ cartel
+msgid "Installed version:"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2498
+#@ cartel
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2510
+#@ cartel
+msgid "Available version:"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2533
+#@ cartel
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2547
+#@ cartel
+msgid "Plugin"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2548
+#@ cartel
+msgid "Source"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2549
+#@ cartel
+msgid "Type"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2553
+#@ cartel
+msgid "Version"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2554
+#@ cartel
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup 
+#: inc/plugin/class-tgm.php:2603
+#, php-format
+#@ cartel
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup 
+#: inc/plugin/class-tgm.php:2608
+#, php-format
+#@ cartel
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup 
+#: inc/plugin/class-tgm.php:2614
+#, php-format
+#@ cartel
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2684
+#@ cartel
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2717
+#@ cartel
+msgid "Install"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2723
+#@ cartel
+msgid "Update"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2726
+#@ cartel
+msgid "Activate"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2757
+#@ cartel
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2759
+#@ cartel
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2800
+#@ cartel
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2802
+#@ cartel
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2908
+#@ cartel
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:2934
+#@ cartel
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: inc/plugin/class-tgm.php:2952
+#: inc/plugin/class-tgm.php:388
+#@ cartel
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugin/class-tgm.php:3158
+#@ cartel
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions. 
+#: inc/plugin/class-tgm.php:3498
+#, php-format
+#@ cartel
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message. 
+#: inc/plugin/class-tgm.php:3501
+#, php-format
+#@ cartel
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name. 
+#: inc/plugin/class-tgm.php:3503
+#, php-format
+#@ cartel
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:3507
+#@ cartel
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name. 
+#: inc/plugin/class-tgm.php:3509
+#, php-format
+#@ cartel
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:3509
+#: inc/plugin/class-tgm.php:3517
+#@ cartel
+msgid "Show Details"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:3509
+#: inc/plugin/class-tgm.php:3517
+#@ cartel
+msgid "Hide Details"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:3510
+#@ cartel
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions. 
+#: inc/plugin/class-tgm.php:3512
+#, php-format
+#@ cartel
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/plugin/class-tgm.php:3515
+#@ cartel
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name. 
+#: inc/plugin/class-tgm.php:3517
+#, php-format
+#@ cartel
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/plugin/class-tgm.php:3518
+#@ cartel
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions. 
+#: inc/plugin/class-tgm.php:3520
+#, php-format
+#@ cartel
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: search.php:13
+#@ cartel
+msgid "Search Results for:"
+msgstr ""
+
+#: sidebar.php:24
+#@ cartel
+msgid "This is a widget ready area. Add some and they will appear here."
+msgstr ""
+
+#: template-home.php:74
+#@ cartel
+msgid "Instagram"
+msgstr ""
+

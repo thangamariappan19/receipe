@@ -1,0 +1,1 @@
+../../social-media-block/dist/blocks.build.js

@@ -1,0 +1,166 @@
+# Copyright (C) 2018 Efavourite Posts
+# This file is distributed under the same license as the Efavourite Posts package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Efavourite Posts 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/efavourite-posts\n"
+"POT-Creation-Date: 2018-02-26 05:12:38+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-02-27 16:05+0900\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: japanse\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#. #-#-#-#-#  efavourite-posts.pot (Efavourite Posts 1.0)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: efavourite-posts.php:363
+msgid "Efavourite Posts"
+msgstr "Efavourite Posts"
+
+#: wpfp-admin.php:5
+msgid "Cheatin&#8217; uh?"
+msgstr "Cheatin&#8217; uh?"
+
+#: efav-admin.php:61
+msgid "Options saved."
+msgstr "オプション設定が保存されました"
+
+#: efav-admin.php:64
+msgid "Efavourite Posts Configuration"
+msgstr "項目の設定"
+
+#: wpfp-admin.php:77 efav-admin.php:99 efav-admin.php:248 efav-admin.php:269
+msgid "Click to open/close"
+msgstr "Click to open/close"
+
+#: efav-admin.php:80
+msgid "Do you use it ?"
+msgstr "このプラグインを気に入っていただけましたか？"
+
+#: efav-admin.php:102
+msgid "Options"
+msgstr "オプション"
+
+#: efav-admin.php:107
+msgid "Only <strong>registered users</strong> can favourite"
+msgstr "登録ユーザーのみ、お気に入りリストを作成できるようにする"
+
+#: efav-admin.php:111
+msgid "Auto show favourite link"
+msgstr "お気に入り追加リンクを表示する場所"
+
+#: efav-admin.php:123
+msgid "Before Link Image"
+msgstr "お気に入り追加リンクの前に表示するアイコン"
+
+#: efav-admin.php:154
+msgid "Favourite post per page"
+msgstr "1ページあたりに表示するお気に入りリストの数"
+
+#: efav-admin.php:160
+msgid "Most favourited posts statics"
+msgstr "お気に入りの統計"
+
+#: efav-admin.php:185 efav-admin.php:240 efav-admin.php:262
+msgid "Update options &raquo;"
+msgstr "設定を更新する"
+
+#: efav-admin.php:197
+msgid "Label Settings"
+msgstr "ラベルの文言設定"
+
+#: efav-admin.php:203
+msgid "Text for add link"
+msgstr "お気に入りに追加する時"
+
+#: efav-admin.php:206
+msgid "Text for added"
+msgstr "お気に入り追加が完了した時"
+
+#: efav-admin.php:210
+msgid "Text for remove link"
+msgstr "お気に入りから外す時"
+
+#: efav-admin.php:213
+msgid "Text for removed"
+msgstr "お気に入りから外れた時"
+
+#: efav-admin.php:219
+msgid "Text for clear link"
+msgstr "お気に入りリストをクリアする時"
+
+#: efav-admin.php:222
+msgid "Text for cleared"
+msgstr "お気に入りリストがクリアされた時"
+
+#: efav-admin.php:225
+msgid "Text for favourites are empty"
+msgstr "お気に入りリストが無い時"
+
+#: efav-admin.php:228
+msgid "Text for [remove] link"
+msgstr "削除リンクの"
+
+#: efav-admin.php:231
+msgid "Text for favourites saved to cookies"
+msgstr "お気に入りリストがcookieを使って保存された時"
+
+#: efav-admin.php:234
+msgid "Text for \"only registered users can favourite\" error message"
+msgstr "登録ユーザー以外がお気に入りリストを作成した時のエラーメッセージ"
+
+#: efav-admin.php:251
+msgid "Advanced Settings"
+msgstr "高度な設定（通常は必要ありません）"
+
+#: efav-admin.php:272
+msgid "Help"
+msgstr "ヘルプ"
+
+#: efav-page-template.php:35
+msgid "&larr; Previous Entries"
+msgstr "前のページ"
+
+#: efav-page-template.php:36
+msgid "Next Entries &rarr;"
+msgstr "次のページ"
+
+#: efav-widgets.php:28 efav-widgets.php:82
+msgid "Title:"
+msgstr "タイトル"
+
+#: efav-widgets.php:33 efav-widgets.php:87
+msgid "Number of posts to show:"
+msgstr "お気に入りリストを表示する件数："
+
+#. Plugin URI of the plugin/theme
+msgid "https://excellentwebworld.com/"
+msgstr "https://excellentwebworld.com/"
+
+#. Description of the plugin/theme
+msgid ""
+"Allows users to add favourite posts. This plugin use cookies for saving data "
+"so unregistered users can favourite a post. Put <code>&lt;?php efav_link(); ?"
+"&gt;</code> where ever you want on a single post. Then create a page which "
+"includes that text : <code>[efavourite-posts]</code> That's it!"
+msgstr ""
+"お気に入りページを保存しておく事ができます。Cookieを利用しているため、"
+"WordPressにログインしていないユーザーでもお気に入りページを保存することができ"
+"ます。single.phpの好きな場所に<code>&lt;?php wpfp_link(); ?&gt;</code>を挿入"
+"し、お気に入り追加ボタンを表示できます。リストを表示するには、固定ページに次"
+"のショートコードを置いてください。<code>[efavourite-posts]</code> "
+
+#. Author of the plugin/theme
+msgid "Paresh Sagar"
+msgstr "Paresh Sagar"
+
+#. Author URI of the plugin/theme
+msgid "https://excellentwebworld.com/"
+msgstr "https://excellentwebworld.com/"
