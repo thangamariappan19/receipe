@@ -178,7 +178,6 @@ function cartel_template_copyright(){ ?>
             <div class="col-md-4 footer-copyright">
                 <?php echo bloginfo( 'name' ) . ' ' . '&#169; ' . __('copyright','cartel') . ' ' . date_i18n('Y');  ?>
                 <span><?php if(is_home() || is_front_page()): ?>
-                    <br><?php esc_html_e('Built with','cartel'); ?> <a href="<?php echo esc_url( __( 'https://wpdevshed.com/themes/cartel', 'cartel' ) ); ?>"><?php printf( esc_html( '%s', 'cartel' ), 'Cartel' ); ?></a>     <span><?php _e('and','cartel'); ?></span> <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'cartel' ) ); ?>"><?php printf( esc_html( '%s', 'cartel' ), 'WordPress' ); ?></a>
                 <?php endif; ?>
                 </span>
             </div>
