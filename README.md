@@ -12,7 +12,7 @@ To install XAMPP and WordPress properly, you’ll need to run two modules:
 Step 3: Add the WordPress files by clonig from github
 
 clone from this following github repository
-"https://github.com/thangamariappan19/receipe.git"
+"https://github.com/thangamariappan19/receipe"
 Inside Recipe repository find "wordpress" folder and copy that,
 Then, in Windows, navigate to the folder where you installed XAMPP. For me, that’s C://xampp. It should be something similar for you. Then, in that folder, find the htdocs subfolder: paste "wordpress".
 
