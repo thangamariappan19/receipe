@@ -23,3 +23,9 @@ Then click on Databases at the top:
 And enter a name for your database as "receipe" and click Create. Then import database from cloned repository DB folder find receipe.sql.Using this file import in phpmyadmin
 
 Step 5:Thats it Go to browser and check this link http://localhost/wordpress
+
+Admin login credentials:
+
+URL:http://localhost/wordpress/wp-login.php
+username:Thanga
+pw:admin@123321
