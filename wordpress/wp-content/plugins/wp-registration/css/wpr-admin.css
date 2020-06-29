@@ -1,0 +1,282 @@
+/**********************************
+ * Admin Form Design And Setting  *
+ **********************************/
+
+/*---------------------------------
+    1- Form Design CSS
+    2- Form Setting Template CSS
+    3- switch button ON or OFF CSS
+    4- Font Icons List CSS
+    5- Code Editor CSS
+-----------------------------------*/
+
+/*
+    1- Form Design CSS
+*/
+.wpr-sortable-handle{
+    cursor: move;
+}
+.wpr-fields-name-model .modal-body ul li {
+    width: 32%;
+    background-color: #a7bfd447 !important;
+    margin: 1px;
+    margin-left: 4px;
+    text-align: center;
+    font-size: 13px !important;
+    cursor: pointer;
+    border-radius: unset !important;
+    position: relative;
+    height: 40px; 
+    background: #9999999e !important;
+    border: 1px solid #00a0d2 !important;
+}
+.wpr-fields-name-model .modal-body ul li:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    text-decoration:none;
+    color: white !important;
+    background-color: #0d008ab5 !important;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.wpr-fields-name-model .modal-body ul li span{
+    float: left;
+    margin-left: 6px;
+}
+.wpr-fields-name-model .modal-body ul li .wpr-fields-icon{
+    font-size: 18px;
+    color: #169cc5;
+}
+.wpr-thead-bg{
+    background-color: #a4c1da8c;
+}
+.wpr_field_table tbody{
+    font-size: 12px;
+}
+#wpr_fields_id, #wpr_fields_id .inside{
+    position: unset;
+}
+.wpr-req-field-id{
+    margin-right: 12px;
+    color: red;
+}
+.wpr_icon_model_index{
+    padding-left: 0!important;
+}
+.wpr-icon-add-notice{
+    float: right;
+    margin-right: 13px;
+    margin-top: 2px;
+    color: #fafff6;
+    background-color: gray;
+    padding: 5px;
+}
+.wpr-pd td {
+    padding: 6px 10px;
+}
+.wpr-select-design {
+    border-color: #5e5959;
+    border-radius: 4px;
+    width: 100%;
+    border: 1px solid #aaa;
+    background-image: -moz-linear-gradient(#eee 20%,#fff 80%);
+    background-image: -o-linear-gradient(#eee 20%,#fff 80%);
+    background-image: linear-gradient(#eee 20%,#fff 80%);
+    box-shadow: 0 1px 0 #fff inset;
+}
+.wpr-meta-field-desc {
+    color: #8a7777; 
+    font-size: 12px !important;
+}
+.wpr-col-title{
+    width: 22%;
+    font-weight: 600;
+    font-family: sans-serif !important;
+}
+.wpr_inputs_design{
+    border-color: #000000 !important;
+    border-radius: 4px;
+    height: 32px;
+}
+.wpr-loader{
+    display: none;
+}
+/*latest changing*/
+.wpr_multi_option_area{
+    background-color: #f3f3f3;
+    padding: 4px;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+
+/*
+    2- Form Setting Template CSS
+*/
+.wpr-label-color {
+    color: #3ca8e4;
+    cursor: pointer;
+}
+.wpr-select {
+    width: 100%;
+    background-color: #b5c7c7;
+    border-radius: 4px;
+    border: 1px solid #aaa;
+    background-image: -moz-linear-gradient(#eee 20%,#fff 80%);
+    background-image: -o-linear-gradient(#eee 20%,#fff 80%);
+    background-image: linear-gradient(#eee 20%,#fff 80%);
+    box-shadow: 0 1px 0 #fff inset;
+}
+.wpr-select option{
+    background-color: #fff;
+}
+.wpr-wrap label{
+    float: left;
+    width: 41%;
+    margin-top: 7px;
+    cursor: default;
+}
+.wpr-bs-setting {
+    width: 52% !important;
+    margin-top: 7px;
+}
+.wpr-switch {
+    width: 23%;
+}
+.wpr-pr-switch {
+    width: 100%;
+}
+.wpr-box-length {
+    min-height: 100px;
+}
+.wpr-email-wrapper > label{
+    margin-top: 13px;
+}
+.wpr-email-p{
+    margin-top: 21px;
+}
+.edit-rol{
+    display: inline;
+    width: 100%;
+    float: left;
+    margin-left: 0px !important;
+}
+.wpr-shorcode{
+    padding: 10px;
+    display: block;
+    text-align: center;
+    background: #dcd4d4ab;
+}
+
+/*
+    3- switch button ON or OFF CSS
+*/
+.btn-default.btn-on.active{
+    background-color: #5BB75B;
+    color: white;
+}
+.btn-default.btn-off.active{
+    background-color: #DA4F49;
+    color: white;
+}
+
+/*
+    4- Font Icons List CSS
+*/
+.wpr-admin-icons{
+    padding: 6px 0 10px 19px;
+    float: left;
+}
+.wpr-admin-icons span{
+    cursor: pointer;
+    float: left;
+    margin: 5px;
+    color: #777;
+    border: 4px solid #eee;
+    border-radius: 3px;
+}
+.wpr-admin-icons span:hover{
+    cursor: pointer;
+    float: left;
+    margin: 5px;
+    color: #c19f4c;
+    border: 4px solid #c19f4c;
+    border-radius: 3px;
+}
+.wpr-admin-icons i{
+    vertical-align: middle !important;
+    font-size: 20px;
+    width: 62px;
+    text-align: center !important;
+    padding: 13px 22px;
+    display: inline-block;
+}
+.wpr_icon_model_index .modal-body{
+    padding: 0;
+    max-height: 435px;
+    overflow-x: auto;
+}
+.wpr-search-icon-area input[name="_icon_search"]{
+    width: 93% !important;
+    margin-left: 27px;
+    margin-top: 5px;
+}
+.wpr-search-icon-area{
+    padding-bottom: 20px !important;
+}
+.wpr-admin-icons .highlighted{
+    color: #c19f4c;
+    border-color: #c19f4c;
+}
+.wpr_attr_add_icon{
+    float: right;
+}
+.wpr_field_icons_wrapper button{
+    float: left;
+}
+.wpr_field_icons_wrapper .wpr_icon_append{
+    display: block;
+    font-size: 19px;
+    float: left;
+    font-family: serif;
+    margin-left: 4px;
+    color: #0f92bb;
+}
+.wpr_field_icons_wrapper .wpr_admin_icon_clear{
+    margin-left: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #ff0039c4;
+}
+.wpr_field_icons_wrapper .wpr_admin_icon_clear:hover{
+    margin-left: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    color: red;
+}
+
+.wpr-core-field-username {
+    border: 1px solid;
+    width: 60%;
+    background: #cdddeb;
+    border-color: beige;
+    border-radius: 7px;
+    /*color: white;*/
+    padding-left: 10px;
+}
+
+/*
+    5- Code Editor CSS
+*/
+.wpr-fm-design-wrapper .CodeMirror{
+    background: #fdf6f6 !important;
+}
+.wpr-fm-design-wrapper .cm-s-default .cm-meta, .wpr-fm-design-wrapper .cm-s-default .cm-qualifier{
+    color: #0cc300;
+}
+.wpr-fm-design-wrapper .cm-property{
+    color: #0616cd;
+}
+
+.wpr-pr-setting-wrapper .wp-picker-container,
+.wpr-fm-design-wrapper .wp-picker-container,
+.wpr-email-settings-wrapper .wp-picker-container{
+   width:100% !important;
+}

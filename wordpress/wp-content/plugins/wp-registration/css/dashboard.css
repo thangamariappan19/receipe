@@ -1,0 +1,78 @@
+.wpr-dashboard-wrapper .wpr-users-state-overview .panel-heading, 
+.wpr-dashboard-wrapper .wpr-show-users-by-dates .panel-heading{
+	font-size: 22px;
+}
+.wpr-dashboard-wrapper .wpr-users-state-overview .wpr-total-users{
+	text-align: center;
+}
+.wpr-dashboard-wrapper .wpr-show-users-by-dates .wpr-custom-btn{
+	text-align: center;
+	margin-top: 14%;
+}
+.wpr-dashboard-wrapper .wpr-show-users-by-dates .wpr-users-last-wise ul{
+	text-align: center;
+}
+.wpr-users-last-wise {
+	width: 54%;
+	margin-left: 7px;
+}
+.wpr-users-last-wise ul {
+	display: -webkit-box;
+}
+.wpr-users-last-wise ul > li {
+	width: 60%;
+	height: 77px;
+}
+.wpr-users-last-wise ul > li > h3 {
+	font-size: 14px;
+	margin-top: 5px;
+    text-align: center;
+}
+.wpr-users-last-wise ul > li > h3 > span {
+	border-radius: 13px;
+	font-size: 13px;
+    display: table;
+    margin: 0px auto;
+    width: 36%;
+    font-size: 21px;
+    margin-top: 6px;
+}
+.wpr-total-users h2{
+	font-size: 20px;
+}
+.wpr-total-users h2 > span {
+	border-radius: 17px;
+	display: table;
+    margin: 8px auto;
+    width: 11%;
+    font-size: 33px;
+    
+} 
+.wpr-date-query-result{
+	display: block;
+    width: 30%;
+    height: 30px;
+    padding-top: 9px;
+    font-size: 13px;
+}
+.wpr-dashboard-heading{
+ 	margin-bottom: 36px; 
+    text-align: center; 
+    letter-spacing: 1px;
+    color: #0b477a;
+    font-family: serif !important;
+}
+.wpr-pass-alert {
+    padding: 7px;
+    float: right;
+    color: #6b7479;
+    background-color: #7dcd809c;
+    border-left: 4px solid #4CAF50;
+    margin-right: 10px;
+}
+
+.wpr-email-alert {
+    padding: 7px;
+    background-color: #7dcd809c;
+    border-left: 4px solid #4CAF50;
+}

@@ -1,0 +1,1554 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: N-Media WP Member Registration\n"
+"POT-Creation-Date: 2020-05-12 18:57+0500\n"
+"PO-Revision-Date: 2018-09-21 20:34+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-registration.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/admin.php:17 inc/admin.php:18 inc/admin.php:52 inc/admin.php:53
+#: inc/admin.php:54 inc/admin.php:55 inc/classes/class.dashboard.php:310
+#: inc/classes/class.dashboard.php:333 inc/classes/class.dashboard.php:344
+#: inc/classes/class.dashboard.php:348 inc/classes/class.dashboard.php:356
+#: inc/classes/class.dashboard.php:360 inc/classes/class.dashboard.php:434
+#: inc/classes/class.dashboard.php:538 inc/classes/class.dashboard.php:549
+#: inc/classes/class.dashboard.php:553 inc/classes/class.dashboard.php:561
+#: inc/classes/class.dashboard.php:565 inc/classes/class.email.php:83
+#: inc/classes/class.field.php:110 inc/classes/class.field.php:153
+#: inc/classes/class.field.php:157 inc/classes/class.field.php:260
+#: inc/classes/class.settings.php:190 inc/classes/class.settings.php:201
+#: inc/classes/class.settings.php:227 inc/classes/class.user.php:371
+#: inc/helpers.php:73 inc/helpers.php:300 inc/hooks.php:47
+#: inc/shortcodes.php:173 templates/admin/restrict-content.php:39
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/admin.php:177 inc/classes/class.dashboard.php:65
+#: templates/admin/admin-setting.php:11
+msgid "WP Registration"
+msgstr ""
+
+#: inc/admin.php:178
+msgid "Settings"
+msgstr ""
+
+#: inc/admin.php:199
+msgid "Shortcodes"
+msgstr ""
+
+#: inc/admin.php:225
+msgid "General Settings"
+msgstr ""
+
+#: inc/admin.php:254
+msgid "GDPR"
+msgstr ""
+
+#: inc/admin.php:281
+msgid "Design Form"
+msgstr ""
+
+#: inc/admin.php:307
+msgid "Email Templates"
+msgstr ""
+
+#: inc/admin.php:464
+msgid "New User Notification"
+msgstr ""
+
+#: inc/admin.php:465
+msgid "Select member to send new user notification via email."
+msgstr ""
+
+#: inc/admin.php:471
+msgid "After Login"
+msgstr ""
+
+#: inc/admin.php:472
+msgid "Enter the url to redirect after login."
+msgstr ""
+
+#: inc/admin.php:477
+msgid "After Registration"
+msgstr ""
+
+#: inc/admin.php:478
+msgid "Enter the url to redirect after the sing up."
+msgstr ""
+
+#: inc/admin.php:483
+msgid "After Logout"
+msgstr ""
+
+#: inc/admin.php:484
+msgid "Enter the url to redirect after logout."
+msgstr ""
+
+#: inc/admin.php:489
+msgid "Profile Link Base"
+msgstr ""
+
+#: inc/admin.php:490
+msgid "Select the link using show User Profile"
+msgstr ""
+
+#: inc/admin.php:498
+msgid "Profile Page"
+msgstr ""
+
+#: inc/admin.php:499
+msgid "Set Profile Page"
+msgstr ""
+
+#: inc/admin.php:505
+msgid "Account Page"
+msgstr ""
+
+#: inc/admin.php:506
+msgid "Set account page."
+msgstr ""
+
+#: inc/admin.php:511
+msgid "Register Page"
+msgstr ""
+
+#: inc/admin.php:512
+msgid "Set register page."
+msgstr ""
+
+#: inc/admin.php:517
+msgid "Login Page"
+msgstr ""
+
+#: inc/admin.php:518
+msgid "Set login page."
+msgstr ""
+
+#: inc/admin.php:523
+msgid "Logout Page"
+msgstr ""
+
+#: inc/admin.php:524
+msgid "Set logout page."
+msgstr ""
+
+#: inc/admin.php:529
+msgid "Password Reset Page"
+msgstr ""
+
+#: inc/admin.php:530
+msgid "Set password Reset page."
+msgstr ""
+
+#: inc/admin.php:550 inc/admin.php:554
+msgid "User status updated to "
+msgstr ""
+
+#: inc/class.deactivate.php:89
+msgid "Please Help Us to Make it Better for You."
+msgstr ""
+
+#: inc/class.deactivate.php:101
+msgid "Submit & Deactivate"
+msgstr ""
+
+#: inc/class.deactivate.php:102
+msgid "Cancel"
+msgstr ""
+
+#: inc/class.deactivate.php:172
+msgid "Temporarily Disabled for Debugging."
+msgstr ""
+
+#: inc/class.deactivate.php:174
+msgid "Have used it successfully and aint in need of it anymore"
+msgstr ""
+
+#: inc/class.deactivate.php:178
+msgid "I couldn't understand how to make it work"
+msgstr ""
+
+#: inc/class.deactivate.php:180
+msgid "Would you like us to assist you?"
+msgstr ""
+
+#: inc/class.deactivate.php:184
+msgid "I found a better plugin"
+msgstr ""
+
+#: inc/class.deactivate.php:186
+msgid "Which plugin?"
+msgstr ""
+
+#: inc/class.deactivate.php:190
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr ""
+
+#: inc/class.deactivate.php:192
+msgid "Could you tell us more about that feature?"
+msgstr ""
+
+#: inc/class.deactivate.php:196
+msgid "The plugin is not working"
+msgstr ""
+
+#: inc/class.deactivate.php:198
+msgid "Could you tell us a bit more whats not working?"
+msgstr ""
+
+#: inc/class.deactivate.php:202
+msgid "It's not what I was looking for"
+msgstr ""
+
+#: inc/class.deactivate.php:204 inc/class.deactivate.php:216
+msgid "Could you tell us a bit more?"
+msgstr ""
+
+#: inc/class.deactivate.php:208
+msgid "The plugin didn't work as expected"
+msgstr ""
+
+#: inc/class.deactivate.php:210
+msgid "What did you expect?"
+msgstr ""
+
+#: inc/class.deactivate.php:214
+msgid "I rather wouldn't say"
+msgstr ""
+
+#: inc/classes/class.dashboard.php:66
+msgid "Dashboard"
+msgstr ""
+
+#: inc/classes/class.dashboard.php:207
+msgid "Email not send!"
+msgstr ""
+
+#: inc/classes/class.dashboard.php:210
+msgid "Send Email Successfully!"
+msgstr ""
+
+#: inc/classes/class.dashboard.php:252
+msgid "Please select any Role and Form"
+msgstr ""
+
+#: inc/classes/class.dashboard.php:281
+msgid "Please write the message"
+msgstr ""
+
+#: inc/classes/class.dashboard.php:305 inc/classes/class.dashboard.php:327
+#: inc/classes/class.dashboard.php:532
+msgid "Select Role:"
+msgstr ""
+
+#: inc/classes/class.dashboard.php:307 inc/classes/class.dashboard.php:330
+#: inc/classes/class.dashboard.php:535
+msgid "All"
+msgstr ""
+
+#: inc/classes/class.dashboard.php:329 inc/classes/class.dashboard.php:534
+msgid "Select Role"
+msgstr ""
+
+#: inc/classes/class.dashboard.php:373
+msgid "your previous plugin not install"
+msgstr ""
+
+#: inc/classes/class.field.php:33
+msgid "Registration Fields"
+msgstr ""
+
+#: inc/classes/class.field.php:119 inc/classes/class.font-icon.php:98
+msgid "close"
+msgstr ""
+
+#: inc/classes/class.field.php:120
+msgid "Add Field"
+msgstr ""
+
+#: inc/classes/class.field.php:271
+msgid "Option"
+msgstr ""
+
+#: inc/classes/class.field.php:307 templates/admin/fields.php:126
+#: templates/admin/fields.php:141
+msgid "Title"
+msgstr ""
+
+#: inc/classes/class.field.php:308
+msgid "It will be shown as field label"
+msgstr ""
+
+#: inc/classes/class.field.php:317 templates/admin/fields.php:124
+#: templates/admin/fields.php:139
+msgid "Field ID"
+msgstr ""
+
+#: inc/classes/class.field.php:318
+msgid ""
+"REQUIRED: The identification name of this field, that you can insert into "
+"body email configuration. Note:Use only lowercase characters and underscores."
+msgstr ""
+
+#: inc/classes/class.field.php:327
+msgid "Description"
+msgstr ""
+
+#: inc/classes/class.field.php:328
+msgid "Small description, it will be diplay near name title."
+msgstr ""
+
+#: inc/classes/class.field.php:336
+msgid "Error message"
+msgstr ""
+
+#: inc/classes/class.field.php:337
+msgid "Insert the error message for validation."
+msgstr ""
+
+#: inc/classes/class.field.php:346 templates/admin/fields.php:128
+#: templates/admin/fields.php:143
+msgid "Required"
+msgstr ""
+
+#: inc/classes/class.field.php:347
+msgid "Select this if it must be required."
+msgstr ""
+
+#: inc/classes/class.field.php:356
+msgid "Send in email"
+msgstr ""
+
+#: inc/classes/class.field.php:357
+msgid "Select this if you send in email."
+msgstr ""
+
+#: inc/classes/class.field.php:365
+msgid "Class"
+msgstr ""
+
+#: inc/classes/class.field.php:366
+msgid ""
+"Insert an additional class(es) (separateb by comma) for more personalization."
+msgstr ""
+
+#: inc/classes/class.field.php:375
+msgid "Width"
+msgstr ""
+
+#: inc/classes/class.field.php:376
+msgid "Select column for this field from 12 columns Grid"
+msgstr ""
+
+#: inc/classes/class.field.php:403
+msgid "Add options"
+msgstr ""
+
+#: inc/classes/class.field.php:404
+msgid "Enter multiple options."
+msgstr ""
+
+#: inc/classes/class.field.php:412
+msgid "Defualt selected Option"
+msgstr ""
+
+#: inc/classes/class.field.php:413
+msgid "Type option name (given above) if you want already selected."
+msgstr ""
+
+#: inc/classes/class.field.php:421
+msgid "Checked option(s)"
+msgstr ""
+
+#: inc/classes/class.field.php:422
+msgid ""
+"Type each option(s) name seprated by comma(e,g option1, option2) if you want "
+"already checked."
+msgstr ""
+
+#: inc/classes/class.field.php:430
+msgid "Min checked option(s)"
+msgstr ""
+
+#: inc/classes/class.field.php:431
+msgid ""
+"How many options can be checked by user e.g: 2. Leave blank for default."
+msgstr ""
+
+#: inc/classes/class.field.php:439
+msgid "Max checked option(s)"
+msgstr ""
+
+#: inc/classes/class.field.php:440
+msgid ""
+"How many options can be checked by user e.g: 3. Leave blank for default."
+msgstr ""
+
+#: inc/classes/class.field.php:448
+msgid "Icon"
+msgstr ""
+
+#: inc/classes/class.field.php:449
+msgid ""
+"Select an icon to appear in the field. Leave blank if you do not want an "
+"icon to show in the field."
+msgstr ""
+
+#: inc/classes/class.field.php:457 templates/admin/fields.php:127
+#: templates/admin/fields.php:142
+msgid "Placeholder"
+msgstr ""
+
+#: inc/classes/class.field.php:458
+msgid "Type field Placeholder."
+msgstr ""
+
+#: inc/classes/class.field.php:464 inc/classes/class.field.php:506
+#: inc/classes/class.restriction.php:65 inc/helpers.php:280 inc/helpers.php:411
+#: inc/helpers.php:474
+msgid "Select"
+msgstr ""
+
+#: inc/classes/class.field.php:465
+msgid "Registration only"
+msgstr ""
+
+#: inc/classes/class.field.php:466
+msgid "Profile only"
+msgstr ""
+
+#: inc/classes/class.field.php:467 inc/helpers.php:446
+msgid "Both"
+msgstr ""
+
+#: inc/classes/class.field.php:472
+msgid "Visible"
+msgstr ""
+
+#: inc/classes/class.field.php:473
+msgid "There are following form type to show this field."
+msgstr ""
+
+#: inc/classes/class.field.php:485
+msgid "Default - mm/dd/yy"
+msgstr ""
+
+#: inc/classes/class.field.php:486
+msgid "ISO 8601 - yy-mm-dd"
+msgstr ""
+
+#: inc/classes/class.field.php:487
+msgid "Short - d M, y"
+msgstr ""
+
+#: inc/classes/class.field.php:488
+msgid "Medium - d MM, y"
+msgstr ""
+
+#: inc/classes/class.field.php:489
+msgid "Full - DD, d MM, yy"
+msgstr ""
+
+#: inc/classes/class.field.php:490
+msgid "With text - 'day' d 'of' MM 'in the year' yy"
+msgstr ""
+
+#: inc/classes/class.field.php:495
+msgid "Date formats"
+msgstr ""
+
+#: inc/classes/class.field.php:496
+msgid "Select date format."
+msgstr ""
+
+#: inc/classes/class.field.php:507 inc/classes/class.user.php:81
+msgid "Username"
+msgstr ""
+
+#: inc/classes/class.field.php:508 inc/classes/class.user.php:85
+msgid "First Name"
+msgstr ""
+
+#: inc/classes/class.field.php:509 inc/classes/class.user.php:87
+msgid "Last Name"
+msgstr ""
+
+#: inc/classes/class.field.php:510 inc/classes/class.user.php:83
+#: templates/admin/fields.php:129 templates/admin/fields.php:144
+msgid "Email"
+msgstr ""
+
+#: inc/classes/class.field.php:511 templates/shortcodes/login.php:48
+msgid "Password"
+msgstr ""
+
+#: inc/classes/class.field.php:512
+msgid "Website"
+msgstr ""
+
+#: inc/classes/class.field.php:513
+msgid "Nickname"
+msgstr ""
+
+#: inc/classes/class.field.php:514
+msgid "Display Name"
+msgstr ""
+
+#: inc/classes/class.field.php:515
+msgid "Jabber Account"
+msgstr ""
+
+#: inc/classes/class.field.php:516
+msgid "AOL IM Account"
+msgstr ""
+
+#: inc/classes/class.field.php:517
+msgid "Yahoo IM"
+msgstr ""
+
+#: inc/classes/class.field.php:518
+msgid "About User"
+msgstr ""
+
+#: inc/classes/class.field.php:523
+msgid "WP Fields"
+msgstr ""
+
+#: inc/classes/class.field.php:524
+msgid "Set as Core WP Field"
+msgstr ""
+
+#: inc/classes/class.field.php:533
+msgid "Everyone"
+msgstr ""
+
+#: inc/classes/class.field.php:534
+msgid "Members"
+msgstr ""
+
+#: inc/classes/class.field.php:535
+msgid "Only visible to profile owner and admins"
+msgstr ""
+
+#: inc/classes/class.field.php:536
+msgid "Only visible to profile owner and specific roles"
+msgstr ""
+
+#: inc/classes/class.field.php:537
+msgid "Only specific member roles"
+msgstr ""
+
+#: inc/classes/class.field.php:543
+msgid "Privacy"
+msgstr ""
+
+#: inc/classes/class.field.php:544
+msgid ""
+"Field privacy allows you to select who can view this field on the front-end. "
+"The site admin can view all fields regardless of the option set here."
+msgstr ""
+
+#: inc/classes/class.field.php:554
+msgid "Member Roles"
+msgstr ""
+
+#: inc/classes/class.field.php:555
+msgid "Select the member roles that can view this field on the front-end."
+msgstr ""
+
+#: inc/classes/class.field.php:564
+msgid "Default Value"
+msgstr ""
+
+#: inc/classes/class.field.php:565
+msgid "Enter defualt value."
+msgstr ""
+
+#: inc/classes/class.field.php:576
+msgid "WordPress Fields"
+msgstr ""
+
+#: inc/classes/class.field.php:577
+msgid "<i class=\"fa fa-list\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: inc/classes/class.field.php:578
+msgid "WordPress Core Fields"
+msgstr ""
+
+#: inc/classes/class.field.php:586 templates/inputs/wp_field.php:66
+msgid "Confirm Password"
+msgstr ""
+
+#: inc/classes/class.field.php:587
+msgid "Select if you want user to confirm password."
+msgstr ""
+
+#: inc/classes/class.field.php:591
+msgid "Accept Weak Password"
+msgstr ""
+
+#: inc/classes/class.field.php:592
+msgid "Select if you want user to register even it's setting weak password."
+msgstr ""
+
+#: inc/classes/class.field.php:608
+msgid "Text Input"
+msgstr ""
+
+#: inc/classes/class.field.php:609
+msgid "<i class=\"fa fa-pencil-square-o\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: inc/classes/class.field.php:610
+msgid "Textbox Field"
+msgstr ""
+
+#: inc/classes/class.field.php:629
+msgid "Select Input"
+msgstr ""
+
+#: inc/classes/class.field.php:630
+msgid "<i class=\"fa fa-check\" aria-hidden=\"true\"></i> "
+msgstr ""
+
+#: inc/classes/class.field.php:631
+msgid "Select Field"
+msgstr ""
+
+#: inc/classes/class.field.php:659
+msgid "Radio Input"
+msgstr ""
+
+#: inc/classes/class.field.php:660
+msgid "<i class=\"fa fa-dot-circle-o\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: inc/classes/class.field.php:661
+msgid "Radio Field"
+msgstr ""
+
+#: inc/classes/class.field.php:680
+msgid "Checkbox Input"
+msgstr ""
+
+#: inc/classes/class.field.php:681
+msgid "<i class=\"fa fa-check-square-o\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: inc/classes/class.field.php:682
+msgid "Checkbox Field"
+msgstr ""
+
+#: inc/classes/class.field.php:703
+msgid "Date Input"
+msgstr ""
+
+#: inc/classes/class.field.php:704
+msgid "<i class=\"fa fa-calendar\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: inc/classes/class.field.php:705
+msgid "Date Field"
+msgstr ""
+
+#: inc/classes/class.field.php:726
+msgid "Year Range"
+msgstr ""
+
+#: inc/classes/class.field.php:727
+msgid "e.g: 1950:2016. (if jQuery enabled above) Set star/end year like "
+msgstr ""
+
+#: inc/classes/class.field.php:731
+msgid "Default Date"
+msgstr ""
+
+#: inc/classes/class.field.php:732
+msgid "Set default date in format selected below."
+msgstr ""
+
+#: inc/classes/class.field.php:740
+msgid "Textarea Input"
+msgstr ""
+
+#: inc/classes/class.field.php:741
+msgid "<i class=\"fa fa-file-text-o\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: inc/classes/class.field.php:742
+msgid "Textarea Field"
+msgstr ""
+
+#: inc/classes/class.font-icon.php:59 inc/classes/class.font-icon.php:79
+msgid "Add Icon"
+msgstr ""
+
+#: inc/classes/class.font-icon.php:81
+msgid "Icons"
+msgstr ""
+
+#: inc/classes/class.font-icon.php:86
+msgid "search icons..."
+msgstr ""
+
+#: inc/classes/class.login.php:179
+#, php-format
+msgid ""
+"Congratulations!, you have successfully verify your email. <a href=\"%s"
+"\">Login<a/>"
+msgstr ""
+
+#: inc/classes/class.login.php:183
+msgid ""
+"Sorry!, Your account verification link is not valid, please contact admin."
+msgstr ""
+
+#: inc/classes/class.profile.php:167
+msgid "Old password is empty!"
+msgstr ""
+
+#: inc/classes/class.profile.php:168
+msgid "New password is empty!"
+msgstr ""
+
+#: inc/classes/class.profile.php:169
+msgid "New password do not match!"
+msgstr ""
+
+#: inc/classes/class.profile.php:320
+msgid "Profile Setting"
+msgstr ""
+
+#: inc/classes/class.profile.php:412
+msgid "Profile update successfuly"
+msgstr ""
+
+#: inc/classes/class.profile.php:447
+msgid "Account Has Been Deleted"
+msgstr ""
+
+#: inc/classes/class.register.php:32
+msgid "No WP Core fields were found."
+msgstr ""
+
+#: inc/classes/class.register.php:43
+msgid "No WP Core Field Username and Email found."
+msgstr ""
+
+#: inc/classes/class.register.php:129
+msgid "Form Field Email not sent, please contact admin"
+msgstr ""
+
+#: inc/classes/class.register.php:227
+msgid "User Register Email not sent, please contact admin"
+msgstr ""
+
+#: inc/classes/class.restriction.php:45
+msgid "Content Restriction"
+msgstr ""
+
+#: inc/classes/class.restriction.php:66
+msgid "Public"
+msgstr ""
+
+#: inc/classes/class.restriction.php:67
+msgid "For All Members"
+msgstr ""
+
+#: inc/classes/class.restriction.php:68
+msgid "By User Role"
+msgstr ""
+
+#: inc/classes/class.restriction.php:148
+msgid "You are not allowed to see these contents"
+msgstr ""
+
+#: inc/classes/class.settings.php:112
+msgid "Settings Saved"
+msgstr ""
+
+#: inc/classes/class.settings.php:145 templates/admin/consent_settings.php:29
+#: templates/admin/consent_settings.php:48
+#: templates/admin/profile-setting.php:37
+#: templates/admin/profile-setting.php:54
+msgid "Yes"
+msgstr ""
+
+#: inc/classes/class.settings.php:171
+msgid "Advance Role Base Redirections"
+msgstr ""
+
+#: inc/classes/class.settings.php:217 inc/classes/class.settings.php:243
+msgid "No List Found"
+msgstr ""
+
+#: inc/classes/class.settings.php:251
+msgid "Select page"
+msgstr ""
+
+#: inc/classes/class.settings.php:310
+msgid "Settings updated successfully"
+msgstr ""
+
+#: inc/classes/class.user.php:359
+msgid "Password changed successfuly"
+msgstr ""
+
+#: inc/cpt.php:15
+msgctxt "wp-registration"
+msgid "WP Register"
+msgstr ""
+
+#: inc/cpt.php:16
+msgctxt "wp-registration"
+msgid "Add New"
+msgstr ""
+
+#: inc/cpt.php:17
+msgid "Add New"
+msgstr ""
+
+#: inc/cpt.php:18
+msgid "Edit us"
+msgstr ""
+
+#: inc/cpt.php:19
+msgid "New Form"
+msgstr ""
+
+#: inc/cpt.php:20
+msgid "Edit Form"
+msgstr ""
+
+#: inc/cpt.php:21
+msgid "View"
+msgstr ""
+
+#: inc/cpt.php:22
+msgid "Form"
+msgstr ""
+
+#: inc/cpt.php:23
+msgid "Forms"
+msgstr ""
+
+#: inc/cpt.php:24
+msgid "Search Forms"
+msgstr ""
+
+#: inc/cpt.php:25
+msgid "No Form found."
+msgstr ""
+
+#: inc/cpt.php:26
+msgid "No Forms found in Trash."
+msgstr ""
+
+#: inc/cpt.php:27
+msgid "Parent Form"
+msgstr ""
+
+#: inc/cpt.php:33
+msgid "Registration Forms"
+msgstr ""
+
+#: inc/helpers.php:267
+msgid "Just user First and Last like john_wyne"
+msgstr ""
+
+#: inc/helpers.php:268
+msgid "Postfix network name with firstname/Screen name like john_google"
+msgstr ""
+
+#: inc/helpers.php:269
+msgid "Prefix network name with first name like google_john"
+msgstr ""
+
+#: inc/helpers.php:270
+msgid "Postfix timestamp name with firstname/Screen name like john_77474451"
+msgstr ""
+
+#: inc/helpers.php:271
+msgid "Prefix timestamp name with firstname/Screen name like 77474451_john"
+msgstr ""
+
+#: inc/helpers.php:281
+msgid "Allow User to subscribe List himself?"
+msgstr ""
+
+#: inc/helpers.php:282
+msgid "User will be automatically subscribed to following list?"
+msgstr ""
+
+#: inc/helpers.php:399
+msgid "Small"
+msgstr ""
+
+#: inc/helpers.php:400
+msgid "Medium"
+msgstr ""
+
+#: inc/helpers.php:401
+msgid "Large"
+msgstr ""
+
+#: inc/helpers.php:412
+msgid "Top"
+msgstr ""
+
+#: inc/helpers.php:413
+msgid "Bottom"
+msgstr ""
+
+#: inc/helpers.php:443
+msgid "No one"
+msgstr ""
+
+#: inc/helpers.php:444
+msgid "User Only"
+msgstr ""
+
+#: inc/helpers.php:445
+msgid "Admin Only"
+msgstr ""
+
+#: inc/helpers.php:475
+msgid "User Login"
+msgstr ""
+
+#: inc/helpers.php:476
+msgid "User Id"
+msgstr ""
+
+#: inc/helpers.php:487
+msgid "col-md-3"
+msgstr ""
+
+#: inc/helpers.php:488
+msgid "col-md-4"
+msgstr ""
+
+#: inc/helpers.php:489
+msgid "col-md-6"
+msgstr ""
+
+#: inc/helpers.php:663
+#, php-format
+msgid "<p class='wpr-error'>%s</p>"
+msgstr ""
+
+#: inc/shortcodes.php:120
+msgid "No form id found"
+msgstr ""
+
+#: templates/admin/consent_settings.php:20
+msgid " Enable consent"
+msgstr ""
+
+#: templates/admin/consent_settings.php:21
+msgid "Allow to user enable consent on registration page."
+msgstr ""
+
+#: templates/admin/consent_settings.php:32
+#: templates/admin/consent_settings.php:51
+msgid "NO"
+msgstr ""
+
+#: templates/admin/consent_settings.php:39
+msgid "Delete Account"
+msgstr ""
+
+#: templates/admin/consent_settings.php:40
+msgid "Allow users to delete their user account."
+msgstr ""
+
+#: templates/admin/consent_settings.php:59
+msgid "Text for user consent"
+msgstr ""
+
+#: templates/admin/consent_settings.php:60
+msgid "Enter the text for consent."
+msgstr ""
+
+#: templates/admin/consent_settings.php:72
+msgid "URL to user consent"
+msgstr ""
+
+#: templates/admin/consent_settings.php:73
+msgid "Enter the url for consent."
+msgstr ""
+
+#: templates/admin/dashboard.php:33
+msgid "WP Registration Dashboard"
+msgstr ""
+
+#: templates/admin/dashboard.php:42
+msgid "Maigration"
+msgstr ""
+
+#: templates/admin/dashboard.php:46
+msgid ""
+"We detected that some users are registered with an old version fields, "
+"Please click \"Migration\" button to shift them into new form. New form will "
+"be created with title \"Migrated Form\" "
+msgstr ""
+
+#: templates/admin/dashboard.php:64
+msgid "Registration Over Period"
+msgstr ""
+
+#: templates/admin/dashboard.php:71
+msgid "Last Weak"
+msgstr ""
+
+#: templates/admin/dashboard.php:78
+msgid "Last Month"
+msgstr ""
+
+#: templates/admin/dashboard.php:85
+msgid "Last Year"
+msgstr ""
+
+#: templates/admin/dashboard.php:94
+msgid "Custom Period"
+msgstr ""
+
+#: templates/admin/dashboard.php:101
+msgid "Start Date:"
+msgstr ""
+
+#: templates/admin/dashboard.php:105
+msgid "End Date:"
+msgstr ""
+
+#: templates/admin/email.php:15
+msgid "Email Header BG Color"
+msgstr ""
+
+#: templates/admin/email.php:16
+msgid "Choose email template header background color"
+msgstr ""
+
+#: templates/admin/email.php:22
+msgid "Email Body BG Color"
+msgstr ""
+
+#: templates/admin/email.php:23
+msgid "Choose email template body background color"
+msgstr ""
+
+#: templates/admin/email.php:31
+msgid "Email Footer BG Color"
+msgstr ""
+
+#: templates/admin/email.php:32
+msgid "Choose email template footer background color"
+msgstr ""
+
+#: templates/admin/email.php:38
+msgid "Email Fonts Color"
+msgstr ""
+
+#: templates/admin/email.php:39
+msgid "Choose text color for email contents"
+msgstr ""
+
+#: templates/admin/email.php:47
+msgid "Email Font Family/Style"
+msgstr ""
+
+#: templates/admin/email.php:51
+msgid "Font names separated by commas, eg: Verdana,Arial,sans-serif"
+msgstr ""
+
+#: templates/admin/email.php:55
+msgid "Email Template Header"
+msgstr ""
+
+#: templates/admin/email.php:61
+msgid "Text that will be displayed in header of email template"
+msgstr ""
+
+#: templates/admin/email.php:65
+msgid "New User Email"
+msgstr ""
+
+#: templates/admin/email.php:71
+msgid ""
+"Provide template for new user. It will be sent to user along with login "
+"details. You can use these Vars in message: %USERNAME%, %PASSWORD%, "
+"%FIRSTNAME%, %PASSWORD_RESET%, %USER_META%, %LASTTNAME%, %SITE_NAME%, "
+"%SITE_URL%, %LOGIN_URL%, %ADMIN_EMAIL%"
+msgstr ""
+
+#: templates/admin/email.php:75
+msgid "Message Change Password"
+msgstr ""
+
+#: templates/admin/email.php:81
+msgid "Send Message on email after change password"
+msgstr ""
+
+#: templates/admin/email.php:84
+msgid "Email Template Footer"
+msgstr ""
+
+#: templates/admin/email.php:90
+msgid "Text that will be display on footer of email template"
+msgstr ""
+
+#: templates/admin/fields.php:18
+msgid ""
+"WP Core Field Username or Email Missing Without these Field User Not Rrgister"
+msgstr ""
+
+#: templates/admin/fields.php:30
+msgid "Select Registration Field"
+msgstr ""
+
+#: templates/admin/fields.php:48 templates/admin/fields.php:87
+#: templates/profile/home-account.php:215
+msgid "Close"
+msgstr ""
+
+#: templates/admin/fields.php:88
+msgid "Update Field"
+msgstr ""
+
+#: templates/admin/fields.php:115
+msgid "Add field"
+msgstr ""
+
+#: templates/admin/fields.php:116
+msgid "Remove"
+msgstr ""
+
+#: templates/admin/fields.php:125 templates/admin/fields.php:140
+msgid "Type"
+msgstr ""
+
+#: templates/admin/fields.php:130 templates/admin/fields.php:145
+msgid "Actions"
+msgstr ""
+
+#: templates/admin/fields.php:191
+msgid "Copy Field"
+msgstr ""
+
+#: templates/admin/fields.php:192
+msgid "Edit Field"
+msgstr ""
+
+#: templates/admin/form-design-setting.php:17
+msgid "Button Label Color"
+msgstr ""
+
+#: templates/admin/form-design-setting.php:18
+msgid "Change the button text color"
+msgstr ""
+
+#: templates/admin/form-design-setting.php:23
+msgid "Button BG color"
+msgstr ""
+
+#: templates/admin/form-design-setting.php:24
+msgid "Change the button background color"
+msgstr ""
+
+#: templates/admin/form-design-setting.php:29
+msgid "Form Header BG color"
+msgstr ""
+
+#: templates/admin/form-design-setting.php:30
+msgid "Change the form header color"
+msgstr ""
+
+#: templates/admin/form-design-setting.php:35
+msgid "Form BG color"
+msgstr ""
+
+#: templates/admin/form-design-setting.php:36
+msgid "Change the Registration form background color"
+msgstr ""
+
+#: templates/admin/form-design-setting.php:41
+msgid "Icon Color"
+msgstr ""
+
+#: templates/admin/form-design-setting.php:42
+msgid "Change the Icon color"
+msgstr ""
+
+#: templates/admin/form-design-setting.php:48
+msgid "Form Width"
+msgstr ""
+
+#: templates/admin/form-design-setting.php:49
+msgid "Change the width of form model in %"
+msgstr ""
+
+#: templates/admin/form-design-setting.php:52
+msgid "e.g,50%"
+msgstr ""
+
+#: templates/admin/form-design-setting.php:54
+#: templates/admin/profile-setting.php:80
+msgid "Label Size"
+msgstr ""
+
+#: templates/admin/form-design-setting.php:55
+msgid "Select the button font size"
+msgstr ""
+
+#: templates/admin/form-design-setting.php:68
+msgid "Button Class"
+msgstr ""
+
+#: templates/admin/form-design-setting.php:69
+msgid "If you need add more styles you can add class to signup button"
+msgstr ""
+
+#: templates/admin/form-design-setting.php:74
+msgid "Form CSS"
+msgstr ""
+
+#: templates/admin/form-design-setting.php:75
+msgid "Enter custom CSS"
+msgstr ""
+
+#: templates/admin/form-general-setting.php:15
+msgid "Form Heading:"
+msgstr ""
+
+#: templates/admin/form-general-setting.php:16
+msgid "Enter form heading text."
+msgstr ""
+
+#: templates/admin/form-general-setting.php:23
+msgid "Button Label"
+msgstr ""
+
+#: templates/admin/form-general-setting.php:24
+msgid "Change the submit form button text."
+msgstr ""
+
+#: templates/admin/form-general-setting.php:31
+msgid "Message On Registration"
+msgstr ""
+
+#: templates/admin/form-general-setting.php:32
+msgid "It will be shown to user after successful registration."
+msgstr ""
+
+#: templates/admin/member-directory.php:47
+msgid "First Name:"
+msgstr ""
+
+#: templates/admin/member-directory.php:50
+msgid "Last Name:"
+msgstr ""
+
+#: templates/admin/profile-setting.php:28
+msgid "Show Banner & Profile Photo"
+msgstr ""
+
+#: templates/admin/profile-setting.php:29
+msgid "Allow user to show the banner or profile photo area."
+msgstr ""
+
+#: templates/admin/profile-setting.php:41
+#: templates/admin/profile-setting.php:58
+msgid "No"
+msgstr ""
+
+#: templates/admin/profile-setting.php:45
+msgid "Allow User To Change Password"
+msgstr ""
+
+#: templates/admin/profile-setting.php:46
+msgid "Allow user to change password."
+msgstr ""
+
+#: templates/admin/profile-setting.php:62
+msgid "Top Banner Color"
+msgstr ""
+
+#: templates/admin/profile-setting.php:63
+msgid ""
+"If user not upload cover photo, select the color to show on cover photo area."
+msgstr ""
+
+#: templates/admin/profile-setting.php:68
+msgid "Menu BG Color"
+msgstr ""
+
+#: templates/admin/profile-setting.php:69
+msgid "Select profile menu background color."
+msgstr ""
+
+#: templates/admin/profile-setting.php:74
+msgid "Menu Label Color"
+msgstr ""
+
+#: templates/admin/profile-setting.php:75
+msgid "Select profile menu label color."
+msgstr ""
+
+#: templates/admin/profile-setting.php:81
+msgid "Select the profile menu label font size."
+msgstr ""
+
+#: templates/admin/profile-setting.php:94
+msgid "Photo Layout"
+msgstr ""
+
+#: templates/admin/profile-setting.php:95
+msgid "Select user profile photo layout, cicle and square."
+msgstr ""
+
+#: templates/admin/profile-setting.php:108
+msgid "Cover Photo Width"
+msgstr ""
+
+#: templates/admin/profile-setting.php:109
+msgid "Enter the cover photo width."
+msgstr ""
+
+#: templates/admin/profile-setting.php:112
+msgid "e.g,800"
+msgstr ""
+
+#: templates/admin/profile-setting.php:114
+msgid "Cover Photo Height"
+msgstr ""
+
+#: templates/admin/profile-setting.php:115
+msgid "Enter the cover photo height."
+msgstr ""
+
+#: templates/admin/profile-setting.php:118
+msgid "e.g,175"
+msgstr ""
+
+#: templates/admin/profile-setting.php:120
+msgid "Profile Photo Width"
+msgstr ""
+
+#: templates/admin/profile-setting.php:121
+msgid "Enter the profile photo width."
+msgstr ""
+
+#: templates/admin/profile-setting.php:124
+msgid "e.g,200"
+msgstr ""
+
+#: templates/admin/profile-setting.php:126
+msgid "Profile Photo Height"
+msgstr ""
+
+#: templates/admin/profile-setting.php:127
+msgid "Enter the profile photo height."
+msgstr ""
+
+#: templates/admin/profile-setting.php:130
+msgid "e.g,70"
+msgstr ""
+
+#: templates/admin/restrict-content.php:45
+msgid "Error Restriction Message."
+msgstr ""
+
+#: templates/admin/restrict-content.php:46
+msgid "did not select any rule them show the error massage"
+msgstr ""
+
+#: templates/admin/shortcode-render.php:12
+#, php-format
+msgid "[wpr-form id=\"%s\"]"
+msgstr ""
+
+#: templates/profile/change-password.php:15
+msgid "Change Password"
+msgstr ""
+
+#: templates/profile/change-password.php:21
+msgid "Current password"
+msgstr ""
+
+#: templates/profile/change-password.php:24
+msgid "Enter Current Password"
+msgstr ""
+
+#: templates/profile/change-password.php:28
+msgid "New password"
+msgstr ""
+
+#: templates/profile/change-password.php:31
+msgid "Enter New Password"
+msgstr ""
+
+#: templates/profile/change-password.php:35
+msgid "Re Enter New password"
+msgstr ""
+
+#: templates/profile/change-password.php:38
+msgid "Re Enter Current Password"
+msgstr ""
+
+#: templates/profile/delete_account.php:14
+msgid "Warning!"
+msgstr ""
+
+#: templates/profile/delete_account.php:20
+msgid "Are you sure, it will delete all of data from this site?"
+msgstr ""
+
+#: templates/profile/delete_account.php:25
+msgid "Delete"
+msgstr ""
+
+#: templates/profile/edit-profile.php:21
+msgid "Edit Profile"
+msgstr ""
+
+#: templates/profile/home-account.php:73
+msgid "Upload Cover Photo"
+msgstr ""
+
+#: templates/profile/home-account.php:95
+msgid "Upload Photo"
+msgstr ""
+
+#: templates/profile/home-account.php:107
+msgid "View Profile"
+msgstr ""
+
+#: templates/profile/home-account.php:126
+msgid "Toggle navigation"
+msgstr ""
+
+#: templates/profile/home-account.php:158
+msgid "Sign Out"
+msgstr ""
+
+#: templates/profile/home-account.php:194
+msgid "Chose Photo"
+msgstr ""
+
+#: templates/profile/home-account.php:202
+msgid "Upload"
+msgstr ""
+
+#: templates/profile/home-account.php:208
+msgid "saved"
+msgstr ""
+
+#: templates/profile/home-profile.php:79
+msgid "My Account"
+msgstr ""
+
+#: templates/profile/home-profile.php:84
+msgid "Log Out"
+msgstr ""
+
+#: templates/profile/overview.php:49
+msgid "Overview"
+msgstr ""
+
+#: templates/profile/overview.php:73
+msgid "Last Page Visit:"
+msgstr ""
+
+#: templates/profile/overview.php:76
+msgid "Last Login Date:"
+msgstr ""
+
+#: templates/profile/wpr-woocomerce.php:23
+msgid "My Order"
+msgstr ""
+
+#: templates/profile/wpr-woocomerce.php:24
+msgid "Addresses"
+msgstr ""
+
+#: templates/shortcodes/login.php:26
+msgid "Login"
+msgstr ""
+
+#: templates/shortcodes/login.php:38
+msgid "Username or Email"
+msgstr ""
+
+#: templates/shortcodes/login.php:54
+msgid "Remember me"
+msgstr ""
+
+#: templates/shortcodes/login.php:68
+msgid "Forget Password?"
+msgstr ""
+
+#: templates/shortcodes/login.php:79
+msgid "Don't have an account!"
+msgstr ""
+
+#: templates/shortcodes/password-reset.php:19
+msgid "Password Reset"
+msgstr ""
+
+#: templates/shortcodes/password-reset.php:29
+msgid "Username or Email Address"
+msgstr ""
+
+#: wp-registration.php:288
+msgid "<strong>ERROR</strong>: Invalid username or email."
+msgstr ""
+
+#: wp-registration.php:291
+msgid "<strong>ERROR</strong>: Enter a username or email address."
+msgstr ""
+
+#: wp-registration.php:294
+msgid ""
+"<strong>ERROR</strong>: Invalid username, email address or incorrect "
+"password."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "N-Media WP Member Registration"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.najeebmedia.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin allow users to register, login and reset password using ajax "
+"based forms. Admin can attach unlimited user meta fields. User can update "
+"their profile using without going into admin dashboard."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Najeeb Ahmad"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.najeebmedia.com/"
+msgstr ""

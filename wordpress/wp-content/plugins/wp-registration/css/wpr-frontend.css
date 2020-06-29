@@ -1,0 +1,1179 @@
+/****************
+ * Frontent CSS *
+ ****************/
+
+/*----------------------------------------
+ 1- Registration Form Section
+    1.1- Inputs Render Templates
+    1.2- Checkbox And Radio Design
+    1.3- Recaptcha Template
+    1.4- Class.Form Submit Butoon CSS
+    1.5- Mailchip And Sendingblue Class
+    1.6- Sign Up CSS From Shortcode File
+    1.7- Select2 And Iris Plugin CSS
+ 2- Profile And Account Section
+    2.1- Password Change Template CSS
+    2.2- Prfole and Account Template CSS
+    2.0- Woocommerce tab css
+    2.3- Edit Profile Template CSS
+    2.4- Profile Photo Uploader CSS
+ 3- Login And Password Reset Section
+ 4- Class.social Button CSS
+------------------------------------------**/
+
+
+/*---------------------------------
+    1- Registration Form Section
+-----------------------------------*/
+/* 
+    1.1- Inputs Render Templates
+*/
+.wpr_field_wrapper {
+    margin-top: 20px;
+}
+.wpr_field_wrapper div > span {
+    background-color: white;
+}
+.wpr_field_wrapper div > span :hover {
+    border-color: #008329 !important;
+}
+.wpr_field_wrapper div > span > i{
+    color: #2dad2d;
+    font-size: 19px;
+}
+.wpr_field_wrapper .selection .select2-selection{
+    border-left: none !important;
+    border-radius: unset;
+    height: 36px;
+}
+.wpr_field_wrapper div > p > input,
+.wpr_field_wrapper div > p > select {
+    border-left: white !important;
+    height: 36px !important;
+}
+.wpr_field_wrapper div:hover {
+    border-color: #008329;
+}
+.wpr-field-desc{
+    font-size: 10px;
+    margin-left: 13px;
+}
+.wpr_field_error{
+    margin-left: 4px;
+    margin-top: -15px;
+    display: block;
+    font-style: italic;
+    font-size: 12px;
+}
+.wpr-section-field{
+    margin-left: 15px;
+}
+.wpr-field-title{
+    font-family: initial;
+    margin-bottom: 1px;
+    display: block;
+}
+.wpr-field-header{
+    margin-bottom:  -11px;
+}
+.wpr-field-body{
+
+    margin-left:7px;
+}
+.wpr_field_icon{
+    color: red;
+}
+/* 
+    1.2- Checkbox And Radio Design
+*/
+.wpr-checkmarks-style {
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding-left: 29px;
+    height: 20px;
+    padding-right: 9px;
+}
+.wpr-checkmarks-style input {
+    position: absolute;
+    cursor: pointer;
+}
+.wpr-checkmarks-style:hover input ~ .wpr-checkmark-span {
+   background-color: #acb1b1;
+}
+.wpr-checkmarks-style input:checked ~ .wpr-checkmark-span {
+    background-color: #2196F3;
+}
+.wpr-checkmarks-style input:checked ~ .wpr-checkmark-span:after {
+    display: block;
+}
+.wpr-checkmarks-style .wpr-checkmark-span:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;-webkit-transform: rotate(45deg);-ms-transform: rotate(45deg);transform: rotate(45deg);
+}
+.wpr-checkmark-span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 28%;
+    background-color: #acb1b1;
+    border-radius: 12px;
+    height: 20px;
+}
+.wpr-checkmark-span:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.wpr-radio-check {
+    padding-bottom: -12px;
+    font-family: serif;
+   color: black !important;
+}
+.wpr-radio-check input {
+    height: 9px !important;
+    zoom: 1.7;
+}
+/* 
+    1.3- Recaptcha Template
+*/
+.wpr-recaptcha {
+    width: 250px; 
+    margin: 25px auto;
+    -webkit-transform: scale(0.77);
+    -moz-transform: scale(0.77); 
+    -ms-transform: scale(0.77); 
+    -o-transform: scale(0.77); 
+    transform: scale(0.77);
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+/* 
+    1.4- Class.Form Submit Butoon CSS
+*/
+.wpr_sub_form {
+    float: right;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+.wpr_sub_form input:disabled{
+    cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+    .wpr_sub_form input {
+        width: 96% !important;
+        margin-left: 5px;
+  }
+    .wpr_sub_form {
+        float: unset !important;
+        margin-right: 0 !important;
+        margin-top: 0 !important;
+    }
+    .wpr_alert{
+        margin-left: 11px;
+        margin-top: 9px;
+    }
+}
+.wpr_alert{
+    display: block;
+    padding: 5px;
+    background-color: #e8e8e8;
+    border-left: 7px solid red;
+    float: left;
+    margin-right: 11px;
+}
+/* 
+   1.5- Mailchip And Sendingblue Class
+*/
+.wpr-subscriber-wrapper{
+    margin-left: 14px;
+    margin-top: -16px;
+}
+.wpr-subscriber-mr{
+    margin-left: 3px;
+    zoom: 1.2;
+    font-size: 11px;
+    font-weight: 100px !important;
+    margin-top: -10px;
+}
+.wpr-subcriber-heading {
+    margin-top: 8px;
+    display: block;
+}
+/*
+    1.6- Sign Up CSS From Shortcode File
+*/
+.wpr-field-model {
+    margin: 36px auto;
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+@media screen and (max-width: 767px) {
+    .wpr-field-model  {
+        width: 100% !important;
+    }
+}
+.wpr-form-title {
+    color: rgb(6, 106, 117);
+    font-family: 'FranchiseRegular','Arial Narrow',Arial,sans-serif;
+    text-align: center;
+    padding: 12px 0px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    font-size: 23px;
+}
+.wpr-consent-dspr {
+    margin-top: 8px;
+        border: 1px solid #d3cfcf;
+}
+.wpr-consent-dspr input {
+    zoom: 1.2;
+    margin-left: 3px;
+}
+.wpr-consent-dspr a {
+    margin-left: 6px;
+    color: black;
+    font-family: serif;
+    font-size: 14px;
+}
+/*
+    1.7- Select2 And Iris Plugin CSS
+*/
+.select2-container{
+    float: left;
+}
+.select2-selection__clear{
+    font-size: 16px;
+}
+.iris-border{
+    float: left !important;
+}
+
+/*--------------------------------
+    2- Profile And Account Section
+----------------------------------*/
+/* 
+    1.1- Password Change Template CSS
+*/
+.wpr-pass-alert{
+    padding: 5px;
+    background-color: white;
+    float: right;
+    margin-top: 6px;
+    text-align: center;
+    margin-right: 12px;
+    border-left-color: 1px solid darkgrey;
+    border-left: 7px solid red;
+}
+.wpr-change-pass {
+    padding: 0 20px;
+    vertical-align: middle;
+    font-weight: 300;
+    line-height: 40px;
+    color: #fff;
+}
+#div-change-password div {
+    margin-bottom: -12px;
+}
+@media screen and (max-width: 475px) {
+    #div-change-password  {
+        margin-left: -20px;
+  }
+}
+.wpr-form-group {
+    padding: 17px 30px;
+}
+.wpr-form-group input {
+    height: 50px !important;
+    font-size: 13px !important;
+}
+.wpr-form-group input :hover {
+    border-color: #008329; 
+}
+/*@media screen and (max-width: 520px) {
+    .wpr-form-group input {
+       width: 100% !important;
+  }
+}*/
+.wpr-header {
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    height: 53px;
+}
+.wpr-body {
+    background: #00000008;
+}
+.wpr-footer {
+    border-top-width: 0px;
+    margin-bottom: 15px;
+}
+/* 
+    2.2- Prfole and Account Template CSS
+*/
+.wpr-display-name{
+   margin-left: 10px;
+}
+.wpr-pr-coverphoto {
+    width: 100%;
+   float: left;
+   clear: both;
+   margin: 40px auto;
+   height: 220px;
+   background-size: 100%;
+   margin: 0;
+   position: relative;
+}
+.wpr-pr-userphotp {
+    float: left;
+    width: 20%;
+    padding: 7px;
+    margin-top: -91px !important;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.wpr-first-letter {
+    font-size: 126px;
+    color: #0f14144a;
+}
+.img-gird {
+    width: 100%;
+    height: 184px;
+    display: block;
+}
+@media (max-width: 765px){
+   .img-gird {
+        width: 100%;
+        height: 97px;
+        display: block;
+    }
+   .wpr-first-letter {
+        font-size: 69px;
+        color: #0f14144a;
+    }
+}
+.wpr-pr-username {
+   font-weight: 400;
+   font-size: 20px;
+   color: #000000;
+   text-overflow: ellipsis;
+}
+.wpr-pr-signout i{
+    font-size:30px;
+}
+.wpr-profile-body{
+    padding-right: 6px;
+    background: #31a6b585;
+}
+.wpr-pr-tab{
+    font-size: 20px;
+    margin-left: 0px !important;
+}
+.wpr-pr-tab li a:hover {
+    background-color: #4e9de0ad;
+}
+.wpr-pr-albm{
+    padding: 9px;
+    color: darkmagenta;
+    width: 49%;
+    background-color: darkturquoise;
+    display: inline-block;
+    text-align: center;
+}
+.wpr-pr-edit{
+    float: right;
+    margin-top: 12px;
+    margin-right: -33px;
+}
+.wpr-pr-edit input {
+}
+.wpr-data-view {
+    margin-bottom: 0px !important;
+    margin-top:  -11px;
+}
+.wpr-data-view tr{
+    background-color: #f9f9f9;
+}
+.wpr-data-view .wpr-pr-title{
+    font-size: 18px;
+    font-style: normal;
+    font-family: sans-serif;
+}
+.wpr-pr-panel {
+    box-shadow: 0px 2px 10px 0 rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0px 2px 10px 0 rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0px 2px 10px 0 rgba(0, 0, 0, 0.05);
+    -ms-box-shadow: 0px 2px 10px 0 rgba(0, 0, 0, 0.05);
+    transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s; 
+    -webkit-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    border-radius: 0px;
+    position: relative;
+    border: 0;
+    display: inline-block;
+    width: 100%;
+}
+.wpr-pr-coverupload{
+    padding: 12px;
+    background-color: #9685858f;
+    display: block;
+    float: left;
+    color: white;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+.wpr-pr-body-layout{
+    margin-left: 0 !important;
+    margin-right: -6px !important;
+}
+.wpr-pr-overview{
+   padding:0px !important;
+   margin-bottom: 20px;
+}
+.wpr-pr-change-photo{
+    color:white;
+    bottom: 8px;
+    left: 16px;
+    padding: 3px;
+    background-color: #000000bf;
+    cursor: pointer;
+    margin-top: -6px;
+}
+.wpr-profile-header {
+    border: 1px solid #171a1b47;
+}
+.wpr-profile-adjust {
+    padding: 0px !important;
+    padding-right: 0px !important;
+}
+.wpr-tab-body {
+    border: 1px solid #989d9f;
+    min-height: 27px;
+    background-color: white;
+    /*width: 74.2% !important;*/
+}
+.scroll-link {
+    border-bottom: 2px solid #eff6f9;
+    color: black;
+    float: left; 
+    color: black;
+    width: 100%; 
+    text-align: left;
+}
+.scroll-link:hover {
+    color: white !important;
+    background-color: #22757f85 !important;
+    box-shadow: 0 20px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.wpr-tab-heading {
+    color: rgb(6, 106, 117);
+    padding: 2px 0 10px 0;
+    font-family: 'FranchiseRegular','Arial Narrow',Arial,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 20px;
+    border-bottom: -8px solid rgba(0,0,0,.1);
+    background-color: #e7ededab;
+    width: 100%;
+}
+.wpr-home-collaspe {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    float: none !important;
+}
+.wpr-tab {
+    padding: 0px !important;
+}
+.wpr-view-header {
+    padding: 0px !important; 
+    margin-top: -11px;
+}
+.wpr-account-2{
+    margin-left: -119px;
+}
+.wpr-account-2 a{
+    margin-left: 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.wpr-account-2 a:last-of-type {
+    margin-top: 5px;
+    display: block;
+}
+.wpr_li_check {
+    width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .wpr-pr-hidden {
+        display: none!important;
+  }
+}
+@media screen and (max-width: 767px) {
+    .wpr-pr-coverphoto {
+        height: 101px;
+  }
+}
+@media screen and (max-width: 767px) {
+    .wpr-pr-userphotp {
+        margin-top: 0 !important;
+  }
+}
+
+@media (max-width: 480px){
+   .wpr-last-view > div {
+       float: none !important;
+       margin-bottom: 0px !important;
+   }
+   .wpr-last-view{
+       width: unset !important;
+   }
+}
+.wpr-profile-wrapper {
+   width:100% !important;
+}
+/* 
+    2.3- Edit Profile Template CSS
+*/
+.wpr-pr-spinner-wrapper input{
+    float: right;
+}
+.wpr-pr-spinner-wrapper input:disabled{
+    cursor: pointer;
+}
+.wpr-spinner{
+    background: url(wpr-loader.gif) no-repeat;
+    background-size: 20px 20px;
+    display: inline-block;
+    float: left;
+    vertical-align: middle;
+    opacity: .7;
+    width: 20px;
+    height: 20px;
+    margin: 4px 10px 0;
+}
+.wpr-pr-header {
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    height: 53px;
+}
+.wpr-pr-body {
+    background: #00000008;
+}
+.wpr-pr-btn {
+    float: right; 
+    margin-right: 9px; 
+    padding-top: 20px;
+}
+.wpr-myaccount{
+    float: right;
+    margin-top: 6px !important;
+}
+
+/*woocommerce tab css*/
+.woocommerce a:hover,a:focus{
+    text-decoration: none;
+    outline: none;
+}
+.woocommerce .tab .nav-tabs{
+    border: none;
+    margin-left: 22px;
+}
+.woocommerce .tab .nav-tabs li a{
+    padding: 10px 20px;
+    margin: 0 10px -1px 0;
+    font-size: 17px;
+    font-weight: 600;
+    color: #293241;
+    text-transform: uppercase;
+    border: 2px solid #e6e5e1;
+    border-radius: 5px 5px 0 0;
+    z-index: 1;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+.woocommerce .tab .nav-tabs li a:hover,
+.woocommerce .tab .nav-tabs li.active a{
+    background: #fff;
+    color: #079fc9;
+    border: 2px solid #079fc9;
+    border-bottom-color: transparent;
+}
+.woocommerce .tab .nav-tabs li.active a:before,
+.woocommerce .tab .nav-tabs li a:hover:before{ transform: scaleX(1); }
+.woocommerce .tab .tab-content{
+    padding: 10px;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    position: relative;
+    color: black;
+    margin-left: 16px;
+}
+@media only screen and (max-width: 479px){
+    .woocommerce .tab .nav-tabs{ border: none; }
+    .woocommerce .tab .nav-tabs li{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .woocommerce .tab .nav-tabs li a{
+        margin: 0;
+        border-bottom: 2px solid transparent;
+    }
+    .woocommerce .tab .nav-tabs li a:before{
+        content: "";
+        width: 100%;
+        height: 2px;
+        background: #079fc9;
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+    }
+} 
+.wpr-woocomerce-order {
+    box-shadow: 0px 0px 5px 0px rgba(114, 138, 142, 0.56);
+    border: 1px solid #8fe2ec;
+}
+.woocommerce-order-details h2,
+.wpr-woocomerce-order h2 {
+    color: white;
+    padding: 3px 0 4px 0;
+    font-family: 'FranchiseRegular','Arial Narrow',Arial,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: -8px solid rgba(0,0,0,.1);
+    background-color: #00bcd470;
+    width: 100%;
+    margin: 0px;
+    font-size: 24px;
+}
+.wpr-woocomerce-order table {
+    border-collapse: collapse !important; 
+    margin: 0px !important;
+}
+.wpr-woocomerce-order-detail table {
+    color: #7a7171;
+     border-collapse: collapse !important; 
+    border-radius: 5px;
+    margin: 0px !important;
+}
+.wpr-woocomerce-order tbody > tr:nth-child(odd),
+.wpr-woocomerce-order-detail tbody > tr:nth-child(odd) {
+    background: #f1f2f3;
+}
+.wpr-woocomerce-order-detail {
+    box-shadow: 0px 0px 5px 0px rgba(114, 138, 142, 0.56);
+    border: 1px solid #8fe2ec;
+    margin-top: 20px;
+}
+.woocommerce-customer-details h2{
+    font-size: 24px;
+    margin-left: 14px !important;
+}
+.wpr-woocomerce-biling h3 {
+    color: white;
+    padding: 7px 0 10px 0;
+    font-family: 'FranchiseRegular','Arial Narrow',Arial,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: -8px solid rgba(0,0,0,.1);
+    background-color: #00bcd470;
+    width: 100%;
+    margin: 0px;
+}
+.wpr-woocomerce-biling a {
+    float: right;
+    margin: 6px;
+    padding: 1px;
+    font-size: 14px;
+    line-height: 14px;
+    color: blue;
+}
+.wpr-woocomerce-biling div > div:nth-child(1), 
+.wpr-woocomerce-biling div > div:nth-child(2){
+        box-shadow: 0px 0px 5px 0px rgba(114, 138, 142, 0.56);
+        border: 1px solid #8fe2ec;
+        background: white;
+}
+.woocommerce-customer-details address,
+.wpr-woocomerce-biling address{
+    padding: 12px;
+    border: none !important;
+}
+.wpr-woocomerce-alert {
+    margin: 21px auto;
+    width: 50%;
+    border: 1px solid #dad3d3;
+}
+.wpr-woocomerce-alert h2 {
+    color: white;
+    font-family: 'FranchiseRegular','Arial Narrow',Arial,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: -8px solid rgba(0,0,0,.1);
+    background-color: #00bcd470;
+    width: 100%;
+    margin: 0px;
+
+} 
+.wpr-woocomerce-alert p{
+    padding: 15px;
+    font-size: 17px;
+}
+
+/* 
+    2.4- Profile Photo Uploader CSS
+*/
+button:focus { 
+    outline: 0; 
+} 
+
+.wpr-file-btn { 
+    position: relative; 
+} 
+.wpr-file-btn input[type="file"] { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    opacity: 0; 
+}
+.wpr-upload-actions { 
+    padding: 5px 0; 
+} 
+.wpr-upload-actions button { 
+    margin-right: 5px;
+    margin-left: 28pc;
+    margin-bottom: 2pc;
+    background-color: #189094; 
+    color: white; 
+    padding: 10px 15px; 
+    border-radius: 3px; 
+    border: 1px solid rgba(255, 255, 255, 0.5); 
+    font-size: 16px; 
+    cursor: pointer; 
+    text-decoration: none; 
+    text-shadow: none;
+}
+.wpr-photo-size-show {
+    float: right;
+    background-color: #d0d7d8cf;
+    font-size: 12px;
+    font-family: -webkit-pictograph;
+    width: 20%;
+    height: 25px;
+    padding-top: 4px;
+    padding-left: 6px;
+}
+.crop{
+    display:none
+}
+#wpr-profile-demo {
+    float: left;
+    color: #161716;
+    background-color: #3b9fcc75;
+    padding: 7px;
+    border-left: 10px solid #3d7b97;
+}
+
+/*--------------------------------------
+    3- Login And Password Reset Section
+----------------------------------------*/
+.wpr-login-wrapper{
+    width: 44%;
+}
+.wpr-login-forget{
+    margin-left: -13px;
+    text-decoration: none;
+}
+.wpr-login-wrapper, .wpr-pass-reset-wrapper{
+    width: 55%;
+}
+.wpr-login-wrapper i, .wpr-pass-reset-wrapper i{
+    font-size: 16px;
+    vertical-align: middle;
+    color: #01cd74;
+    box-sizing: border-box;
+    float: left;
+    width: 6%;
+    margin-top: 13px;
+    text-align: center;
+}
+.wpr-login-wrapper form, .wpr-pass-reset-wrapper form{
+    text-align: center;
+}
+.wpr-error{
+    padding: 9px;
+    background-color: #fafac9;
+    border-left: 11px solid red;
+}
+.wpr-login-inputs{
+    margin-bottom: 15px;
+    padding: 0px 10px;
+    border: 1px solid #bbb;
+    height: 45px;
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+.wpr-login-inputs span{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.wpr-login-inputs input{
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    letter-spacing: 1px;
+    padding: 12px 10px 12px 10px;
+    width: 90%;
+    height: 43px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: 'Raleway', sans-serif;
+}
+@media (max-width: 448px){
+    .wpr-login-inputs input {
+        font-size: 8px !important;
+        padding: 0px;
+        width: 85%;
+    }
+}
+.wpr-login-inputs:hover{
+    border-color: #03A9F4;
+}
+.wpr-login-wrapper .wpr-login-pass-area input[type="submit"],
+.wpr-pass-reset-wrapper .wpr-pass-reset-area input[type="submit"]{
+    color: #fff;
+    background-color: #37A000;
+    border-color: transparent;
+    width: 50%;
+    border-radius: unset;
+}
+.wpr-login-rememberme{
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.wpr-login-rememberme label, .wpr-login-rememberme input{
+    cursor: pointer;
+}
+.wpr-login-forgetpass{
+    margin-left: -13px;
+    text-decoration: none;
+    text-align: right;
+}
+.wpr-signup-user{
+    border-top: 1px solid#888;
+    padding-top:15px;
+}
+.wpr-signup-user input[type="button"]{
+    width: 35%;
+    color: #008329;
+    background-color: #fff;
+    border-color: transparent;
+    box-shadow: 0 2px 10px 1px rgba(57,73,76,0.4), 0 1px 2px rgba(57,73,76,0.25);
+}
+.wpr-login-wrapper input:-webkit-autofill, .wpr-pass-reset-wrapper input:-webkit-autofill{
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    background-color: transparent;
+}
+.wpr-login-wrapper input::placeholder, .wpr-pass-reset-wrapper input::placeholder{
+    color: gray;
+}
+@media (max-width: 767px){
+    .wpr-login-wrapper {
+        width: 100%;
+    }
+    .wpr-pass-reset-wrapper{
+        width: 100%;
+    }
+}
+@media (max-width: 500px){
+    .wpr-login-wrapper input[type="submit"]{
+        width: 100% !important;
+    }
+    .wpr-pass-reset-wrapper input[type="submit"]{
+        width: 100% !important;
+    }
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus
+input:-webkit-autofill, 
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/*----------------------------
+    4-Class.social Button CSS
+------------------------------*/
+.wpr_or_wrapper{
+    text-align: center; */
+    margin: 0; 
+    margin-bottom: 10px; 
+    clear: both; 
+    color: #6a737c; 
+    font-variant: small-caps;
+}
+#wpr-or-text{
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    background-color: #d6e9ea;
+}
+.wpr-or-line{
+    width: 53%;
+    margin-bottom: 0;
+    position: relative;
+    top: 19px;
+    height: 0;
+    border: 0;
+    border-top: 1px solid black;
+}
+.wpr-btn-circle {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 33px;
+    font-size: 25px;
+    line-height: 1.428571429;
+    overflow: hidden;
+}
+.wpr-social-ct{
+    list-style: none;
+}
+
+/*// weak password css*/
+.short{
+    font-weight:bold;
+    color:#FF0000;
+   /* font-size:larger;*/
+    margin-left: 4px;
+    margin-top: -15px;
+    display: block;
+    font-style: italic;
+    font-size: 12px;
+}
+.weak {
+    font-weight:bold;
+    color:orange;
+    /*font-size:larger;*/
+    margin-left: 4px;
+    margin-top: -15px;
+    display: block;
+    font-style: italic;
+    font-size: 12px;
+}
+.good {
+    font-weight:bold;
+    color:#2D98F3;
+    /*font-size:larger;*/
+    margin-left: 4px;
+    margin-top: -15px;
+    display: block;
+    font-style: italic;
+    font-size: 12px;
+}
+.strong {
+    /*font-weight:bold;*/
+    color: limegreen;
+    /*font-size:larger;*/
+    margin-left: 4px;
+    margin-top: -15px;
+    display: block;
+    font-style: italic;
+    font-size: 12px;
+}
+
+/*css of last page view*/
+.wpr-last-view {
+    position: absolute;
+    bottom: 0px;
+    width: 96%;
+}
+.wpr-last-view > span:first-child{
+    font-weight: 700;
+}
+.wpr-last-view > div{
+    float: right; 
+    margin-bottom: 16px;
+} 
+.wpr-last-view > div > span:first-child{
+    font-weight: 700;
+}
+
+
+/*css of delete account*/ 
+.wpr-delete-sign {
+    border: 1px solid #ffc124;
+    width: 15%;
+    padding: -11px;
+    font-size: 16px;
+    margin: 20px auto;
+    border-radius: 12px;
+    background-color: #ffc124;
+    height: 101px;
+}
+.wpr-delete-sign > h4{
+    text-align-last: center;
+    height: 21px;
+    margin-top: 12px;
+}
+.wpr-delete-sign > i{
+    text-align: center;
+    display: block;
+    font-size: 50px;
+    color: #b71c1c;
+    text-align: center;
+    color: #b71c1c;
+} 
+.wpr-conform-text{
+    font-size: 16px;
+    font-weight: 700;
+}
+.wpr-delete-btn{
+    float: right;
+    margin-bottom: 10px;
+}
+@media (max-width: 998px){
+   .wpr-delete-sign {
+        border: 1px solid #ffc124;
+        width: 23%;
+        padding: -11px;
+        font-size: 16px;
+        margin: 20px auto;
+        border-radius: 12px;
+        background-color: #ffc124;
+        height: 101px;
+    }
+}
+
+@media (max-width: 540px){
+   .wpr-delete-sign > h4 {
+        font-size: 11px;
+    }
+    .wpr-delete-sign > i {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 768px){
+    .wpr-delete-btn {
+        text-align: center;
+        /*margin-bottom: 10px;*/
+        float: initial;
+    }
+}
+
+::placeholder {
+    color: black;
+    opacity: 1; /* Firefox */
+}
+
+.wpr_msg_box {
+    margin-top: 7px;
+    border: 1px solid #03A9F4;
+    background: #00bcd42e;
+    padding-top: 7px;
+} 
+
+.wpr_msg_box > p{
+
+    text-align: center;
+    margin-left: 22px;
+    margin-right: 20px;
+    font-family: -webkit-body;
+    font-size: 15px;
+}
+.fade-scale {
+  transform: scale(0);
+  opacity: 0;
+  -webkit-transition: all .25s linear;
+  -o-transition: all .25s linear;
+  transition: all .25s linear;
+}
+
+.fade-scale.in {
+  opacity: 1;
+  transform: scale(1);
+}
+/*----------------------------
+    4-Class.social Button CSS
+------------------------------*/
+.wpr_or_wrapper{
+    text-align: center; 
+    margin: 0; 
+    margin-bottom: 10px; 
+    clear: both; 
+    color: #6a737c; 
+    font-variant: small-caps;
+}
+#wpr-or-text{
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    background-color: #ffffff;
+}
+.wpr-btn-circle {
+    width: 50px;
+    height: 50px;
+    text-align: center !important;
+    display: inline-block;
+    border-radius: 33px;
+    font-size: 25px;
+    line-height: 1.428571429;
+    overflow: hidden;
+}
+.wpr-btn-md i  {
+     font-size: unset; 
+     vertical-align: unset; 
+     color: #ffffff; 
+     box-sizing: unset; 
+     float: none; 
+    width: 6%;
+     margin-top: 0px; 
+     text-align: none; 
+}
+.wpr-btn-circle i {
+     padding: 0px 7px 0px 6px;
+    font-size: 21px
+    vertical-align: middle;
+     color: white !important; 
+    width: 6%;
+    text-align: center !important;
+}
+.wpr-social-ct{
+    list-style: none;
+}

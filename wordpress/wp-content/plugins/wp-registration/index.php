@@ -1,0 +1,3 @@
+<?php
+/**
+** Slinces is gold ....

@@ -1,0 +1,145 @@
+/**
+CSS apply on admin-setting file
+**/
+[data-advance="set_advance"]{
+    /*display: none;*/
+}
+.wpr-heading-line{
+    width:97%;
+}
+.wpr-spinner{
+    background: url(wpr-loader.gif) no-repeat;
+    background-size: 20px 20px;
+    display: inline-block;
+    vertical-align: middle;
+    opacity: .7;
+    width: 20px;
+    height: 20px;
+    margin: 4px 10px 0;
+}
+.wpr_sub_st_control input:disabled{
+    cursor: pointer;
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+}
+
+/*end work*/
+.wpr-settings-wrapper{
+    border: 2px solid #d1d2d473 ;
+    padding: 25px;
+    width: 99%;
+    background-color: #ffffff;
+}
+.wpr-label-text{
+    font-style: normal;
+    display: block;
+    font-size: 16px !important;
+    font-family: serif !important;
+    font-variant: slashed-zero; 
+}
+.wpr-desc-text{
+    font-size: 12px !important;
+    display: block;
+    font-style: italic;
+    margin-left: -123px !important;
+    color: #a09393;
+}
+.wpr-text-option{
+    margin-top: 0px;
+    width: 65%;
+}
+.wpr-select-design{
+    width: 63%;
+    background-color: #c4cacf42;
+    border-radius: 6px;
+}
+.wpr-alert-display{
+    display: none;
+}
+.wpr_save_alert{
+    padding: 7px;
+    background-color: #efd9d9;
+    margin-left: 88px;
+    margin-top: -37px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    border-left: 9px solid #46b450;
+}
+.wpr_sub_st_control{
+    display: block;
+    margin-top: 14px;
+}
+.tb-control{
+    table-layout: fixed;
+}
+.wpr-chk-option{
+    display: inline;
+    margin-left: 7px;
+}
+.wpr-option-width{
+    width: 63% !important;
+    display: block;
+}
+/*end of this file css*/
+
+.wpr-divider-heading {
+    background: #dbdcde !important; 
+    font-weight: bold;
+}
+.form-table tr:not(.wpr-divider-heading) td.wpr-label-text {
+    padding-left: 35px !important;
+}
+.form-table td {
+    padding: 9px !important;
+ }
+.color {
+    color: #00a0d2;
+}
+.wpr-img-control {
+    width: 10%;
+    height: 24px;
+    display: inline;
+    margin-right: 7px;
+}
+ /*6- Css for how to use*/
+li > pre {
+    display: inline;
+    padding: 0px;
+    font-size: 15px;
+}
+
+ol li:nth-child(1) a {
+    color: #378ed3;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+ol li:nth-child(1) a:hover {
+    color: #1ab220;
+    background-color: transparent;
+    text-decoration: none;
+} 
+ol li:nth-child(2) pre {
+    margin-left: 70px;
+}
+ol li:nth-child(3) pre {
+    margin-left: 24px;
+}
+ol li:nth-child(4) pre {
+    margin-left: 64px;
+}
+ol li:nth-child(5) pre {
+    margin-left: 53px;
+} 
+.dashboard_link {
+    color: #378ed3 !important;
+    background-color: transparent;
+    text-decoration: none;
+}
+.dashboard_link:hover {
+    color: #1ab220 !important;
+    background-color: transparent;
+    text-decoration: none;
+}

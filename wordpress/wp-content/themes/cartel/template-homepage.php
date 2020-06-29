@@ -6,7 +6,6 @@
  * @package cartel
  */
 
-[AWL-BlogFilter blog_image="yes" blog_image_quality="medium" blog_image_hover_effect="hover1" blog_title="yes" blog_title_color="#000" blog_desc="yes" blog_desc_words="100" blog_read_more="yes" blog_read_more_text="Read More" blog_date="yes" blog_pagination="yes" blog_filters="yes" blog_buttons_color="#58BBEE" blog_filtering="blog_category" selected_categories="" custom-css=" " ]
 get_header(); ?>
 
     <div id="masonry">

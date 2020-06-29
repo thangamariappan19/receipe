@@ -1,0 +1,1770 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: N-Media WP Member Registration\n"
+"POT-Creation-Date: 2018-09-21 20:40+0500\n"
+"PO-Revision-Date: 2018-09-21 20:41+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: af\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-registration.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/admin.php:17 inc/admin.php:18 inc/admin.php:52 inc/admin.php:53
+#: inc/admin.php:54 inc/admin.php:55 inc/classes/class.dashboard.php:256
+#: inc/classes/class.dashboard.php:279 inc/classes/class.dashboard.php:290
+#: inc/classes/class.dashboard.php:294 inc/classes/class.dashboard.php:302
+#: inc/classes/class.dashboard.php:306 inc/classes/class.dashboard.php:380
+#: inc/classes/class.email.php:77 inc/classes/class.field.php:105
+#: inc/classes/class.field.php:148 inc/classes/class.field.php:152
+#: inc/classes/class.field.php:255 inc/classes/class.settings.php:183
+#: inc/classes/class.settings.php:194 inc/classes/class.settings.php:220
+#: inc/classes/class.user.php:374 inc/helpers.php:233 inc/hooks.php:48
+#: inc/shortcodes.php:142 lib/class.mailchimp.php:160
+#: lib/class.sendinblue.php:101 templates/admin/restrict-content.php:39
+#, fuzzy, php-format
+msgid "%s"
+msgstr "%s"
+
+#: inc/admin.php:164 inc/classes/class.dashboard.php:63
+#: templates/admin/admin-setting.php:11
+#, fuzzy
+msgid "WP Registration"
+msgstr "WP registrasie"
+
+#: inc/admin.php:165
+msgid "Settings"
+msgstr "Vertellings"
+
+#: inc/admin.php:186
+#, fuzzy
+msgid "Shortcodes"
+msgstr "Short"
+
+#: inc/admin.php:212
+msgid "General Settings"
+msgstr "Algemene Verstellings"
+
+#: inc/admin.php:241
+#, fuzzy
+msgid "GDPR"
+msgstr "GDPR"
+
+#: inc/admin.php:268
+#, fuzzy
+msgid "Design Form"
+msgstr "Ontwerp vorm"
+
+#: inc/admin.php:294
+#, fuzzy
+msgid "Email Templates"
+msgstr "E-pos patrone"
+
+#: inc/admin.php:451
+#, fuzzy
+msgid "New User Notification"
+msgstr "Verwittiging van nuwe gebruiker"
+
+#: inc/admin.php:452
+#, fuzzy
+msgid "Select member to send new user notification via email."
+msgstr "Kies lid nuwe gebruiker kennisgewing via e-pos stuur."
+
+#: inc/admin.php:458
+#, fuzzy
+msgid "After Login"
+msgstr "Na aantekening"
+
+#: inc/admin.php:459
+#, fuzzy
+msgid "Enter the url to redirect after login."
+msgstr "Tik die url herlei na login."
+
+#: inc/admin.php:464
+#, fuzzy
+msgid "After Registration"
+msgstr "Na registrasie"
+
+#: inc/admin.php:465
+#, fuzzy
+msgid "Enter the url to redirect after the sing up."
+msgstr "Tik die url herlei na die sing op."
+
+#: inc/admin.php:470
+#, fuzzy
+msgid "After Logout"
+msgstr "Na jou afteken"
+
+#: inc/admin.php:471
+#, fuzzy
+msgid "Enter the url to redirect after logout."
+msgstr "Tik die url na teken af herlei."
+
+#: inc/admin.php:476
+#, fuzzy
+msgid "Profile Link Base"
+msgstr "Profiel skakel basis"
+
+#: inc/admin.php:477
+#, fuzzy
+msgid "Select the link using show User Profile"
+msgstr "Kies die skakel met behulp van wys gebruikersprofiel"
+
+#: inc/admin.php:485
+#, fuzzy
+msgid "Profile Page"
+msgstr "Profiel bladsy"
+
+#: inc/admin.php:486
+#, fuzzy
+msgid "Set Profile Page"
+msgstr "Stel profiel bladsy"
+
+#: inc/admin.php:492
+#, fuzzy
+msgid "Account Page"
+msgstr "Rekening bladsy"
+
+#: inc/admin.php:493
+#, fuzzy
+msgid "Set account page."
+msgstr "Stel rekening bladsy."
+
+#: inc/admin.php:498
+#, fuzzy
+msgid "Register Page"
+msgstr "Register bladsy"
+
+#: inc/admin.php:499
+#, fuzzy
+msgid "Set register page."
+msgstr "Stel register bladsy."
+
+#: inc/admin.php:504
+#, fuzzy
+msgid "Login Page"
+msgstr "Aanteken bladsy"
+
+#: inc/admin.php:505
+#, fuzzy
+msgid "Set login page."
+msgstr "Stel aanteken bladsy."
+
+#: inc/admin.php:510
+#, fuzzy
+msgid "Logout Page"
+msgstr "Teken af bladsy"
+
+#: inc/admin.php:511
+#, fuzzy
+msgid "Set logout page."
+msgstr "Stel jou afteken bladsy."
+
+#: inc/admin.php:516
+#, fuzzy
+msgid "Password Reset Page"
+msgstr "Wagwoord terugstel bladsy"
+
+#: inc/admin.php:517
+#, fuzzy
+msgid "Set password Reset page."
+msgstr "Stel wagwoord terugstel bladsy."
+
+#: inc/admin.php:537 inc/admin.php:541
+#, fuzzy
+msgid "User status updated to "
+msgstr "Gebruiker status bygewerk om"
+
+#: inc/classes/class.dashboard.php:64
+#, fuzzy
+msgid "Dashboard"
+msgstr "Paneelbord"
+
+#: inc/classes/class.dashboard.php:198
+#, fuzzy
+msgid "Please select any Role and Form"
+msgstr "Kies asseblief enige rol en vorm"
+
+#: inc/classes/class.dashboard.php:227
+#, fuzzy
+msgid "Please write the message"
+msgstr "Skryf asseblief die boodskap"
+
+#: inc/classes/class.dashboard.php:251 inc/classes/class.dashboard.php:273
+#, fuzzy
+msgid "Select Role:"
+msgstr "Kies rol:"
+
+#: inc/classes/class.dashboard.php:253 inc/classes/class.dashboard.php:276
+#, fuzzy
+msgid "All"
+msgstr "Alle"
+
+#: inc/classes/class.dashboard.php:275
+#, fuzzy
+msgid "Select Role"
+msgstr "Kies rol"
+
+#: inc/classes/class.dashboard.php:319
+#, fuzzy
+msgid "your previous plugin not install"
+msgstr "jou vorige plugin nie installeer"
+
+#: inc/classes/class.field.php:33
+#, fuzzy
+msgid "Registration Fields"
+msgstr "Registrasie velde"
+
+#: inc/classes/class.field.php:114 inc/classes/class.font-icon.php:98
+#, fuzzy
+msgid "close"
+msgstr "maak toe"
+
+#: inc/classes/class.field.php:115
+#, fuzzy
+msgid "Add Field"
+msgstr "Voeg veld"
+
+#: inc/classes/class.field.php:266
+msgid "Option"
+msgstr "Opsie"
+
+#: inc/classes/class.field.php:302 templates/admin/fields.php:118
+#: templates/admin/fields.php:132
+msgid "Title"
+msgstr "Titel"
+
+#: inc/classes/class.field.php:303
+#, fuzzy
+msgid "It will be shown as field label"
+msgstr "Sal aangetoon word as veld etiket"
+
+#: inc/classes/class.field.php:312 templates/admin/fields.php:116
+#: templates/admin/fields.php:130
+#, fuzzy
+msgid "Field ID"
+msgstr "Veld ID"
+
+#: inc/classes/class.field.php:313
+#, fuzzy
+msgid ""
+"REQUIRED: The identification name of this field, that you can insert into "
+"body email configuration. Note:Use only lowercase characters and underscores."
+msgstr ""
+"VEREIS: Die identifikasie naam van hierdie gebied, wat jy kan sit in liggaam "
+"e-pos konfigurasie. Let wel: gebruik slegs onderkasletters karakters en "
+"onderstrepies."
+
+#: inc/classes/class.field.php:322
+#, fuzzy
+msgid "Description"
+msgstr "Beskrywing"
+
+#: inc/classes/class.field.php:323
+#, fuzzy
+msgid "Small description, it will be diplay near name title."
+msgstr "Klein beskrywing, dit diplay naby naam titel sal wees."
+
+#: inc/classes/class.field.php:331
+#, fuzzy
+msgid "Error message"
+msgstr "Foutboodskap"
+
+#: inc/classes/class.field.php:332
+#, fuzzy
+msgid "Insert the error message for validation."
+msgstr "Voeg die fout boodskap vir bevestiging."
+
+#: inc/classes/class.field.php:341 templates/admin/fields.php:120
+#: templates/admin/fields.php:134
+msgid "Required"
+msgstr "Vereis"
+
+#: inc/classes/class.field.php:342
+#, fuzzy
+msgid "Select this if it must be required."
+msgstr "Kies hierdie as dit vereis moet word."
+
+#: inc/classes/class.field.php:350
+#, fuzzy
+msgid "Class"
+msgstr "Klas"
+
+#: inc/classes/class.field.php:351
+#, fuzzy
+msgid ""
+"Insert an additional class(es) (separateb by comma) for more personalization."
+msgstr "Sit 'n addisionele class(es) (separateb deur komma) meer persona."
+
+#: inc/classes/class.field.php:360
+#, fuzzy
+msgid "Width"
+msgstr "Breedte"
+
+#: inc/classes/class.field.php:361
+#, fuzzy
+msgid "Select column for this field from 12 columns Grid"
+msgstr "Kolom vir hierdie veld kies uit 12 kolomme rooster"
+
+#: inc/classes/class.field.php:388
+#, fuzzy
+msgid "Add options"
+msgstr "Voeg opsies"
+
+#: inc/classes/class.field.php:389
+#, fuzzy
+msgid "Enter multiple options."
+msgstr "Tik verskeie opsies."
+
+#: inc/classes/class.field.php:397
+#, fuzzy
+msgid "Defualt selected Option"
+msgstr "Verstak opsie gekies"
+
+#: inc/classes/class.field.php:398
+#, fuzzy
+msgid "Type option name (given above) if you want already selected."
+msgstr "Tik opsie naam (hierbo) as jy reeds geselekteerde."
+
+#: inc/classes/class.field.php:406
+#, fuzzy
+msgid "Checked option(s)"
+msgstr "Gekontroleerde option(s)"
+
+#: inc/classes/class.field.php:407
+#, fuzzy
+msgid ""
+"Type each option(s) name seprated by comma(e,g option1, option2) if you want "
+"already checked."
+msgstr ""
+"Tik elke option(s) naam seprated deur komma (e, g option1, option2) as jy "
+"reeds gemerk."
+
+#: inc/classes/class.field.php:415
+#, fuzzy
+msgid "Min checked option(s)"
+msgstr "Min gekontroleer option(s)"
+
+#: inc/classes/class.field.php:416
+#, fuzzy
+msgid ""
+"How many options can be checked by user e.g: 2. Leave blank for default."
+msgstr ""
+"Hoeveel opsies kan gekontroleer word deur gebruiker bv: 2. laat leeg vir "
+"verstek."
+
+#: inc/classes/class.field.php:424
+#, fuzzy
+msgid "Max checked option(s)"
+msgstr "Max gekontroleer option(s)"
+
+#: inc/classes/class.field.php:425
+#, fuzzy
+msgid ""
+"How many options can be checked by user e.g: 3. Leave blank for default."
+msgstr ""
+"Hoeveel opsies kan gekontroleer word deur gebruiker bv: 3. laat leeg vir "
+"verstek."
+
+#: inc/classes/class.field.php:433
+msgid "Icon"
+msgstr "Ikoon"
+
+#: inc/classes/class.field.php:434
+#, fuzzy
+msgid ""
+"Select an icon to appear in the field. Leave blank if you do not want an "
+"icon to show in the field."
+msgstr ""
+"Selekteer 'n ikoon om te verskyn in die veld. Laat leeg as jy nie wil hê dat "
+"'n ikoon om te wys in die veld."
+
+#: inc/classes/class.field.php:442 templates/admin/fields.php:119
+#: templates/admin/fields.php:133
+#, fuzzy
+msgid "Placeholder"
+msgstr "Plekhouer"
+
+#: inc/classes/class.field.php:443
+#, fuzzy
+msgid "Type field Placeholder."
+msgstr "Tipe veld plekhouer."
+
+#: inc/classes/class.field.php:449 inc/classes/class.field.php:491
+#: inc/classes/class.restriction.php:65 inc/helpers.php:213 inc/helpers.php:344
+#: inc/helpers.php:387
+msgid "Select"
+msgstr "Selekteer"
+
+#: inc/classes/class.field.php:450
+#, fuzzy
+msgid "Registration only"
+msgstr "Registrasie slegs"
+
+#: inc/classes/class.field.php:451
+#, fuzzy
+msgid "Profile only"
+msgstr "Profiel slegs"
+
+#: inc/classes/class.field.php:452 inc/helpers.php:378
+#, fuzzy
+msgid "Both"
+msgstr "Beide"
+
+#: inc/classes/class.field.php:457
+#, fuzzy
+msgid "Visible"
+msgstr "Sigbaar"
+
+#: inc/classes/class.field.php:458
+#, fuzzy
+msgid "There are following form type to show this field."
+msgstr "Daar na aanleiding van vorm tipe wys hierdie veld."
+
+#: inc/classes/class.field.php:470
+#, fuzzy
+msgid "Default - mm/dd/yy"
+msgstr "Verstek - mm/dd/dDie"
+
+#: inc/classes/class.field.php:471
+#, fuzzy
+msgid "ISO 8601 - yy-mm-dd"
+msgstr "ISO 8601 - dDie-mm-dd"
+
+#: inc/classes/class.field.php:472
+#, fuzzy
+msgid "Short - d M, y"
+msgstr "Kort - d M, y"
+
+#: inc/classes/class.field.php:473
+#, fuzzy
+msgid "Medium - d MM, y"
+msgstr "Medium - d MM, y"
+
+#: inc/classes/class.field.php:474
+#, fuzzy
+msgid "Full - DD, d MM, yy"
+msgstr "Vol - DD, d MM, dDie"
+
+#: inc/classes/class.field.php:475
+#, fuzzy
+msgid "With text - 'day' d 'of' MM 'in the year' yy"
+msgstr "Met teks - 'dag' d 'van' MM 'in die jaar' dDie"
+
+#: inc/classes/class.field.php:480
+#, fuzzy
+msgid "Date formats"
+msgstr "Datum formate"
+
+#: inc/classes/class.field.php:481
+#, fuzzy
+msgid "Select date format."
+msgstr "Kies datum formaat."
+
+#: inc/classes/class.field.php:492 inc/classes/class.user.php:84
+#: templates/shortcodes/login.php:37
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: inc/classes/class.field.php:493 inc/classes/class.user.php:88
+msgid "First Name"
+msgstr "Naam"
+
+#: inc/classes/class.field.php:494 inc/classes/class.user.php:90
+#, fuzzy
+msgid "Last Name"
+msgstr "Laaste naam"
+
+#: inc/classes/class.field.php:495 inc/classes/class.user.php:86
+msgid "Email"
+msgstr "E-posadres"
+
+#: inc/classes/class.field.php:496 templates/shortcodes/login.php:47
+#, fuzzy
+msgid "Password"
+msgstr "Wagwoord"
+
+#: inc/classes/class.field.php:497
+#, fuzzy
+msgid "Website"
+msgstr "Webwerf"
+
+#: inc/classes/class.field.php:498
+#, fuzzy
+msgid "Nickname"
+msgstr "Bynaam"
+
+#: inc/classes/class.field.php:499
+#, fuzzy
+msgid "Display Name"
+msgstr "Vertoon naam"
+
+#: inc/classes/class.field.php:500
+#, fuzzy
+msgid "Jabber Account"
+msgstr "Jabber rekening"
+
+#: inc/classes/class.field.php:501
+#, fuzzy
+msgid "AOL IM Account"
+msgstr "AOL IM rekening"
+
+#: inc/classes/class.field.php:502
+#, fuzzy
+msgid "Yahoo IM"
+msgstr "Yahoo IM"
+
+#: inc/classes/class.field.php:503
+#, fuzzy
+msgid "About User"
+msgstr "Oor gebruiker"
+
+#: inc/classes/class.field.php:508
+#, fuzzy
+msgid "WP Fields"
+msgstr "WP velde"
+
+#: inc/classes/class.field.php:509
+#, fuzzy
+msgid "Set as Core WP Field"
+msgstr "Stel as kern WP veld"
+
+#: inc/classes/class.field.php:518
+msgid "Everyone"
+msgstr "Almal"
+
+#: inc/classes/class.field.php:519
+msgid "Members"
+msgstr "Lede"
+
+#: inc/classes/class.field.php:520
+#, fuzzy
+msgid "Only visible to profile owner and admins"
+msgstr "Slegs sigbare profiel eienaar en administrateurs"
+
+#: inc/classes/class.field.php:521
+#, fuzzy
+msgid "Only visible to profile owner and specific roles"
+msgstr "Slegs sigbare profiel eienaar en spesifieke rolle"
+
+#: inc/classes/class.field.php:522
+#, fuzzy
+msgid "Only specific member roles"
+msgstr "Slegs spesifieke lid rolle"
+
+#: inc/classes/class.field.php:528
+#, fuzzy
+msgid "Privacy"
+msgstr "Privaatheid"
+
+#: inc/classes/class.field.php:529
+#, fuzzy
+msgid ""
+"Field privacy allows you to select who can view this field on the front-end. "
+"The site admin can view all fields regardless of the option set here."
+msgstr ""
+"Veld privaatheid toelaat om te kies wat hierdie gebied op die front-end kan "
+"besigtig. Die webwerf admin kan alle velde ongeag die opsie stel hier bekyk."
+
+#: inc/classes/class.field.php:539
+#, fuzzy
+msgid "Member Roles"
+msgstr "Lid rolle"
+
+#: inc/classes/class.field.php:540
+#, fuzzy
+msgid "Select the member roles that can view this field on the front-end."
+msgstr "Kies die lid rolle wat hierdie veld kan besigtig op die front-end."
+
+#: inc/classes/class.field.php:549
+#, fuzzy
+msgid "Default Value"
+msgstr "Verstek waarde"
+
+#: inc/classes/class.field.php:550
+#, fuzzy
+msgid "Enter defualt value."
+msgstr "Tik verstak waarde."
+
+#: inc/classes/class.field.php:561
+#, fuzzy
+msgid "WordPress Fields"
+msgstr "WordPress velde"
+
+#: inc/classes/class.field.php:562
+#, fuzzy
+msgid "<i class=\"fa fa-list\" aria-hidden=\"true\"></i>"
+msgstr "<i class=\"fa fa-list\" aria-hidden=\"true\"></i>"
+
+#: inc/classes/class.field.php:563
+#, fuzzy
+msgid "WordPress Core Fields"
+msgstr "WordPress kern velde"
+
+#: inc/classes/class.field.php:571 templates/inputs/wp_field.php:58
+#, fuzzy
+msgid "Confirm Password"
+msgstr "Bevestig wagwoord"
+
+#: inc/classes/class.field.php:572
+#, fuzzy
+msgid "Select if you want user to confirm password."
+msgstr "Kies indien jy wil gebruiker Bevestig wagwoord."
+
+#: inc/classes/class.field.php:576
+#, fuzzy
+msgid "Accept Weak Password"
+msgstr "Aanvaar swak wagwoord"
+
+#: inc/classes/class.field.php:577
+#, fuzzy
+msgid "Select if you want user to register even it's setting weak password."
+msgstr ""
+"Kies indien jy wil gebruiker registreer selfs dit se instelling swak "
+"wagwoord."
+
+#: inc/classes/class.field.php:593
+msgid "Text Input"
+msgstr "Teks Invoer"
+
+#: inc/classes/class.field.php:594
+#, fuzzy
+msgid "<i class=\"fa fa-pencil-square-o\" aria-hidden=\"true\"></i>"
+msgstr "<i class=\"fa fa-pencil-square-o\" aria-hidden=\"true\"></i>"
+
+#: inc/classes/class.field.php:595
+#, fuzzy
+msgid "Textbox Field"
+msgstr "Textbox veld"
+
+#: inc/classes/class.field.php:614
+#, fuzzy
+msgid "Select Input"
+msgstr "Kies insette"
+
+#: inc/classes/class.field.php:615
+#, fuzzy
+msgid "<i class=\"fa fa-check\" aria-hidden=\"true\"></i> "
+msgstr "<i class=\"fa fa-check\" aria-hidden=\"true\"></i>"
+
+#: inc/classes/class.field.php:616
+#, fuzzy
+msgid "Select Field"
+msgstr "Kies veld"
+
+#: inc/classes/class.field.php:644
+#, fuzzy
+msgid "Radio Input"
+msgstr "Radio insette"
+
+#: inc/classes/class.field.php:645
+#, fuzzy
+msgid "<i class=\"fa fa-dot-circle-o\" aria-hidden=\"true\"></i>"
+msgstr "<i class=\"fa fa-dot-circle-o\" aria-hidden=\"true\"></i>"
+
+#: inc/classes/class.field.php:646
+#, fuzzy
+msgid "Radio Field"
+msgstr "Radio veld"
+
+#: inc/classes/class.field.php:665
+#, fuzzy
+msgid "Checkbox Input"
+msgstr "Merkblokkie vir insette"
+
+#: inc/classes/class.field.php:666
+#, fuzzy
+msgid "<i class=\"fa fa-check-square-o\" aria-hidden=\"true\"></i>"
+msgstr "<i class=\"fa fa-check-square-o\" aria-hidden=\"true\"></i>"
+
+#: inc/classes/class.field.php:667
+#, fuzzy
+msgid "Checkbox Field"
+msgstr "Merkblokkie skoon veld"
+
+#: inc/classes/class.field.php:688
+#, fuzzy
+msgid "Date Input"
+msgstr "Datum insette"
+
+#: inc/classes/class.field.php:689
+#, fuzzy
+msgid "<i class=\"fa fa-calendar\" aria-hidden=\"true\"></i>"
+msgstr "<i class=\"fa fa-calendar\" aria-hidden=\"true\"></i>"
+
+#: inc/classes/class.field.php:690
+msgid "Date Field"
+msgstr "Datum Veld"
+
+#: inc/classes/class.field.php:711
+#, fuzzy
+msgid "Year Range"
+msgstr "Jaar reeks"
+
+#: inc/classes/class.field.php:712
+#, fuzzy
+msgid "e.g: 1950:2016. (if jQuery enabled above) Set star/end year like "
+msgstr "bv: 1950:2016. (as jQuery geaktiveer hierbo) Stel ster/einde jaar soos"
+
+#: inc/classes/class.field.php:716
+#, fuzzy
+msgid "Default Date"
+msgstr "Verstek datum"
+
+#: inc/classes/class.field.php:717
+#, fuzzy
+msgid "Set default date in format selected below."
+msgstr "Stel verstek datum in formaat is wat hieronder geselekteer is."
+
+#: inc/classes/class.field.php:725
+#, fuzzy
+msgid "Textarea Input"
+msgstr "Textarea insette"
+
+#: inc/classes/class.field.php:726
+#, fuzzy
+msgid "<i class=\"fa fa-file-text-o\" aria-hidden=\"true\"></i>"
+msgstr "<i class=\"fa fa-file-text-o\" aria-hidden=\"true\"></i>"
+
+#: inc/classes/class.field.php:727
+#, fuzzy
+msgid "Textarea Field"
+msgstr "Textarea veld"
+
+#: inc/classes/class.font-icon.php:59 inc/classes/class.font-icon.php:79
+#, fuzzy
+msgid "Add Icon"
+msgstr "Voeg ikoon"
+
+#: inc/classes/class.font-icon.php:81
+#, fuzzy
+msgid "Icons"
+msgstr "Ikone"
+
+#: inc/classes/class.font-icon.php:86
+#, fuzzy
+msgid "search icons..."
+msgstr "Soek ikone..."
+
+#: inc/classes/class.login.php:179
+#, fuzzy, php-format
+msgid ""
+"Congratulations!, you have successfully verify your email. <a href=\"%s"
+"\">Login<a/>"
+msgstr ""
+"Baie geluk!, jy het suksesvol jou e-pos verifieer. <a href=\"%s\"> "
+"aantekening <a/>"
+
+#: inc/classes/class.login.php:183
+#, fuzzy
+msgid ""
+"Sorry!, Your account verification link is not valid, please contact admin."
+msgstr ""
+"Jammer!, jou rekening verifikasie skakel, is nie geldig nie, kontak "
+"asseblief admin."
+
+#: inc/classes/class.profile.php:133
+#, fuzzy
+msgid "Old password is empty!"
+msgstr "Ou wagwoord is leeg!"
+
+#: inc/classes/class.profile.php:134
+#, fuzzy
+msgid "New password is empty!"
+msgstr "Nuwe wagwoord is leeg!"
+
+#: inc/classes/class.profile.php:135
+#, fuzzy
+msgid "New password do not match!"
+msgstr "Nuwe wagwoord stem nie ooreen nie!"
+
+#: inc/classes/class.profile.php:277
+#, fuzzy
+msgid "Profile Setting"
+msgstr "Profiel instelling"
+
+#: inc/classes/class.profile.php:356
+#, fuzzy
+msgid "Profile update successfuly"
+msgstr "Profiel bywerking suksesvol"
+
+#: inc/classes/class.profile.php:396
+#, fuzzy
+msgid "Account Has Been Deleted"
+msgstr "Rekening geskrap"
+
+#: inc/classes/class.register.php:37
+#, fuzzy
+msgid "No WP Core fields were found."
+msgstr "Geen WP kern velde is gevind."
+
+#: inc/classes/class.register.php:160
+#, fuzzy
+msgid "Email not sent, please contact admin"
+msgstr "E-pos gestuur nie, skakel asseblief met admin"
+
+#: inc/classes/class.restriction.php:45
+#, fuzzy
+msgid "Content Restriction"
+msgstr "Inhoud beperking"
+
+#: inc/classes/class.restriction.php:66
+#, fuzzy
+msgid "Public"
+msgstr "Openbare"
+
+#: inc/classes/class.restriction.php:67
+#, fuzzy
+msgid "For All Members"
+msgstr "Vir alle lede"
+
+#: inc/classes/class.restriction.php:68
+#, fuzzy
+msgid "By User Role"
+msgstr "Deur gebruiker rol"
+
+#: inc/classes/class.restriction.php:148
+#, fuzzy
+msgid "You are not allowed to see these contents"
+msgstr "Jy word nie toegelaat om te sien hierdie inhoud"
+
+#: inc/classes/class.settings.php:111
+#, fuzzy
+msgid "Settings Saved"
+msgstr "Instellings gestoor"
+
+#: inc/classes/class.settings.php:142 templates/admin/consent_settings.php:29
+#: templates/admin/consent_settings.php:48
+#: templates/admin/profile-setting.php:37
+#: templates/admin/profile-setting.php:54
+#, fuzzy
+msgid "Yes"
+msgstr "Ja"
+
+#: inc/classes/class.settings.php:164
+#, fuzzy
+msgid "Advance Role Base Redirections"
+msgstr "Vooraf rol basis Redirections"
+
+#: inc/classes/class.settings.php:210 inc/classes/class.settings.php:236
+#, fuzzy
+msgid "No List Found"
+msgstr "Geen lys gevind"
+
+#: inc/classes/class.settings.php:244
+#, fuzzy
+msgid "Select page"
+msgstr "Kies bladsy"
+
+#: inc/classes/class.settings.php:303
+#, fuzzy
+msgid "Settings updated successfully"
+msgstr "Instellings suksesvol opgedateer"
+
+#: inc/classes/class.user.php:362
+#, fuzzy
+msgid "Password changed successfuly"
+msgstr "Wagwoord suksesvol verander"
+
+#: inc/cpt.php:15
+#, fuzzy
+msgctxt "wp-registration"
+msgid "WP Register"
+msgstr "WP Register"
+
+#: inc/cpt.php:16
+msgctxt "wp-registration"
+msgid "Add New"
+msgstr "Voeg nuwe by"
+
+#: inc/cpt.php:17
+msgid "Add New"
+msgstr "Voeg nuwe by"
+
+#: inc/cpt.php:18
+#, fuzzy
+msgid "Edit us"
+msgstr "Ons redigeer"
+
+#: inc/cpt.php:19
+#, fuzzy
+msgid "New Form"
+msgstr "Nuwe vorm"
+
+#: inc/cpt.php:20
+msgid "Edit Form"
+msgstr "Wysig vorm"
+
+#: inc/cpt.php:21
+msgid "View"
+msgstr "Besigtig"
+
+#: inc/cpt.php:22
+msgid "Form"
+msgstr "Vorm"
+
+#: inc/cpt.php:23
+msgid "Forms"
+msgstr "Vorms"
+
+#: inc/cpt.php:24
+msgid "Search Forms"
+msgstr "Soek Vorms"
+
+#: inc/cpt.php:25
+#, fuzzy
+msgid "No Form found."
+msgstr "Geen vorm gevind."
+
+#: inc/cpt.php:26
+#, fuzzy
+msgid "No Forms found in Trash."
+msgstr "Geen vorms in asblik gevind."
+
+#: inc/cpt.php:27
+#, fuzzy
+msgid "Parent Form"
+msgstr "Ouer vorm"
+
+#: inc/cpt.php:33
+#, fuzzy
+msgid "Registration Forms"
+msgstr "Registrasie vorms"
+
+#: inc/helpers.php:200
+#, fuzzy
+msgid "Just user First and Last like john_wyne"
+msgstr "Net gebruiker eerste en laaste soos john_wyne"
+
+#: inc/helpers.php:201
+#, fuzzy
+msgid "Postfix network name with firstname/Screen name like john_google"
+msgstr "Postfix netwerk naam met Dawie/skerm naam soos john_google"
+
+#: inc/helpers.php:202
+#, fuzzy
+msgid "Prefix network name with first name like google_john"
+msgstr "Prefix netwerknaam met eerste naam soos google_john"
+
+#: inc/helpers.php:203
+#, fuzzy
+msgid "Postfix timestamp name with firstname/Screen name like john_77474451"
+msgstr "Postfix timestamp naam met Dawie/skerm naam soos john_77474451"
+
+#: inc/helpers.php:204
+#, fuzzy
+msgid "Prefix timestamp name with firstname/Screen name like 77474451_john"
+msgstr "Prefix timestamp naam met Dawie/skerm naam soos 77474451_john"
+
+#: inc/helpers.php:214
+#, fuzzy
+msgid "Allow User to subscribe List himself?"
+msgstr "Laat gebruiker inteken lys homself?"
+
+#: inc/helpers.php:215
+#, fuzzy
+msgid "User will be automatically subscribed to following list?"
+msgstr "Gebruiker sal outomaties ingeteken wees om volgende lys?"
+
+#: inc/helpers.php:332
+#, fuzzy
+msgid "Small"
+msgstr "Klein"
+
+#: inc/helpers.php:333
+#, fuzzy
+msgid "Medium"
+msgstr "Medium"
+
+#: inc/helpers.php:334
+msgid "Large"
+msgstr "Groot"
+
+#: inc/helpers.php:345
+#, fuzzy
+msgid "Top"
+msgstr "Bo"
+
+#: inc/helpers.php:346
+msgid "Bottom"
+msgstr "Onder"
+
+#: inc/helpers.php:376
+#, fuzzy
+msgid "User Only"
+msgstr "Gebruiker slegs"
+
+#: inc/helpers.php:377
+#, fuzzy
+msgid "Admin Only"
+msgstr "Admin slegs"
+
+#: inc/helpers.php:388
+#, fuzzy
+msgid "User Login"
+msgstr "Gebruiker aanteken"
+
+#: inc/helpers.php:389
+#, fuzzy
+msgid "User Id"
+msgstr "Gebruiker Id"
+
+#: inc/helpers.php:400
+#, fuzzy
+msgid "col-md-3"
+msgstr "kol-md-3"
+
+#: inc/helpers.php:401
+#, fuzzy
+msgid "col-md-4"
+msgstr "kol-md-4"
+
+#: inc/helpers.php:402
+#, fuzzy
+msgid "col-md-6"
+msgstr "kol-md-6"
+
+#: inc/helpers.php:578
+#, fuzzy, php-format
+msgid "<p class='wpr-error'>%s</p>"
+msgstr "<p class='wpr-error'> %s</p>"
+
+#: inc/shortcodes.php:102
+#, fuzzy
+msgid "No form id found"
+msgstr "Geen vorm id gevind"
+
+#: lib/class.mailchimp.php:153
+#, fuzzy, php-format
+msgid "Subscribed to %d lists"
+msgstr "Ingeteken op %d lyste"
+
+#: templates/admin/consent_settings.php:20
+#, fuzzy
+msgid " Enable consent"
+msgstr "Einde toestemming"
+
+#: templates/admin/consent_settings.php:21
+#, fuzzy
+msgid "Allow to user enable consent on registration page."
+msgstr "Laat gebruiker aktiveer toestemming op registrasie bladsy."
+
+#: templates/admin/consent_settings.php:32
+#: templates/admin/consent_settings.php:51
+#, fuzzy
+msgid "NO"
+msgstr "Nee"
+
+#: templates/admin/consent_settings.php:39
+#, fuzzy
+msgid "Delete Account"
+msgstr "Skrap rekening"
+
+#: templates/admin/consent_settings.php:40
+#, fuzzy
+msgid "Allow users to delete their user account."
+msgstr "Toelaat dat gebruikers hul rekening skrap."
+
+#: templates/admin/consent_settings.php:59
+#, fuzzy
+msgid "Text for user consent"
+msgstr "Teks vir gebruiker toestemming"
+
+#: templates/admin/consent_settings.php:60
+#, fuzzy
+msgid "Enter the text for consent."
+msgstr "Tik die teks vir toestemming."
+
+#: templates/admin/consent_settings.php:72
+#, fuzzy
+msgid "URL to user consent"
+msgstr "URL na gebruiker toestemming"
+
+#: templates/admin/consent_settings.php:73
+#, fuzzy
+msgid "Enter the url for consent."
+msgstr "Tik die url vir toestemming."
+
+#: templates/admin/dashboard.php:33
+#, fuzzy
+msgid "WP Registration Dashboard"
+msgstr "WP registrasie paneelbord"
+
+#: templates/admin/dashboard.php:42
+#, fuzzy
+msgid "Maigration"
+msgstr "Maigration"
+
+#: templates/admin/dashboard.php:46
+#, fuzzy
+msgid ""
+"We detected that some users are registered with an old version fields, "
+"Please click \"Migration\" button to shift them into new form. New form will "
+"be created with title \"Migrated Form\" "
+msgstr ""
+"Ons bespeur dat sommige gebruikers is geregistreer met 'n ou weergawe velde, "
+"asseblief klik \"Migrasie\"-knoppie om te skuif na nuwe vorm. Nuwe vorm sal "
+"geskep word met titel \"Gemigreer vorm\""
+
+#: templates/admin/dashboard.php:64
+#, fuzzy
+msgid "Registration Over Period"
+msgstr "Registrasie oor tydperk"
+
+#: templates/admin/dashboard.php:71
+#, fuzzy
+msgid "Last Weak"
+msgstr "Laaste swak"
+
+#: templates/admin/dashboard.php:78
+#, fuzzy
+msgid "Last Month"
+msgstr "Verlede maand"
+
+#: templates/admin/dashboard.php:85
+msgid "Last Year"
+msgstr "Verlede jaar"
+
+#: templates/admin/dashboard.php:94
+#, fuzzy
+msgid "Custom Period"
+msgstr "Pasgemaakte tydperk"
+
+#: templates/admin/dashboard.php:101
+#, fuzzy
+msgid "Start Date:"
+msgstr "Begin datum:"
+
+#: templates/admin/dashboard.php:105
+#, fuzzy
+msgid "End Date:"
+msgstr "Einde datum:"
+
+#: templates/admin/email.php:15
+#, fuzzy
+msgid "Email Header BG Color"
+msgstr "E-pos kopskrif BG kleur"
+
+#: templates/admin/email.php:16
+#, fuzzy
+msgid "Choose email template header background color"
+msgstr "E-pos sjabloon kopskrif agtergrondkleur kies"
+
+#: templates/admin/email.php:22
+#, fuzzy
+msgid "Email Body BG Color"
+msgstr "E-pos liggaam BG kleur"
+
+#: templates/admin/email.php:23
+#, fuzzy
+msgid "Choose email template body background color"
+msgstr "E-pos sjabloon liggaam agtergrondkleur kies"
+
+#: templates/admin/email.php:31
+#, fuzzy
+msgid "Email Footer BG Color"
+msgstr "E-pos Footer BG kleur"
+
+#: templates/admin/email.php:32
+#, fuzzy
+msgid "Choose email template footer background color"
+msgstr "E-pos sjabloon footer agtergrondkleur kies"
+
+#: templates/admin/email.php:38
+#, fuzzy
+msgid "Email Fonts Color"
+msgstr "E-pos fonte kleur"
+
+#: templates/admin/email.php:39
+#, fuzzy
+msgid "Choose text color for email contents"
+msgstr "Kies teks kleur vir e-pos inhoud"
+
+#: templates/admin/email.php:47
+#, fuzzy
+msgid "Email Font Family/Style"
+msgstr "E-pos familie/fontstyl"
+
+#: templates/admin/email.php:51
+#, fuzzy
+msgid "Font names separated by commas, eg: Verdana,Arial,sans-serif"
+msgstr "Fontname geskei deur kommas, bv: Verdana, Arial, sans-serif"
+
+#: templates/admin/email.php:55
+#, fuzzy
+msgid "Email Template Header"
+msgstr "E-pos sjabloon dekblad"
+
+#: templates/admin/email.php:61
+#, fuzzy
+msgid "Text that will be displayed in header of email template"
+msgstr "Teks wat vertoon sal word in die kopskrif van e-pos sjabloon"
+
+#: templates/admin/email.php:65
+#, fuzzy
+msgid "New User Email"
+msgstr "Nuwe gebruiker e-pos"
+
+#: templates/admin/email.php:71
+#, fuzzy
+msgid ""
+"Provide template for new user. It will be sent to user along with login "
+"details. You can use these Vars in message: %USERNAME%, %USER_PASSWORD%, "
+"%SITE_NAME%, %SITE_URL%, %LOGIN_URL%, %ADMIN_EMAIL%"
+msgstr ""
+"Verskaf sjabloon vir nuwe gebruiker. Dit sal na gebruiker saam met "
+"intekenbesonderhede gestuur word. Jy kan hierdie Vars gebruik in boodskap: % "
+"USERNAME %, % USER_PASSWORD %,  %sITE_NAME %,  %sITE_URL %, % LOGIN_URL %, % "
+"ADMIN_EMAIL %"
+
+#: templates/admin/email.php:75
+#, fuzzy
+msgid "Message Change Password"
+msgstr "Boodskap verander wagwoord"
+
+#: templates/admin/email.php:81
+#, fuzzy
+msgid "Send Message on email after change password"
+msgstr "Stuur boodskap op e-pos na verander wagwoord"
+
+#: templates/admin/email.php:84
+#, fuzzy
+msgid "Email Template Footer"
+msgstr "E-pos sjabloon Footer"
+
+#: templates/admin/email.php:90
+#, fuzzy
+msgid "Text that will be display on footer of email template"
+msgstr "Teks wat vertoon op footer van e-pos sjabloon sal word"
+
+#: templates/admin/fields.php:22
+#, fuzzy
+msgid "Select Registration Field"
+msgstr "Kies registrasie veld"
+
+#: templates/admin/fields.php:40 templates/admin/fields.php:79
+#: templates/profile/home-account.php:215
+#, fuzzy
+msgid "Close"
+msgstr "Maak toe"
+
+#: templates/admin/fields.php:80
+#, fuzzy
+msgid "Update Field"
+msgstr "Bywerking veld"
+
+#: templates/admin/fields.php:107
+msgid "Add field"
+msgstr "Voeg Velde by"
+
+#: templates/admin/fields.php:108
+#, fuzzy
+msgid "Remove"
+msgstr "Verwyder"
+
+#: templates/admin/fields.php:117 templates/admin/fields.php:131
+msgid "Type"
+msgstr "Tipe"
+
+#: templates/admin/fields.php:121 templates/admin/fields.php:135
+#, fuzzy
+msgid "Actions"
+msgstr "Aksies"
+
+#: templates/admin/fields.php:173
+#, fuzzy
+msgid "Copy Field"
+msgstr "Kopieer veld"
+
+#: templates/admin/fields.php:174
+#, fuzzy
+msgid "Edit Field"
+msgstr "Redigeer veld"
+
+#: templates/admin/form-design-setting.php:17
+#, fuzzy
+msgid "Button Label Color"
+msgstr "Knoppie etiket kleur"
+
+#: templates/admin/form-design-setting.php:18
+#, fuzzy
+msgid "Change the button text color"
+msgstr "Die knoppie teks kleur verander"
+
+#: templates/admin/form-design-setting.php:23
+#, fuzzy
+msgid "Button BG color"
+msgstr "Knoppie BG kleur"
+
+#: templates/admin/form-design-setting.php:24
+#, fuzzy
+msgid "Change the button background color"
+msgstr "Verander die agtergrondkleur vir die knoppie"
+
+#: templates/admin/form-design-setting.php:29
+#, fuzzy
+msgid "Form Header BG color"
+msgstr "Vorm kopskrif BG kleur"
+
+#: templates/admin/form-design-setting.php:30
+#, fuzzy
+msgid "Change the form header color"
+msgstr "Verander die vorm kopskrif kleur"
+
+#: templates/admin/form-design-setting.php:35
+#, fuzzy
+msgid "Form BG color"
+msgstr "Vorm BG kleur"
+
+#: templates/admin/form-design-setting.php:36
+#, fuzzy
+msgid "Change the Registration form background color"
+msgstr "Verander die registrasie vorm agtergrondkleur"
+
+#: templates/admin/form-design-setting.php:41
+#, fuzzy
+msgid "Icon Color"
+msgstr "Ikoon kleur"
+
+#: templates/admin/form-design-setting.php:42
+#, fuzzy
+msgid "Change the Icon color"
+msgstr "Verander die ikoon kleur"
+
+#: templates/admin/form-design-setting.php:48
+#, fuzzy
+msgid "Form Width"
+msgstr "Vorm breedte"
+
+#: templates/admin/form-design-setting.php:49
+#, fuzzy
+msgid "Change the width of form model in %"
+msgstr "Verander die breedte van vorm model in %"
+
+#: templates/admin/form-design-setting.php:52
+#, fuzzy
+msgid "e.g,50%"
+msgstr "e.g,50%"
+
+#: templates/admin/form-design-setting.php:54
+#: templates/admin/profile-setting.php:80
+#, fuzzy
+msgid "Label Size"
+msgstr "Etiket grootte"
+
+#: templates/admin/form-design-setting.php:55
+#, fuzzy
+msgid "Select the button font size"
+msgstr "Kies die knoppie fontgrootte"
+
+#: templates/admin/form-design-setting.php:68
+#, fuzzy
+msgid "Button Class"
+msgstr "Knoppie klas"
+
+#: templates/admin/form-design-setting.php:69
+#, fuzzy
+msgid "If you need add more styles you can add class to signup button"
+msgstr "As jy meer style nodig voeg kan jy klas by voeg intekening knoppie"
+
+#: templates/admin/form-design-setting.php:74
+#, fuzzy
+msgid "Form CSS"
+msgstr "Vorm CSS"
+
+#: templates/admin/form-design-setting.php:75
+#, fuzzy
+msgid "Enter custom CSS"
+msgstr "Tik pasgemaakte CSS"
+
+#: templates/admin/form-general-setting.php:15
+#, fuzzy
+msgid "Form Heading:"
+msgstr "Vorm opskrif:"
+
+#: templates/admin/form-general-setting.php:16
+#, fuzzy
+msgid "Enter form heading text."
+msgstr "Tik vorm opskrif teks."
+
+#: templates/admin/form-general-setting.php:23
+#, fuzzy
+msgid "Button Label"
+msgstr "Knoppie etiket"
+
+#: templates/admin/form-general-setting.php:24
+#, fuzzy
+msgid "Change the submit form button text."
+msgstr "Verander die submit vorm knoppie teks."
+
+#: templates/admin/form-general-setting.php:31
+#, fuzzy
+msgid "Message On Registration"
+msgstr "Boodskap op registrasie"
+
+#: templates/admin/form-general-setting.php:32
+#, fuzzy
+msgid "It will be shown to user after successful registration."
+msgstr "Dit sal na gebruiker getoon word na suksesvolle registrasie."
+
+#: templates/admin/member-directory.php:47
+#, fuzzy
+msgid "First Name:"
+msgstr "Eerste naam:"
+
+#: templates/admin/member-directory.php:50
+#, fuzzy
+msgid "Last Name:"
+msgstr "Laaste naam:"
+
+#: templates/admin/profile-setting.php:28
+#, fuzzy
+msgid "Show Banner & Profile Photo"
+msgstr "Wys banier & profiel foto"
+
+#: templates/admin/profile-setting.php:29
+#, fuzzy
+msgid "Allow user to show the banner or profile photo area."
+msgstr "Laat gebruiker om te wys die banier of profiel foto area."
+
+#: templates/admin/profile-setting.php:41
+#: templates/admin/profile-setting.php:58
+msgid "No"
+msgstr "Nee"
+
+#: templates/admin/profile-setting.php:45
+#, fuzzy
+msgid "Allow User To Change Password"
+msgstr "Laat gebruiker verander wagwoord"
+
+#: templates/admin/profile-setting.php:46
+#, fuzzy
+msgid "Allow user to change password."
+msgstr "Laat gebruiker verander wagwoord."
+
+#: templates/admin/profile-setting.php:62
+#, fuzzy
+msgid "Top Banner Color"
+msgstr "Top banier kleur"
+
+#: templates/admin/profile-setting.php:63
+#, fuzzy
+msgid ""
+"If user not upload cover photo, select the color to show on cover photo area."
+msgstr ""
+"As gebruiker nie dekking nie foto oplaai nie, kies die kleur te wys op "
+"voorblad foto area."
+
+#: templates/admin/profile-setting.php:68
+#, fuzzy
+msgid "Menu BG Color"
+msgstr "Kieslys BG kleur"
+
+#: templates/admin/profile-setting.php:69
+#, fuzzy
+msgid "Select profile menu background color."
+msgstr "Kies profiel kieslys agtergrondkleur."
+
+#: templates/admin/profile-setting.php:74
+#, fuzzy
+msgid "Menu Label Color"
+msgstr "Kieslys etiket kleur"
+
+#: templates/admin/profile-setting.php:75
+#, fuzzy
+msgid "Select profile menu label color."
+msgstr "Kies profiel kieslys etiket kleur."
+
+#: templates/admin/profile-setting.php:81
+#, fuzzy
+msgid "Select the profile menu label font size."
+msgstr "Kies die profiel kieslys etiket font grootte."
+
+#: templates/admin/profile-setting.php:94
+#, fuzzy
+msgid "Photo Layout"
+msgstr "Foto uitleg"
+
+#: templates/admin/profile-setting.php:95
+#, fuzzy
+msgid "Select user profile photo layout, cicle and square."
+msgstr "Kies gebruiker profiel foto uitleg, cicle en vierkant."
+
+#: templates/admin/profile-setting.php:108
+#, fuzzy
+msgid "Cover Photo Width"
+msgstr "Voorblad foto breedte"
+
+#: templates/admin/profile-setting.php:109
+#, fuzzy
+msgid "Enter the cover photo width."
+msgstr "Tik die voorblad foto breedte."
+
+#: templates/admin/profile-setting.php:112
+#, fuzzy
+msgid "e.g,800"
+msgstr "e.g,800"
+
+#: templates/admin/profile-setting.php:114
+#, fuzzy
+msgid "Cover Photo Height"
+msgstr "Voorblad foto hoogte"
+
+#: templates/admin/profile-setting.php:115
+#, fuzzy
+msgid "Enter the cover photo height."
+msgstr "Tik die voorblad foto hoogte."
+
+#: templates/admin/profile-setting.php:118
+#, fuzzy
+msgid "e.g,175"
+msgstr "e.g,175"
+
+#: templates/admin/profile-setting.php:120
+#, fuzzy
+msgid "Profile Photo Width"
+msgstr "Profiel foto breedte"
+
+#: templates/admin/profile-setting.php:121
+#, fuzzy
+msgid "Enter the profile photo width."
+msgstr "Tik die profiel foto breedte."
+
+#: templates/admin/profile-setting.php:124
+#, fuzzy
+msgid "e.g,200"
+msgstr "e.g,200"
+
+#: templates/admin/profile-setting.php:126
+#, fuzzy
+msgid "Profile Photo Height"
+msgstr "Profiel foto hoogte"
+
+#: templates/admin/profile-setting.php:127
+#, fuzzy
+msgid "Enter the profile photo height."
+msgstr "Tik die profiel foto hoogte."
+
+#: templates/admin/profile-setting.php:130
+#, fuzzy
+msgid "e.g,70"
+msgstr "e.g,70"
+
+#: templates/admin/restrict-content.php:45
+#, fuzzy
+msgid "Error Restriction Message."
+msgstr "Beperking foutboodskap."
+
+#: templates/admin/restrict-content.php:46
+#, fuzzy
+msgid "did not select any rule them show the error massage"
+msgstr "het enige reël hulle wys die fout massering kies nie"
+
+#: templates/admin/shortcode-render.php:12
+#, fuzzy, php-format
+msgid "[wpr-form id=\"%s\"]"
+msgstr "[wpr-vorm id = \"%s\"]"
+
+#: templates/profile/change-password.php:15
+#, fuzzy
+msgid "Change Password"
+msgstr "Verander wagwoord"
+
+#: templates/profile/change-password.php:21
+#, fuzzy
+msgid "Current password"
+msgstr "Huidige wagwoord"
+
+#: templates/profile/change-password.php:24
+#, fuzzy
+msgid "Enter Current Password"
+msgstr "Huidige wagwoord intik"
+
+#: templates/profile/change-password.php:28
+msgid "New password"
+msgstr "Nuwe wagwoord"
+
+#: templates/profile/change-password.php:31
+#, fuzzy
+msgid "Enter New Password"
+msgstr "Voer nuwe wagwoord"
+
+#: templates/profile/change-password.php:35
+#, fuzzy
+msgid "Re Enter New password"
+msgstr "Re betree nuwe wagwoord"
+
+#: templates/profile/change-password.php:38
+#, fuzzy
+msgid "Re Enter Current Password"
+msgstr "Re huidige wagwoord intik"
+
+#: templates/profile/delete_account.php:14
+#, fuzzy
+msgid "Warning!"
+msgstr "Waarskuwing!"
+
+#: templates/profile/delete_account.php:20
+#, fuzzy
+msgid "Are you sure, it will delete all of data from this site?"
+msgstr "Is jy seker, dit sal Skrap alles van data uit hierdie werf?"
+
+#: templates/profile/delete_account.php:25
+#, fuzzy
+msgid "Delete"
+msgstr "Skrap"
+
+#: templates/profile/edit-profile.php:21
+#, fuzzy
+msgid "Edit Profile"
+msgstr "Redigeer profiel"
+
+#: templates/profile/home-account.php:73
+#, fuzzy
+msgid "Upload Cover Photo"
+msgstr "Voorblad foto oplaai nie"
+
+#: templates/profile/home-account.php:95
+#, fuzzy
+msgid "Upload Photo"
+msgstr "Laai foto"
+
+#: templates/profile/home-account.php:107
+#, fuzzy
+msgid "View Profile"
+msgstr "Bekyk profiel"
+
+#: templates/profile/home-account.php:126
+msgid "Toggle navigation"
+msgstr "Skakel nawigasie"
+
+#: templates/profile/home-account.php:158
+#, fuzzy
+msgid "Sign Out"
+msgstr "Teken"
+
+#: templates/profile/home-account.php:194
+#, fuzzy
+msgid "Chose Photo"
+msgstr "Het foto gekies"
+
+#: templates/profile/home-account.php:202
+#, fuzzy
+msgid "Upload"
+msgstr "Oplaai"
+
+#: templates/profile/home-account.php:208
+#, fuzzy
+msgid "saved"
+msgstr "gestoor"
+
+#: templates/profile/home-profile.php:79
+#, fuzzy
+msgid "My Account"
+msgstr "My rekening"
+
+#: templates/profile/home-profile.php:84
+msgid "Log Out"
+msgstr "Teken uit"
+
+#: templates/profile/overview.php:49
+msgid "Overview"
+msgstr "Oorsig"
+
+#: templates/profile/overview.php:73
+#, fuzzy
+msgid "Last Page Visit:"
+msgstr "Laaste bladsy besoek:"
+
+#: templates/profile/overview.php:76
+#, fuzzy
+msgid "Last Login Date:"
+msgstr "Laaste aantekening datum:"
+
+#: templates/shortcodes/login.php:25
+#, fuzzy
+msgid "Login"
+msgstr "Aantekening"
+
+#: templates/shortcodes/login.php:53
+#, fuzzy
+msgid "Remember me"
+msgstr "Onthou my"
+
+#: templates/shortcodes/login.php:67
+#, fuzzy
+msgid "Forget Password?"
+msgstr "Wagwoord vergeet?"
+
+#: templates/shortcodes/login.php:78
+#, fuzzy
+msgid "Don't have an account!"
+msgstr "'N rekening het nie!"
+
+#: templates/shortcodes/password-reset.php:19
+msgid "Password Reset"
+msgstr "Verander Wagwoord"
+
+#: templates/shortcodes/password-reset.php:29
+#, fuzzy
+msgid "Username or Email Address"
+msgstr "Gebruikersnaam of e-pos adres"
+
+#: wp-registration.php:289
+msgid "<strong>ERROR</strong>: Invalid username or email."
+msgstr "<strong>FOUT</strong>: Ongeldige gebruikersnaam of e-pos."
+
+#: wp-registration.php:292
+msgid "<strong>ERROR</strong>: Enter a username or email address."
+msgstr "<strong>FOUT</strong>: Voer u gebruikersnaam of e-pos adres in."
+
+#: wp-registration.php:295
+msgid ""
+"<strong>ERROR</strong>: Invalid username, email address or incorrect "
+"password."
+msgstr ""
+"<strong>FOUT</strong>: Ongeldige gebruikersnaam, e-pos adres of verkeerde "
+"wagwoord."
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+msgid "N-Media WP Member Registration"
+msgstr "N-Media WP lid registrasie"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "http://www.najeebmedia.com"
+msgstr "http://www.najeebmedia.com"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"This plugin allow users to register, login and reset password using ajax "
+"based forms. Admin can attach unlimited user meta fields. User can update "
+"their profile using without going into admin dashboard."
+msgstr ""
+"Hierdie invoegtoepassing gebruikers toelaat om te registreer, teken en "
+"herstel wagwoord gebruik ajax gebaseerde vorms. Admin kan onbeperkte "
+"gebruiker meta velde heg. Gebruiker kan werk by hul profiel gebruik sonder "
+"gaan in admin paneelbord."
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "Najeeb Ahmad"
+msgstr "Najeeb Ahmad"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "http://www.najeebmedia.com/"
+msgstr "http://www.najeebmedia.com/"

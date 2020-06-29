@@ -1,0 +1,1685 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: N-Media WP Member Registration\n"
+"POT-Creation-Date: 2018-09-21 20:39+0500\n"
+"PO-Revision-Date: 2018-09-21 20:39+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-registration.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/admin.php:17 inc/admin.php:18 inc/admin.php:52 inc/admin.php:53
+#: inc/admin.php:54 inc/admin.php:55 inc/classes/class.dashboard.php:256
+#: inc/classes/class.dashboard.php:279 inc/classes/class.dashboard.php:290
+#: inc/classes/class.dashboard.php:294 inc/classes/class.dashboard.php:302
+#: inc/classes/class.dashboard.php:306 inc/classes/class.dashboard.php:380
+#: inc/classes/class.email.php:77 inc/classes/class.field.php:105
+#: inc/classes/class.field.php:148 inc/classes/class.field.php:152
+#: inc/classes/class.field.php:255 inc/classes/class.settings.php:183
+#: inc/classes/class.settings.php:194 inc/classes/class.settings.php:220
+#: inc/classes/class.user.php:374 inc/helpers.php:233 inc/hooks.php:48
+#: inc/shortcodes.php:142 lib/class.mailchimp.php:160
+#: lib/class.sendinblue.php:101 templates/admin/restrict-content.php:39
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: inc/admin.php:164 inc/classes/class.dashboard.php:63
+#: templates/admin/admin-setting.php:11
+msgid "WP Registration"
+msgstr "WP Inscription"
+
+#: inc/admin.php:165
+#, fuzzy
+msgid "Settings"
+msgstr " Réglages"
+
+#: inc/admin.php:186
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: inc/admin.php:212
+msgid "General Settings"
+msgstr "Réglages généraux"
+
+#: inc/admin.php:241
+msgid "GDPR"
+msgstr "RGPD"
+
+#: inc/admin.php:268
+#, fuzzy
+msgid "Design Form"
+msgstr "Formulaire de conception"
+
+#: inc/admin.php:294
+msgid "Email Templates"
+msgstr "Modèles d’e-mail"
+
+#: inc/admin.php:451
+msgid "New User Notification"
+msgstr "Notification d'un nouvel utilisateur"
+
+#: inc/admin.php:452
+#, fuzzy
+msgid "Select member to send new user notification via email."
+msgstr ""
+"Sélectionnez membre pour envoyer une nouvelle notification d'utilisateur par "
+"e-mail."
+
+#: inc/admin.php:458
+msgid "After Login"
+msgstr "Après la connexion"
+
+#: inc/admin.php:459
+#, fuzzy
+msgid "Enter the url to redirect after login."
+msgstr "Entrez l'URL à rediriger après la connexion."
+
+#: inc/admin.php:464
+msgid "After Registration"
+msgstr "Après l'inscription"
+
+#: inc/admin.php:465
+#, fuzzy
+msgid "Enter the url to redirect after the sing up."
+msgstr "Entrez l'URL à rediriger après le Sing up."
+
+#: inc/admin.php:470
+msgid "After Logout"
+msgstr "Après la Déconnexion"
+
+#: inc/admin.php:471
+#, fuzzy
+msgid "Enter the url to redirect after logout."
+msgstr "Entrez l'URL à rediriger après déconnexion."
+
+#: inc/admin.php:476
+#, fuzzy
+msgid "Profile Link Base"
+msgstr "Base de liens de profil"
+
+#: inc/admin.php:477
+#, fuzzy
+msgid "Select the link using show User Profile"
+msgstr "Sélectionnez le lien à l'aide de afficher le profil utilisateur"
+
+#: inc/admin.php:485
+msgid "Profile Page"
+msgstr "Page de profil"
+
+#: inc/admin.php:486
+#, fuzzy
+msgid "Set Profile Page"
+msgstr "Définir la page de profil"
+
+#: inc/admin.php:492
+msgid "Account Page"
+msgstr "Page du Compte"
+
+#: inc/admin.php:493
+#, fuzzy
+msgid "Set account page."
+msgstr "Page définir le compte."
+
+#: inc/admin.php:498
+msgid "Register Page"
+msgstr "Page d'Inscription"
+
+#: inc/admin.php:499
+#, fuzzy
+msgid "Set register page."
+msgstr "Page Set Register."
+
+#: inc/admin.php:504
+msgid "Login Page"
+msgstr "Page de connexion"
+
+#: inc/admin.php:505
+#, fuzzy
+msgid "Set login page."
+msgstr "Définir la page de connexion."
+
+#: inc/admin.php:510
+msgid "Logout Page"
+msgstr "Page de déconnexion"
+
+#: inc/admin.php:511
+#, fuzzy
+msgid "Set logout page."
+msgstr "Définir la page de déconnexion."
+
+#: inc/admin.php:516
+#, fuzzy
+msgid "Password Reset Page"
+msgstr "Page de réinitialisation du mot de passe"
+
+#: inc/admin.php:517
+#, fuzzy
+msgid "Set password Reset page."
+msgstr "Définir la page réinitialiser mot de passe."
+
+#: inc/admin.php:537 inc/admin.php:541
+#, fuzzy
+msgid "User status updated to "
+msgstr "État de l'utilisateur mis à jour"
+
+#: inc/classes/class.dashboard.php:64
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: inc/classes/class.dashboard.php:198
+#, fuzzy
+msgid "Please select any Role and Form"
+msgstr "Veuillez sélectionner n'importe quel rôle et formulaire"
+
+#: inc/classes/class.dashboard.php:227
+#, fuzzy
+msgid "Please write the message"
+msgstr "S'il vous plaît écrivez le message"
+
+#: inc/classes/class.dashboard.php:251 inc/classes/class.dashboard.php:273
+msgid "Select Role:"
+msgstr "Sélectionnez un rôle:"
+
+#: inc/classes/class.dashboard.php:253 inc/classes/class.dashboard.php:276
+#, fuzzy
+msgid "All"
+msgstr "Toutes les options sont mises à jour"
+
+#: inc/classes/class.dashboard.php:275
+msgid "Select Role"
+msgstr "Sélectionnez un rôle"
+
+#: inc/classes/class.dashboard.php:319
+#, fuzzy
+msgid "your previous plugin not install"
+msgstr "votre plugin précédent ne pas installer"
+
+#: inc/classes/class.field.php:33
+msgid "Registration Fields"
+msgstr "Champs d'inscription"
+
+#: inc/classes/class.field.php:114 inc/classes/class.font-icon.php:98
+msgid "close"
+msgstr "fermer"
+
+#: inc/classes/class.field.php:115
+msgid "Add Field"
+msgstr "Ajouter un champ"
+
+#: inc/classes/class.field.php:266
+#, fuzzy
+msgid "Option"
+msgstr "option"
+
+#: inc/classes/class.field.php:302 templates/admin/fields.php:118
+#: templates/admin/fields.php:132
+msgid "Title"
+msgstr "Titre"
+
+#: inc/classes/class.field.php:303
+#, fuzzy
+msgid "It will be shown as field label"
+msgstr "Il sera affiché comme étiquette de champ"
+
+#: inc/classes/class.field.php:312 templates/admin/fields.php:116
+#: templates/admin/fields.php:130
+msgid "Field ID"
+msgstr "Champ – Identifiant"
+
+#: inc/classes/class.field.php:313
+msgid ""
+"REQUIRED: The identification name of this field, that you can insert into "
+"body email configuration. Note:Use only lowercase characters and underscores."
+msgstr ""
+"REQUIS : Le nom d'identification de ce champ, vous pouvez l'insérer dans le "
+"corps de l'email de configuration. <strong>Remarque:</strong>Utilisez "
+"uniquement des caractères minuscules."
+
+#: inc/classes/class.field.php:322
+msgid "Description"
+msgstr "Description"
+
+#: inc/classes/class.field.php:323
+msgid "Small description, it will be diplay near name title."
+msgstr "Petite description, il sera affiché à proximité du nom du titre."
+
+#: inc/classes/class.field.php:331
+msgid "Error message"
+msgstr "Message d'erreur"
+
+#: inc/classes/class.field.php:332
+msgid "Insert the error message for validation."
+msgstr "Insérer le message d'erreur pour la validation."
+
+#: inc/classes/class.field.php:341 templates/admin/fields.php:120
+#: templates/admin/fields.php:134
+msgid "Required"
+msgstr "Requis"
+
+#: inc/classes/class.field.php:342
+msgid "Select this if it must be required."
+msgstr "Sélectionnez cette option si elle est demandée."
+
+#: inc/classes/class.field.php:350
+msgid "Class"
+msgstr "Classe"
+
+#: inc/classes/class.field.php:351
+msgid ""
+"Insert an additional class(es) (separateb by comma) for more personalization."
+msgstr ""
+"Insérez une classe supplémentaire (separé par des virgules) pour plus de "
+"personnalisation."
+
+#: inc/classes/class.field.php:360
+msgid "Width"
+msgstr "Largeur"
+
+#: inc/classes/class.field.php:361
+#, fuzzy
+msgid "Select column for this field from 12 columns Grid"
+msgstr ""
+"Sélectionner la colonne pour ce champ à partir de la grille de 12 colonnes"
+
+#: inc/classes/class.field.php:388
+msgid "Add options"
+msgstr "Ajouter options"
+
+#: inc/classes/class.field.php:389
+#, fuzzy
+msgid "Enter multiple options."
+msgstr "Saisissez plusieurs options."
+
+#: inc/classes/class.field.php:397
+#, fuzzy
+msgid "Defualt selected Option"
+msgstr "Defualt option sélectionnée"
+
+#: inc/classes/class.field.php:398
+#, fuzzy
+msgid "Type option name (given above) if you want already selected."
+msgstr "Tapez l'option nom (donnée ci-dessus) si vous voulez déjà sélectionné."
+
+#: inc/classes/class.field.php:406
+#, fuzzy
+msgid "Checked option(s)"
+msgstr "Options (s) cochée Mini"
+
+#: inc/classes/class.field.php:407
+#, fuzzy
+msgid ""
+"Type each option(s) name seprated by comma(e,g option1, option2) if you want "
+"already checked."
+msgstr ""
+"Tapez chaque option (s) nom seprated par Comma (e, g option1, option2) si "
+"vous voulez déjà coché."
+
+#: inc/classes/class.field.php:415
+#, fuzzy
+msgid "Min checked option(s)"
+msgstr "Options (s) cochée Mini"
+
+#: inc/classes/class.field.php:416
+msgid ""
+"How many options can be checked by user e.g: 2. Leave blank for default."
+msgstr ""
+"Combien d’options peuvent être cochée par l’utilisateur par exemple : 2. "
+"laissez vide pour la valeur par défaut."
+
+#: inc/classes/class.field.php:424
+#, fuzzy
+msgid "Max checked option(s)"
+msgstr "Option (s) cochée (s) max."
+
+#: inc/classes/class.field.php:425
+msgid ""
+"How many options can be checked by user e.g: 3. Leave blank for default."
+msgstr ""
+"Combien d’options peuvent être cochée par l’utilisateur par exemple : 3. "
+"laissez vide pour la valeur par défaut."
+
+#: inc/classes/class.field.php:433
+msgid "Icon"
+msgstr "Icône"
+
+#: inc/classes/class.field.php:434
+msgid ""
+"Select an icon to appear in the field. Leave blank if you do not want an "
+"icon to show in the field."
+msgstr ""
+"Sélectionnez une icône qui apparaîtra dans le champ. Laissez vide si vous ne "
+"voulez pas qu'une icône s'affiche dans le champ."
+
+#: inc/classes/class.field.php:442 templates/admin/fields.php:119
+#: templates/admin/fields.php:133
+msgid "Placeholder"
+msgstr "Etiquette"
+
+#: inc/classes/class.field.php:443
+#, fuzzy
+msgid "Type field Placeholder."
+msgstr "Type espace réservé de champ."
+
+#: inc/classes/class.field.php:449 inc/classes/class.field.php:491
+#: inc/classes/class.restriction.php:65 inc/helpers.php:213 inc/helpers.php:344
+#: inc/helpers.php:387
+#, fuzzy
+msgid "Select"
+msgstr "Sélectionnez cette option si elle est demandée."
+
+#: inc/classes/class.field.php:450
+#, fuzzy
+msgid "Registration only"
+msgstr "Inscription uniquement"
+
+#: inc/classes/class.field.php:451
+#, fuzzy
+msgid "Profile only"
+msgstr "Profil uniquement"
+
+#: inc/classes/class.field.php:452 inc/helpers.php:378
+msgid "Both"
+msgstr "Les deux"
+
+#: inc/classes/class.field.php:457
+msgid "Visible"
+msgstr "Visible"
+
+#: inc/classes/class.field.php:458
+#, fuzzy
+msgid "There are following form type to show this field."
+msgstr "Il y a le type de formulaire suivant pour afficher ce champ."
+
+#: inc/classes/class.field.php:470
+#, fuzzy
+msgid "Default - mm/dd/yy"
+msgstr "Par défaut-mm/jj/aa"
+
+#: inc/classes/class.field.php:471
+#, fuzzy
+msgid "ISO 8601 - yy-mm-dd"
+msgstr "ISO 8601-AA-MM-DD"
+
+#: inc/classes/class.field.php:472
+#, fuzzy
+msgid "Short - d M, y"
+msgstr "Short-d M, y"
+
+#: inc/classes/class.field.php:473
+#, fuzzy
+msgid "Medium - d MM, y"
+msgstr "Medium-d mm, y"
+
+#: inc/classes/class.field.php:474
+msgid "Full - DD, d MM, yy"
+msgstr "Complet - JJ, MM, AA"
+
+#: inc/classes/class.field.php:475
+#, fuzzy
+msgid "With text - 'day' d 'of' MM 'in the year' yy"
+msgstr "Avec le texte-'Day'd'de'mm'dans l'année'yy"
+
+#: inc/classes/class.field.php:480
+msgid "Date formats"
+msgstr "Formats de date"
+
+#: inc/classes/class.field.php:481
+#, fuzzy
+msgid "Select date format."
+msgstr "Sélectionnez format de date."
+
+#: inc/classes/class.field.php:492 inc/classes/class.user.php:84
+#: templates/shortcodes/login.php:37
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: inc/classes/class.field.php:493 inc/classes/class.user.php:88
+msgid "First Name"
+msgstr "Prénom"
+
+#: inc/classes/class.field.php:494 inc/classes/class.user.php:90
+msgid "Last Name"
+msgstr "Nom"
+
+#: inc/classes/class.field.php:495 inc/classes/class.user.php:86
+msgid "Email"
+msgstr "Email"
+
+#: inc/classes/class.field.php:496 templates/shortcodes/login.php:47
+msgid "Password"
+msgstr "Mot de passe"
+
+#: inc/classes/class.field.php:497
+msgid "Website"
+msgstr "Site web"
+
+#: inc/classes/class.field.php:498
+msgid "Nickname"
+msgstr "Pseudo"
+
+#: inc/classes/class.field.php:499
+msgid "Display Name"
+msgstr "Afficher le nom"
+
+#: inc/classes/class.field.php:500
+#, fuzzy
+msgid "Jabber Account"
+msgstr "Compte Jabber"
+
+#: inc/classes/class.field.php:501
+#, fuzzy
+msgid "AOL IM Account"
+msgstr "Compte de messagerie instantanée AOL"
+
+#: inc/classes/class.field.php:502
+msgid "Yahoo IM"
+msgstr "Yahoo ID"
+
+#: inc/classes/class.field.php:503
+#, fuzzy
+msgid "About User"
+msgstr "À propos de l'utilisateur"
+
+#: inc/classes/class.field.php:508
+#, fuzzy
+msgid "WP Fields"
+msgstr "Champs WP"
+
+#: inc/classes/class.field.php:509
+#, fuzzy
+msgid "Set as Core WP Field"
+msgstr "Définir comme champ WP principal"
+
+#: inc/classes/class.field.php:518
+msgid "Everyone"
+msgstr "Tout le monde"
+
+#: inc/classes/class.field.php:519
+msgid "Members"
+msgstr "Membres"
+
+#: inc/classes/class.field.php:520
+#, fuzzy
+msgid "Only visible to profile owner and admins"
+msgstr "Seulement visible pour le propriétaire du profil et les admins"
+
+#: inc/classes/class.field.php:521
+#, fuzzy
+msgid "Only visible to profile owner and specific roles"
+msgstr ""
+"Uniquement visible pour le propriétaire du profil et les rôles spécifiques"
+
+#: inc/classes/class.field.php:522
+#, fuzzy
+msgid "Only specific member roles"
+msgstr "Seuls les rôles de membre spécifiques"
+
+#: inc/classes/class.field.php:528
+msgid "Privacy"
+msgstr "Confidentialité"
+
+#: inc/classes/class.field.php:529
+msgid ""
+"Field privacy allows you to select who can view this field on the front-end. "
+"The site admin can view all fields regardless of the option set here."
+msgstr ""
+"La confidentialité des champs vous permet de sélectionner qui peut voir ce "
+"champ sur le front-end. L'administrateur du site peut afficher tous les "
+"champs, quelle que soit l'option définie ici."
+
+#: inc/classes/class.field.php:539
+msgid "Member Roles"
+msgstr "Roles du membre"
+
+#: inc/classes/class.field.php:540
+msgid "Select the member roles that can view this field on the front-end."
+msgstr ""
+"Sélectionnez les rôles de membre pouvant afficher ce champ sur le front-end."
+
+#: inc/classes/class.field.php:549
+msgid "Default Value"
+msgstr "Valeur par défaut"
+
+#: inc/classes/class.field.php:550
+#, fuzzy
+msgid "Enter defualt value."
+msgstr "Entrez la valeur defualt."
+
+#: inc/classes/class.field.php:561
+msgid "WordPress Fields"
+msgstr "Champs de WordPress"
+
+#: inc/classes/class.field.php:562
+#, fuzzy
+msgid "<i class=\"fa fa-list\" aria-hidden=\"true\"></i>"
+msgstr "< i class = \"fa fa-liste\" aria-hidden = \"true\" > </i>"
+
+#: inc/classes/class.field.php:563
+#, fuzzy
+msgid "WordPress Core Fields"
+msgstr "Champs WordPress Core"
+
+#: inc/classes/class.field.php:571 templates/inputs/wp_field.php:58
+msgid "Confirm Password"
+msgstr "Confirmer le mot de passe"
+
+#: inc/classes/class.field.php:572
+#, fuzzy
+msgid "Select if you want user to confirm password."
+msgstr ""
+"Sélectionnez si vous souhaitez que l'utilisateur confirme le mot de passe."
+
+#: inc/classes/class.field.php:576
+#, fuzzy
+msgid "Accept Weak Password"
+msgstr "Accepter le mot de passe faible"
+
+#: inc/classes/class.field.php:577
+#, fuzzy
+msgid "Select if you want user to register even it's setting weak password."
+msgstr ""
+"Sélectionnez si vous voulez que l'utilisateur s'inscrive même c'est le "
+"paramètre de mot de passe faible."
+
+#: inc/classes/class.field.php:593
+msgid "Text Input"
+msgstr "Saisie de texte"
+
+#: inc/classes/class.field.php:594
+#, fuzzy
+msgid "<i class=\"fa fa-pencil-square-o\" aria-hidden=\"true\"></i>"
+msgstr "< i class = \"fa fa-crayon-square-o\" aria-hidden = \"true\" > </i>"
+
+#: inc/classes/class.field.php:595
+#, fuzzy
+msgid "Textbox Field"
+msgstr "TextBox, champ"
+
+#: inc/classes/class.field.php:614
+msgid "Select Input"
+msgstr "Sélectionnez l'entree"
+
+#: inc/classes/class.field.php:615
+#, fuzzy
+msgid "<i class=\"fa fa-check\" aria-hidden=\"true\"></i> "
+msgstr "< i class = \"fa fa-cochez\" aria-hidden = \"true\" > </i>"
+
+#: inc/classes/class.field.php:616
+msgid "Select Field"
+msgstr "Sélectionner un champ"
+
+#: inc/classes/class.field.php:644
+msgid "Radio Input"
+msgstr "Entrée radio"
+
+#: inc/classes/class.field.php:645
+#, fuzzy
+msgid "<i class=\"fa fa-dot-circle-o\" aria-hidden=\"true\"></i>"
+msgstr "< i class = \"fa fa-dot-cercle-o\" aria-hidden = \"true\" > </i>"
+
+#: inc/classes/class.field.php:646
+msgid "Radio Field"
+msgstr "Champs de Radio"
+
+#: inc/classes/class.field.php:665
+#, fuzzy
+msgid "Checkbox Input"
+msgstr "entrées de case à cocher"
+
+#: inc/classes/class.field.php:666
+#, fuzzy
+msgid "<i class=\"fa fa-check-square-o\" aria-hidden=\"true\"></i>"
+msgstr "< i class = \"fa fa-check-square-o\" aria-hidden = \"true\" > </i>"
+
+#: inc/classes/class.field.php:667
+msgid "Checkbox Field"
+msgstr "Champ de Case à cocher"
+
+#: inc/classes/class.field.php:688
+#, fuzzy
+msgid "Date Input"
+msgstr "Entrée de date"
+
+#: inc/classes/class.field.php:689
+#, fuzzy
+msgid "<i class=\"fa fa-calendar\" aria-hidden=\"true\"></i>"
+msgstr "< i class = \"fa fa-calendrier\" aria-hidden = \"true\" > </i>"
+
+#: inc/classes/class.field.php:690
+msgid "Date Field"
+msgstr "Champ de date"
+
+#: inc/classes/class.field.php:711
+msgid "Year Range"
+msgstr "Fourchette d'années"
+
+#: inc/classes/class.field.php:712
+#, fuzzy
+msgid "e.g: 1950:2016. (if jQuery enabled above) Set star/end year like "
+msgstr ""
+"p. ex.: 1950:2016. (si jQuery activé ci-dessus) Set Star/fin d'année comme"
+
+#: inc/classes/class.field.php:716
+msgid "Default Date"
+msgstr "Date par Défaut"
+
+#: inc/classes/class.field.php:717
+#, fuzzy
+msgid "Set default date in format selected below."
+msgstr "Définissez la date par défaut dans le format sélectionné ci-dessous."
+
+#: inc/classes/class.field.php:725
+msgid "Textarea Input"
+msgstr "Zone de texte"
+
+#: inc/classes/class.field.php:726
+#, fuzzy
+msgid "<i class=\"fa fa-file-text-o\" aria-hidden=\"true\"></i>"
+msgstr "< i class = \"fa fa-fichier-texte-o\" aria-hidden = \"true\" > </i>"
+
+#: inc/classes/class.field.php:727
+msgid "Textarea Field"
+msgstr "Champ de la Zone de texte"
+
+#: inc/classes/class.font-icon.php:59 inc/classes/class.font-icon.php:79
+msgid "Add Icon"
+msgstr "Ajouter une icône"
+
+#: inc/classes/class.font-icon.php:81
+msgid "Icons"
+msgstr "Icônes"
+
+#: inc/classes/class.font-icon.php:86
+#, fuzzy
+msgid "search icons..."
+msgstr "icônes de recherche..."
+
+#: inc/classes/class.login.php:179
+#, fuzzy, php-format
+msgid ""
+"Congratulations!, you have successfully verify your email. <a href=\"%s"
+"\">Login<a/>"
+msgstr ""
+"Félicitations!, vous avez réussi à vérifier votre e-mail. < a href = \" %s\" "
+"> login <a/>"
+
+#: inc/classes/class.login.php:183
+#, fuzzy
+msgid ""
+"Sorry!, Your account verification link is not valid, please contact admin."
+msgstr ""
+"Désolé!, votre lien de vérification de compte n'est pas valide, s'il vous "
+"plaît contacter admin."
+
+#: inc/classes/class.profile.php:133
+#, fuzzy
+msgid "Old password is empty!"
+msgstr "Ancien mot de passe est vide!"
+
+#: inc/classes/class.profile.php:134
+#, fuzzy
+msgid "New password is empty!"
+msgstr "Le nouveau mot de passe est vide!"
+
+#: inc/classes/class.profile.php:135
+#, fuzzy
+msgid "New password do not match!"
+msgstr "Nouveau mot de passe ne correspondent pas!"
+
+#: inc/classes/class.profile.php:277
+msgid "Profile Setting"
+msgstr "Modifier mon profil"
+
+#: inc/classes/class.profile.php:356
+#, fuzzy
+msgid "Profile update successfuly"
+msgstr "Mise à jour de profil réussie"
+
+#: inc/classes/class.profile.php:396
+#, fuzzy
+msgid "Account Has Been Deleted"
+msgstr "Compte a été supprimé"
+
+#: inc/classes/class.register.php:37
+#, fuzzy
+msgid "No WP Core fields were found."
+msgstr "Aucun champ WP Core n'a été trouvé."
+
+#: inc/classes/class.register.php:160
+#, fuzzy
+msgid "Email not sent, please contact admin"
+msgstr "E-mail non envoyé, s'il vous plaît contacter admin"
+
+#: inc/classes/class.restriction.php:45
+msgid "Content Restriction"
+msgstr "Restriction de contenu"
+
+#: inc/classes/class.restriction.php:66
+msgid "Public"
+msgstr "Public"
+
+#: inc/classes/class.restriction.php:67
+#, fuzzy
+msgid "For All Members"
+msgstr "Pour tous les membres"
+
+#: inc/classes/class.restriction.php:68
+#, fuzzy
+msgid "By User Role"
+msgstr "Par rôle d'utilisateur"
+
+#: inc/classes/class.restriction.php:148
+#, fuzzy
+msgid "You are not allowed to see these contents"
+msgstr "Vous n'êtes pas autorisé à voir ces contenus"
+
+#: inc/classes/class.settings.php:111
+msgid "Settings Saved"
+msgstr "Paramètres sauvegardés"
+
+#: inc/classes/class.settings.php:142 templates/admin/consent_settings.php:29
+#: templates/admin/consent_settings.php:48
+#: templates/admin/profile-setting.php:37
+#: templates/admin/profile-setting.php:54
+msgid "Yes"
+msgstr "Oui"
+
+#: inc/classes/class.settings.php:164
+#, fuzzy
+msgid "Advance Role Base Redirections"
+msgstr "Avance des redirections de base de rôles"
+
+#: inc/classes/class.settings.php:210 inc/classes/class.settings.php:236
+#, fuzzy
+msgid "No List Found"
+msgstr "Aucune liste trouvée"
+
+#: inc/classes/class.settings.php:244
+msgid "Select page"
+msgstr "Sélectionner la page"
+
+#: inc/classes/class.settings.php:303
+msgid "Settings updated successfully"
+msgstr "Paramètres mis à jour avec succès"
+
+#: inc/classes/class.user.php:362
+#, fuzzy
+msgid "Password changed successfuly"
+msgstr "Mot de passe modifié avec succès"
+
+#: inc/cpt.php:15
+#, fuzzy
+msgctxt "wp-registration"
+msgid "WP Register"
+msgstr "Registre WP"
+
+#: inc/cpt.php:16
+msgctxt "wp-registration"
+msgid "Add New"
+msgstr "Ajouter"
+
+#: inc/cpt.php:17
+msgid "Add New"
+msgstr "Ajouter"
+
+#: inc/cpt.php:18
+#, fuzzy
+msgid "Edit us"
+msgstr "Editez-nous"
+
+#: inc/cpt.php:19
+msgid "New Form"
+msgstr "Nouveau formulaire"
+
+#: inc/cpt.php:20
+msgid "Edit Form"
+msgstr "Modifier le formulaire"
+
+#: inc/cpt.php:21
+msgid "View"
+msgstr "Voir"
+
+#: inc/cpt.php:22
+msgid "Form"
+msgstr "Formulaire"
+
+#: inc/cpt.php:23
+msgid "Forms"
+msgstr "Formulaires"
+
+#: inc/cpt.php:24
+msgid "Search Forms"
+msgstr "Formulaires de recherche"
+
+#: inc/cpt.php:25
+#, fuzzy
+msgid "No Form found."
+msgstr "Aucune forme trouvée."
+
+#: inc/cpt.php:26
+#, fuzzy
+msgid "No Forms found in Trash."
+msgstr "Aucune forme trouvée dans la poubelle."
+
+#: inc/cpt.php:27
+msgid "Parent Form"
+msgstr "Formulaire parent"
+
+#: inc/cpt.php:33
+msgid "Registration Forms"
+msgstr "Formulaire d'inscription"
+
+#: inc/helpers.php:200
+#, fuzzy
+msgid "Just user First and Last like john_wyne"
+msgstr "Juste utilisateur premier et dernier comme john_wyne"
+
+#: inc/helpers.php:201
+#, fuzzy
+msgid "Postfix network name with firstname/Screen name like john_google"
+msgstr "Nom de réseau postfixé avec prénom/nom d'écran comme john_google"
+
+#: inc/helpers.php:202
+#, fuzzy
+msgid "Prefix network name with first name like google_john"
+msgstr "Préfixe nom de réseau avec le prénom comme google_john"
+
+#: inc/helpers.php:203
+#, fuzzy
+msgid "Postfix timestamp name with firstname/Screen name like john_77474451"
+msgstr "Nom d'horodatage Postfix avec prénom/nom d'écran comme john_77474451"
+
+#: inc/helpers.php:204
+#, fuzzy
+msgid "Prefix timestamp name with firstname/Screen name like 77474451_john"
+msgstr ""
+"Nom d'horodatage de préfixe avec prénom/nom d'écran comme 77474451_john"
+
+#: inc/helpers.php:214
+#, fuzzy
+msgid "Allow User to subscribe List himself?"
+msgstr "Autoriser l'utilisateur à s'abonner liste lui-même?"
+
+#: inc/helpers.php:215
+#, fuzzy
+msgid "User will be automatically subscribed to following list?"
+msgstr "L'utilisateur sera automatiquement abonné à la liste suivante?"
+
+#: inc/helpers.php:332
+msgid "Small"
+msgstr "Petit"
+
+#: inc/helpers.php:333
+msgid "Medium"
+msgstr "Moyen"
+
+#: inc/helpers.php:334
+msgid "Large"
+msgstr "Grand"
+
+#: inc/helpers.php:345
+msgid "Top"
+msgstr "Haut"
+
+#: inc/helpers.php:346
+msgid "Bottom"
+msgstr "Bas"
+
+#: inc/helpers.php:376
+msgid "User Only"
+msgstr "Utilisateur seulement"
+
+#: inc/helpers.php:377
+msgid "Admin Only"
+msgstr "Administrateurs"
+
+#: inc/helpers.php:388
+msgid "User Login"
+msgstr "Se connecter"
+
+#: inc/helpers.php:389
+msgid "User Id"
+msgstr "ID de l’utilisateur"
+
+#: inc/helpers.php:400
+#, fuzzy
+msgid "col-md-3"
+msgstr "Col-MD-3"
+
+#: inc/helpers.php:401
+#, fuzzy
+msgid "col-md-4"
+msgstr "Col-MD-4"
+
+#: inc/helpers.php:402
+#, fuzzy
+msgid "col-md-6"
+msgstr "Col-MD-6"
+
+#: inc/helpers.php:578
+#, fuzzy, php-format
+msgid "<p class='wpr-error'>%s</p>"
+msgstr "< p class = 'wpr-error' > %s </p>"
+
+#: inc/shortcodes.php:102
+#, fuzzy
+msgid "No form id found"
+msgstr "Aucun ID de formulaire trouvé"
+
+#: lib/class.mailchimp.php:153
+#, fuzzy, php-format
+msgid "Subscribed to %d lists"
+msgstr "Abonné aux listes% d"
+
+#: templates/admin/consent_settings.php:20
+#, fuzzy
+msgid " Enable consent"
+msgstr "Activer le consentement"
+
+#: templates/admin/consent_settings.php:21
+#, fuzzy
+msgid "Allow to user enable consent on registration page."
+msgstr ""
+"Autoriser l'utilisateur à activer le consentement sur la page d'inscription."
+
+#: templates/admin/consent_settings.php:32
+#: templates/admin/consent_settings.php:51
+msgid "NO"
+msgstr "NON"
+
+#: templates/admin/consent_settings.php:39
+msgid "Delete Account"
+msgstr "Supprimer le compte"
+
+#: templates/admin/consent_settings.php:40
+#, fuzzy
+msgid "Allow users to delete their user account."
+msgstr "Autoriser les utilisateurs à supprimer leur compte d'utilisateur."
+
+#: templates/admin/consent_settings.php:59
+#, fuzzy
+msgid "Text for user consent"
+msgstr "Texte pour le consentement de l'utilisateur"
+
+#: templates/admin/consent_settings.php:60
+#, fuzzy
+msgid "Enter the text for consent."
+msgstr "Entrez le texte pour le consentement."
+
+#: templates/admin/consent_settings.php:72
+#, fuzzy
+msgid "URL to user consent"
+msgstr "URL du consentement de l'utilisateur"
+
+#: templates/admin/consent_settings.php:73
+#, fuzzy
+msgid "Enter the url for consent."
+msgstr "Entrez l'URL pour le consentement."
+
+#: templates/admin/dashboard.php:33
+#, fuzzy
+msgid "WP Registration Dashboard"
+msgstr "Tableau de bord enregistrement WP"
+
+#: templates/admin/dashboard.php:42
+#, fuzzy
+msgid "Maigration"
+msgstr "Maigration"
+
+#: templates/admin/dashboard.php:46
+#, fuzzy
+msgid ""
+"We detected that some users are registered with an old version fields, "
+"Please click \"Migration\" button to shift them into new form. New form will "
+"be created with title \"Migrated Form\" "
+msgstr ""
+"Nous avons détecté que certains utilisateurs sont enregistrés avec une "
+"ancienne version des champs, s'il vous plaît cliquez sur \"migration\" "
+"bouton pour les déplacer dans un nouveau formulaire. Nouveau formulaire sera "
+"créé avec le titre \"migré formulaire\""
+
+#: templates/admin/dashboard.php:64
+#, fuzzy
+msgid "Registration Over Period"
+msgstr "Enregistrement sur la période"
+
+#: templates/admin/dashboard.php:71
+#, fuzzy
+msgid "Last Weak"
+msgstr "Dernier faible"
+
+#: templates/admin/dashboard.php:78
+msgid "Last Month"
+msgstr "Mois dernier"
+
+#: templates/admin/dashboard.php:85
+msgid "Last Year"
+msgstr "L'année dernière"
+
+#: templates/admin/dashboard.php:94
+#, fuzzy
+msgid "Custom Period"
+msgstr "Période personnalisée"
+
+#: templates/admin/dashboard.php:101
+#, fuzzy
+msgid "Start Date:"
+msgstr "Date de début"
+
+#: templates/admin/dashboard.php:105
+#, fuzzy
+msgid "End Date:"
+msgstr "Date de fin"
+
+#: templates/admin/email.php:15
+#, fuzzy
+msgid "Email Header BG Color"
+msgstr "En-tête de l'email BG couleur"
+
+#: templates/admin/email.php:16
+#, fuzzy
+msgid "Choose email template header background color"
+msgstr "Choisir la couleur d'arrière-plan du modèle email"
+
+#: templates/admin/email.php:22
+#, fuzzy
+msgid "Email Body BG Color"
+msgstr "E-mail corps BG couleur"
+
+#: templates/admin/email.php:23
+#, fuzzy
+msgid "Choose email template body background color"
+msgstr "Choisir la couleur d'arrière-plan du corps du modèle email"
+
+#: templates/admin/email.php:31
+#, fuzzy
+msgid "Email Footer BG Color"
+msgstr "Email footer BG couleur"
+
+#: templates/admin/email.php:32
+#, fuzzy
+msgid "Choose email template footer background color"
+msgstr "Choisissez la couleur de fond de modèle de pied de page d'email"
+
+#: templates/admin/email.php:38
+#, fuzzy
+msgid "Email Fonts Color"
+msgstr "Couleur de polices d'email"
+
+#: templates/admin/email.php:39
+#, fuzzy
+msgid "Choose text color for email contents"
+msgstr "Choisir la couleur du texte pour le contenu de l'e-mail"
+
+#: templates/admin/email.php:47
+#, fuzzy
+msgid "Email Font Family/Style"
+msgstr "Email famille de polices/style"
+
+#: templates/admin/email.php:51
+#, fuzzy
+msgid "Font names separated by commas, eg: Verdana,Arial,sans-serif"
+msgstr ""
+"Noms de polices séparés par des virgules, par exemple: Verdana, Arial, sans-"
+"serif"
+
+#: templates/admin/email.php:55
+#, fuzzy
+msgid "Email Template Header"
+msgstr "En-tête de modèle d'email"
+
+#: templates/admin/email.php:61
+#, fuzzy
+msgid "Text that will be displayed in header of email template"
+msgstr "Texte qui sera affiché dans l'en-tête du modèle d'email"
+
+#: templates/admin/email.php:65
+msgid "New User Email"
+msgstr "Nouvel Email de l'utilisateur"
+
+#: templates/admin/email.php:71
+#, fuzzy
+msgid ""
+"Provide template for new user. It will be sent to user along with login "
+"details. You can use these Vars in message: %USERNAME%, %USER_PASSWORD%, "
+"%SITE_NAME%, %SITE_URL%, %LOGIN_URL%, %ADMIN_EMAIL%"
+msgstr ""
+"Fournir un modèle pour les nouveaux utilisateurs. Il sera envoyé à "
+"l'utilisateur ainsi que les détails de connexion. Vous pouvez utiliser ces "
+"Vars dans message:% username%,% USER_PASSWORD%, %sITE_NAME%, %sITE_URL%,% "
+"LOGIN_URL%,% ADMIN_EMAIL%"
+
+#: templates/admin/email.php:75
+#, fuzzy
+msgid "Message Change Password"
+msgstr "Mot de passe de changement de message"
+
+#: templates/admin/email.php:81
+#, fuzzy
+msgid "Send Message on email after change password"
+msgstr "Envoyer un message sur e-mail après changement de mot de passe"
+
+#: templates/admin/email.php:84
+#, fuzzy
+msgid "Email Template Footer"
+msgstr "Modèle de pied de page d'email"
+
+#: templates/admin/email.php:90
+#, fuzzy
+msgid "Text that will be display on footer of email template"
+msgstr "Texte qui sera affiché sur le pied de page du modèle d'email"
+
+#: templates/admin/fields.php:22
+#, fuzzy
+msgid "Select Registration Field"
+msgstr "Sélectionner le champ d'inscription"
+
+#: templates/admin/fields.php:40 templates/admin/fields.php:79
+#: templates/profile/home-account.php:215
+msgid "Close"
+msgstr "Fermer"
+
+#: templates/admin/fields.php:80
+msgid "Update Field"
+msgstr "Mettre à jour le champ"
+
+#: templates/admin/fields.php:107
+msgid "Add field"
+msgstr "Ajouter un champ"
+
+#: templates/admin/fields.php:108
+msgid "Remove"
+msgstr "Supprimer"
+
+#: templates/admin/fields.php:117 templates/admin/fields.php:131
+#, fuzzy
+msgid "Type"
+msgstr "Entrez la largeur de champ dans % par exemple: 50 %"
+
+#: templates/admin/fields.php:121 templates/admin/fields.php:135
+msgid "Actions"
+msgstr "Actions"
+
+#: templates/admin/fields.php:173
+#, fuzzy
+msgid "Copy Field"
+msgstr "Copy, champ"
+
+#: templates/admin/fields.php:174
+msgid "Edit Field"
+msgstr "Modifier le champ"
+
+#: templates/admin/form-design-setting.php:17
+#, fuzzy
+msgid "Button Label Color"
+msgstr "Couleur d'étiquette de bouton"
+
+#: templates/admin/form-design-setting.php:18
+#, fuzzy
+msgid "Change the button text color"
+msgstr "Modifier la couleur du texte du bouton"
+
+#: templates/admin/form-design-setting.php:23
+#, fuzzy
+msgid "Button BG color"
+msgstr "Bouton BG couleur"
+
+#: templates/admin/form-design-setting.php:24
+#, fuzzy
+msgid "Change the button background color"
+msgstr "Modifier la couleur d'arrière-plan du bouton"
+
+#: templates/admin/form-design-setting.php:29
+#, fuzzy
+msgid "Form Header BG color"
+msgstr "En-tête de formulaire BG couleur"
+
+#: templates/admin/form-design-setting.php:30
+#, fuzzy
+msgid "Change the form header color"
+msgstr "Modifier la couleur de l'en-tête du formulaire"
+
+#: templates/admin/form-design-setting.php:35
+#, fuzzy
+msgid "Form BG color"
+msgstr "Forme BG couleur"
+
+#: templates/admin/form-design-setting.php:36
+#, fuzzy
+msgid "Change the Registration form background color"
+msgstr "Modifier la couleur d'arrière-plan de formulaire d'inscription"
+
+#: templates/admin/form-design-setting.php:41
+msgid "Icon Color"
+msgstr "Couleur de l’icône"
+
+#: templates/admin/form-design-setting.php:42
+#, fuzzy
+msgid "Change the Icon color"
+msgstr "Changer la couleur de l'icône"
+
+#: templates/admin/form-design-setting.php:48
+msgid "Form Width"
+msgstr "Largeur de la forme"
+
+#: templates/admin/form-design-setting.php:49
+#, fuzzy
+msgid "Change the width of form model in %"
+msgstr "Modifier la largeur du modèle de formulaire en%"
+
+#: templates/admin/form-design-setting.php:52
+#, fuzzy
+msgid "e.g,50%"
+msgstr "par exemple, 50%"
+
+#: templates/admin/form-design-setting.php:54
+#: templates/admin/profile-setting.php:80
+#, fuzzy
+msgid "Label Size"
+msgstr "Taille d'étiquette"
+
+#: templates/admin/form-design-setting.php:55
+#, fuzzy
+msgid "Select the button font size"
+msgstr "Sélectionnez la taille de la police du bouton"
+
+#: templates/admin/form-design-setting.php:68
+#, fuzzy
+msgid "Button Class"
+msgstr "Class du bouton"
+
+#: templates/admin/form-design-setting.php:69
+#, fuzzy
+msgid "If you need add more styles you can add class to signup button"
+msgstr ""
+"Si vous avez besoin d'ajouter d'autres styles, vous pouvez ajouter la classe "
+"au bouton d'inscription"
+
+#: templates/admin/form-design-setting.php:74
+#, fuzzy
+msgid "Form CSS"
+msgstr "Formulaire CSS"
+
+#: templates/admin/form-design-setting.php:75
+#, fuzzy
+msgid "Enter custom CSS"
+msgstr "Entrez CSS personnalisé"
+
+#: templates/admin/form-general-setting.php:15
+#, fuzzy
+msgid "Form Heading:"
+msgstr "Titre du formulaire:"
+
+#: templates/admin/form-general-setting.php:16
+#, fuzzy
+msgid "Enter form heading text."
+msgstr "Entrez le texte du titre du formulaire."
+
+#: templates/admin/form-general-setting.php:23
+#, fuzzy
+msgid "Button Label"
+msgstr "Etquette du bouton"
+
+#: templates/admin/form-general-setting.php:24
+#, fuzzy
+msgid "Change the submit form button text."
+msgstr "Modifier le texte du bouton soumettre un formulaire."
+
+#: templates/admin/form-general-setting.php:31
+#, fuzzy
+msgid "Message On Registration"
+msgstr "Message sur l'inscription"
+
+#: templates/admin/form-general-setting.php:32
+#, fuzzy
+msgid "It will be shown to user after successful registration."
+msgstr "Il sera montré à l'utilisateur après l'enregistrement réussi."
+
+#: templates/admin/member-directory.php:47
+msgid "First Name:"
+msgstr "Prénom :"
+
+#: templates/admin/member-directory.php:50
+msgid "Last Name:"
+msgstr "Nom :"
+
+#: templates/admin/profile-setting.php:28
+#, fuzzy
+msgid "Show Banner & Profile Photo"
+msgstr "Afficher la photo de Banner & Profile"
+
+#: templates/admin/profile-setting.php:29
+#, fuzzy
+msgid "Allow user to show the banner or profile photo area."
+msgstr ""
+"Autoriser l'utilisateur à afficher la bannière ou la zone de photo de profil."
+
+#: templates/admin/profile-setting.php:41
+#: templates/admin/profile-setting.php:58
+msgid "No"
+msgstr "Non"
+
+#: templates/admin/profile-setting.php:45
+#, fuzzy
+msgid "Allow User To Change Password"
+msgstr "Autoriser l'utilisateur à modifier le mot de passe"
+
+#: templates/admin/profile-setting.php:46
+#, fuzzy
+msgid "Allow user to change password."
+msgstr "Autoriser l'utilisateur à modifier le mot de passe."
+
+#: templates/admin/profile-setting.php:62
+#, fuzzy
+msgid "Top Banner Color"
+msgstr "Couleur de la bannière supérieure"
+
+#: templates/admin/profile-setting.php:63
+#, fuzzy
+msgid ""
+"If user not upload cover photo, select the color to show on cover photo area."
+msgstr ""
+"Si l'utilisateur ne pas télécharger la photo de couverture, sélectionnez la "
+"couleur à afficher sur la zone de photo de couverture."
+
+#: templates/admin/profile-setting.php:68
+#, fuzzy
+msgid "Menu BG Color"
+msgstr "Menu couleur BG"
+
+#: templates/admin/profile-setting.php:69
+#, fuzzy
+msgid "Select profile menu background color."
+msgstr "Sélectionnez la couleur de fond du menu profil."
+
+#: templates/admin/profile-setting.php:74
+#, fuzzy
+msgid "Menu Label Color"
+msgstr "Couleur de l'étiquette du menu"
+
+#: templates/admin/profile-setting.php:75
+#, fuzzy
+msgid "Select profile menu label color."
+msgstr "Sélectionnez la couleur du menu profil."
+
+#: templates/admin/profile-setting.php:81
+#, fuzzy
+msgid "Select the profile menu label font size."
+msgstr "Sélectionnez la taille de police de l'étiquette du menu profil."
+
+#: templates/admin/profile-setting.php:94
+#, fuzzy
+msgid "Photo Layout"
+msgstr "Mise en page photo"
+
+#: templates/admin/profile-setting.php:95
+#, fuzzy
+msgid "Select user profile photo layout, cicle and square."
+msgstr "Sélectionnez profil utilisateur photo Layout, cicle et Square."
+
+#: templates/admin/profile-setting.php:108
+#, fuzzy
+msgid "Cover Photo Width"
+msgstr "Largeur de la photo de couverture"
+
+#: templates/admin/profile-setting.php:109
+#, fuzzy
+msgid "Enter the cover photo width."
+msgstr "Saisissez la largeur de la photo de couverture."
+
+#: templates/admin/profile-setting.php:112
+#, fuzzy
+msgid "e.g,800"
+msgstr "par exemple, 800"
+
+#: templates/admin/profile-setting.php:114
+#, fuzzy
+msgid "Cover Photo Height"
+msgstr "Hauteur de la photo de couverture"
+
+#: templates/admin/profile-setting.php:115
+#, fuzzy
+msgid "Enter the cover photo height."
+msgstr "Saisissez la hauteur de la photo de couverture."
+
+#: templates/admin/profile-setting.php:118
+#, fuzzy
+msgid "e.g,175"
+msgstr "par exemple, 175"
+
+#: templates/admin/profile-setting.php:120
+#, fuzzy
+msgid "Profile Photo Width"
+msgstr "Largeur de photo de profil"
+
+#: templates/admin/profile-setting.php:121
+#, fuzzy
+msgid "Enter the profile photo width."
+msgstr "Saisissez la largeur de la photo de profil."
+
+#: templates/admin/profile-setting.php:124
+#, fuzzy
+msgid "e.g,200"
+msgstr "par exemple, 200"
+
+#: templates/admin/profile-setting.php:126
+#, fuzzy
+msgid "Profile Photo Height"
+msgstr "Taille de photo de profil"
+
+#: templates/admin/profile-setting.php:127
+#, fuzzy
+msgid "Enter the profile photo height."
+msgstr "Saisissez la hauteur de la photo de profil."
+
+#: templates/admin/profile-setting.php:130
+#, fuzzy
+msgid "e.g,70"
+msgstr "par exemple, 70"
+
+#: templates/admin/restrict-content.php:45
+#, fuzzy
+msgid "Error Restriction Message."
+msgstr "Message de restriction d'erreur."
+
+#: templates/admin/restrict-content.php:46
+#, fuzzy
+msgid "did not select any rule them show the error massage"
+msgstr "n'a pas choisi une règle les afficher le massage d'erreur"
+
+#: templates/admin/shortcode-render.php:12
+#, fuzzy, php-format
+msgid "[wpr-form id=\"%s\"]"
+msgstr "[Document WPR-Form ID = \" %s\"]"
+
+#: templates/profile/change-password.php:15
+msgid "Change Password"
+msgstr "Modifier le mot de passe"
+
+#: templates/profile/change-password.php:21
+msgid "Current password"
+msgstr "Mot de passe actuel"
+
+#: templates/profile/change-password.php:24
+msgid "Enter Current Password"
+msgstr "Entrez votre mot de passe actuel"
+
+#: templates/profile/change-password.php:28
+msgid "New password"
+msgstr "Nouveau mot de passe"
+
+#: templates/profile/change-password.php:31
+msgid "Enter New Password"
+msgstr "Entrez votre nouveau mot de passe"
+
+#: templates/profile/change-password.php:35
+#, fuzzy
+msgid "Re Enter New password"
+msgstr "Re entrer un nouveau mot de passe"
+
+#: templates/profile/change-password.php:38
+#, fuzzy
+msgid "Re Enter Current Password"
+msgstr "Re entrez le mot de passe actuel"
+
+#: templates/profile/delete_account.php:14
+msgid "Warning!"
+msgstr "Attention !"
+
+#: templates/profile/delete_account.php:20
+#, fuzzy
+msgid "Are you sure, it will delete all of data from this site?"
+msgstr "Etes-vous sûr, il va supprimer toutes les données de ce site?"
+
+#: templates/profile/delete_account.php:25
+msgid "Delete"
+msgstr "Supprimer"
+
+#: templates/profile/edit-profile.php:21
+msgid "Edit Profile"
+msgstr "Modifier le profil"
+
+#: templates/profile/home-account.php:73
+msgid "Upload Cover Photo"
+msgstr "Télécharger une bannière"
+
+#: templates/profile/home-account.php:95
+msgid "Upload Photo"
+msgstr "Télécharger la photo"
+
+#: templates/profile/home-account.php:107
+msgid "View Profile"
+msgstr "Voir le profil"
+
+#: templates/profile/home-account.php:126
+msgid "Toggle navigation"
+msgstr "Basculer la navigation"
+
+#: templates/profile/home-account.php:158
+msgid "Sign Out"
+msgstr "Déconnexion"
+
+#: templates/profile/home-account.php:194
+#, fuzzy
+msgid "Chose Photo"
+msgstr "Choisissez photo"
+
+#: templates/profile/home-account.php:202
+#, fuzzy
+msgid "Upload"
+msgstr "Class pour les deux (select, upload) de type boutons"
+
+#: templates/profile/home-account.php:208
+msgid "saved"
+msgstr "sauvegardé"
+
+#: templates/profile/home-profile.php:79
+msgid "My Account"
+msgstr "Mon compte"
+
+#: templates/profile/home-profile.php:84
+msgid "Log Out"
+msgstr "Déconnexion"
+
+#: templates/profile/overview.php:49
+msgid "Overview"
+msgstr "Aperçu"
+
+#: templates/profile/overview.php:73
+#, fuzzy
+msgid "Last Page Visit:"
+msgstr "Visite de dernière page:"
+
+#: templates/profile/overview.php:76
+#, fuzzy
+msgid "Last Login Date:"
+msgstr "Date de dernière connexion:"
+
+#: templates/shortcodes/login.php:25
+msgid "Login"
+msgstr "Connexion"
+
+#: templates/shortcodes/login.php:53
+msgid "Remember me"
+msgstr "Se souvenir de moi"
+
+#: templates/shortcodes/login.php:67
+msgid "Forget Password?"
+msgstr "Mot de passe oublié?"
+
+#: templates/shortcodes/login.php:78
+#, fuzzy
+msgid "Don't have an account!"
+msgstr "Vous n'avez pas de compte!"
+
+#: templates/shortcodes/password-reset.php:19
+msgid "Password Reset"
+msgstr "Réinitialiser le mot de passe"
+
+#: templates/shortcodes/password-reset.php:29
+msgid "Username or Email Address"
+msgstr "Identifiant ou adresse email"
+
+#: wp-registration.php:289
+msgid "<strong>ERROR</strong>: Invalid username or email."
+msgstr ""
+"<strong>ERREUR</strong> : identifiant ou adresse de messagerie non valide."
+
+#: wp-registration.php:292
+msgid "<strong>ERROR</strong>: Enter a username or email address."
+msgstr ""
+"<strong>ERREUR</strong>&nbsp;: veuillez saisir une adresse courriel ou un "
+"identifiant."
+
+#: wp-registration.php:295
+msgid ""
+"<strong>ERROR</strong>: Invalid username, email address or incorrect "
+"password."
+msgstr ""
+"<strong>ERREUR</strong> : nom d’utilisateur, courriel ou mot de passe non "
+"valide"
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+msgid "N-Media WP Member Registration"
+msgstr "N-Media enregistrement membre WP"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.najeebmedia.com"
+msgstr "http://www.najeebmedia.com"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"This plugin allow users to register, login and reset password using ajax "
+"based forms. Admin can attach unlimited user meta fields. User can update "
+"their profile using without going into admin dashboard."
+msgstr ""
+"Ce plugin permet aux utilisateurs de s'inscrire, de se connecter et de "
+"réinitialiser le mot de passe en utilisant les formulaires Ajax. Admin peut "
+"joindre des champs Meta utilisateur illimité. L'utilisateur peut mettre à "
+"jour son profil en utilisant sans entrer dans le tableau de bord admin."
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "Najeeb Ahmad"
+msgstr "Ndiaye Ahmad"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "http://www.najeebmedia.com/"
+msgstr "http://www.najeebmedia.com/"

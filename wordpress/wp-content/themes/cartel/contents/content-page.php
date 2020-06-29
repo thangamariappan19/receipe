@@ -8,7 +8,6 @@
  */
 
 ?>
-<?php echo do_shortcode('[DISPLAY_ULTIMATE_SOCIAL_ICONS]'); ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 		<div class="entry-content">
